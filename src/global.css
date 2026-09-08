@@ -1,9 +1,20 @@
 :root {
   --font-display:
-    Spline Sans, Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Cormorant Garamond, Georgia, ui-serif, serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol, Noto Color Emoji;
   --font-mono:
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
-  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-rounded: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: Cormorant Garamond, Georgia, 'Times New Roman', serif;
+  --color-deep-indigo: #142b42;
+  --color-night-teal: #185a5b;
+  --color-parchment: #f4ebdd;
+  --color-brass: #a77b28;
+  --color-terracotta: #b9573b;
+}
+
+html,
+body {
+  background: var(--color-parchment);
+  color: var(--color-deep-indigo);
 }

@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "Sufi Contemplative Tarot",
-    "slug": "sufi-contemplative-tarot-app",
+    "name": "Sufi Meditation, Quranic Guidance, & Tarot",
+    "slug": "sufi-meditation-quranic-guidance-tarot-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "suficontemplativetarot",
+    "scheme": "sufimeditationquranicguidancetarot",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#1B284F",
+        "backgroundColor": "#142B42",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -28,15 +28,16 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#1B284F",
+          "backgroundColor": "#142B42",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
       ],
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-audio"
     ],
     "experiments": {
-      "baseUrl": "/sufi-contemplative-tarot-app",
+      "baseUrl": "/sufi-meditation-quranic-guidance-tarot-app",
       "typedRoutes": true,
       "reactCompiler": true
     }

@@ -7,7 +7,7 @@ so the static bundle works when served from /<repo>/ on GitHub Pages.
 import pathlib
 import sys
 
-BASE = "/sufi-contemplative-tarot-app"
+BASE = "/sufi-meditation-quranic-guidance-tarot-app"
 DIST = pathlib.Path("dist")
 
 REPLACEMENTS = [

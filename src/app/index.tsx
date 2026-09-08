@@ -2,54 +2,43 @@ import { Platform, Pressable, StyleSheet, View } from "react-native";
 import { router } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
-import { Button } from "@/components/Button";
 import { useApp } from "@/context/app";
-import { allCards, deckVersion } from "@/content/deck";
-import { SPREADS } from "@/domain/spreads";
-import { drawCards } from "@/domain/draw";
-import { createSession } from "@/domain/session";
-import { setDraft } from "@/state/draft";
-import { cryptoRandom } from "@/platform/random";
-import { lightTap } from "@/platform/haptics";
 import { appPath } from "@/platform/paths";
-import { getQuestionSets } from "@/domain/questions";
 
 export default function Home() {
-  const { palette, prefs } = useApp();
-
-  const quickDraw = () => {
-    const spread = SPREADS.single;
-    const cards = drawCards(allCards.map((c) => c.id), spread, cryptoRandom);
-    setDraft(createSession(spread.id, deckVersion, cards, undefined, getQuestionSets("single")[0].questions));
-    lightTap(prefs.haptics);
-    router.push(appPath("/draw/session", Platform.OS) as never);
-  };
+  const { palette } = useApp();
 
   return (
     <Screen scroll>
       <View style={styles.hero}>
         <T variant="title" bold style={{ color: palette.accent }}>
-          Sufi Contemplative Tarot
+          Sufi Meditation, Quranic Guidance, & Tarot
         </T>
         <T variant="body" muted>
-          A 78-card guide for reflection, journaling, and careful conversation.
+          Three contemplative paths for stillness, discernment, and reflection.
         </T>
-      </View>
-
-      <View style={{ gap: 12, marginTop: 24 }}>
-        <Button label="Draw a card" onPress={quickDraw} />
-        <Button label="Choose a spread" variant="secondary" onPress={() => router.push(appPath("/draw", Platform.OS) as never)} />
       </View>
 
       <View style={styles.navGrid}>
-        <NavCard label="Library" caption="Browse all 78 cards" onPress={() => router.push(appPath("/library", Platform.OS) as never)} />
-        <NavCard label="Journal" caption="Past readings" onPress={() => router.push(appPath("/journal", Platform.OS) as never)} />
-        <NavCard label="About & Guide" caption="How to use the deck" onPress={() => router.push(appPath("/about", Platform.OS) as never)} />
-        <NavCard label="Settings" caption="Theme & preferences" onPress={() => router.push(appPath("/settings", Platform.OS) as never)} />
+        <NavCard
+          label="Meditation"
+          caption="Guided practices for rest and presence"
+          onPress={() => router.push(appPath("/meditations", Platform.OS) as never)}
+        />
+        <NavCard
+          label="Tarot"
+          caption="Reflect with the 78-card contemplative deck"
+          onPress={() => router.push(appPath("/draw", Platform.OS) as never)}
+        />
+        <NavCard
+          label="Quranic Guidance"
+          caption="Receive a five-verse passage for reflection"
+          onPress={() => router.push(appPath("/guidance", Platform.OS) as never)}
+        />
       </View>
 
       <T variant="caption" muted style={styles.footer}>
-        For contemplation, not prediction, religious guidance, or claims about the unseen.
+        For reflection and personal discernment—not fortune-telling or a substitute for prayer, scholarship, or professional advice.
       </T>
     </Screen>
   );
@@ -80,18 +69,14 @@ function NavCard({ label, caption, onPress }: { label: string; caption: string; 
 const styles = StyleSheet.create({
   hero: { gap: 8, marginTop: 16 },
   navGrid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
     gap: 12,
     marginTop: 28,
   },
   navCard: {
-    flexBasis: "47%",
-    flexGrow: 1,
-    borderRadius: 16,
+    borderRadius: 18,
     borderWidth: 1,
-    padding: 16,
-    gap: 4,
+    padding: 18,
+    gap: 6,
   },
   footer: { marginTop: 28, textAlign: "center", opacity: 0.8 },
 });

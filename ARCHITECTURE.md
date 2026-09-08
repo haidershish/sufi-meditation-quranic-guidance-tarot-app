@@ -1,5 +1,10 @@
 # Contemplative Deck App — Architecture
 
+> Historical Tarot architecture retained for provenance. The current product is
+> **Sufi Meditation, Quranic Guidance, & Tarot**; its three-track delivery
+> boundary and Quranic safeguards are defined in
+> [`docs/combined-app-plan.md`](docs/combined-app-plan.md), which takes precedence.
+
 Status: Proposed for approval  
 Targets: Android and modern web browsers  
 Source content: `C:\Users\User\Documents\Islamic_Contemplative_Deck`

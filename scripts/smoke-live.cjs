@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer-core');
 
 (async () => {
-  const base = 'https://kurobunty.github.io/sufi-contemplative-tarot-app';
+  const base = 'https://haidershish.github.io/sufi-meditation-quranic-guidance-tarot-app';
   const browser = await puppeteer.launch({
     executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
     headless: true,
@@ -22,6 +22,9 @@ const puppeteer = require('puppeteer-core');
   };
 
   console.log('home url', page.url(), 'body', (await page.evaluate(() => document.body.innerText)).slice(0, 500), 'buttons', await page.$$eval('button', bs => bs.map(b => b.getAttribute('aria-label'))), 'errors', errors);
+  for (const text of ['Meditation', 'Tarot', 'Quranic Guidance']) {
+    if (!(await page.evaluate((label) => document.body.innerText.includes(label), text))) throw new Error(`missing home track: ${text}`);
+  }
   await clickButton('Choose a spread');
   await page.waitForFunction(() => document.body.innerText.includes('Your question'));
   if (!page.url().includes('/sufi-contemplative-tarot-app/draw')) throw new Error(`bad draw URL ${page.url()}`);

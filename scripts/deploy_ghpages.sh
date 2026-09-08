@@ -3,13 +3,14 @@
 # Run from the repo root. Requires git access to the GitHub repo.
 set -euo pipefail
 
-BASE="/sufi-contemplative-tarot-app"
-REPO="https://github.com/kurobunty/sufi-contemplative-tarot-app.git"
+BASE="/sufi-meditation-quranic-guidance-tarot-app"
+REPO="https://github.com/haidershish/sufi-meditation-quranic-guidance-tarot-app.git"
 
 echo "== 1/4 export =="
  npx expo export --platform web
 
-echo "== 2/4 verify Expo base path =="
+echo "== 2/4 prefix and verify Expo base path =="
+python scripts/postprocess.py
 grep -q "$BASE/_expo/" dist/index.html
 
 echo "== 3/4 .nojekyll (Jekyll ignores _-prefixed dirs) =="
@@ -24,7 +25,7 @@ cp -r dist/. "$TMP/"
 cd "$TMP"
 git init -q
 git add -A
-git -c user.name="Haider Ali Shishmahal" -c user.email="has365@mail.harvard.edu" commit -q -m "deploy static site"
+git commit -q -m "deploy static site"
 git branch -M gh-pages
 git remote add origin "$REPO"
 git push -f -u origin gh-pages

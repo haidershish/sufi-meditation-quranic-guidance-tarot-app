@@ -18,6 +18,8 @@ function RootNavigator() {
         }}
       >
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="meditations/index" options={{ title: "Meditations" }} />
+        <Stack.Screen name="guidance/index" options={{ title: "Quranic Guidance" }} />
         <Stack.Screen name="draw/index" options={{ title: "Choose a spread" }} />
         <Stack.Screen name="draw/session" options={{ title: "Your reading", gestureEnabled: false }} />
         <Stack.Screen name="library/index" options={{ title: "Library" }} />
