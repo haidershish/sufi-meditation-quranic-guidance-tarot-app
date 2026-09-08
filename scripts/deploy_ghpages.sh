@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Build + deploy the static web app to GitHub Pages (gh-pages branch).
+# Run from the repo root. Requires git access to the GitHub repo.
+set -euo pipefail
+
+BASE="/sufi-contemplative-tarot-app"
+REPO="https://github.com/kurobunty/sufi-contemplative-tarot-app.git"
+
+echo "== 1/4 export =="
+ npx expo export --platform web
+
+echo "== 2/4 verify Expo base path =="
+grep -q "$BASE/_expo/" dist/index.html
+
+echo "== 3/4 .nojekyll (Jekyll ignores _-prefixed dirs) =="
+touch dist/.nojekyll
+# GitHub Pages serves 404.html for client-side/dynamic routes while preserving
+# the requested URL. The Expo Router bundle then resolves that retained path.
+cp dist/index.html dist/404.html
+
+echo "== 4/4 push dist/ to gh-pages =="
+TMP=$(mktemp -d)
+cp -r dist/. "$TMP/"
+cd "$TMP"
+git init -q
+git add -A
+git -c user.name="Haider Ali Shishmahal" -c user.email="has365@mail.harvard.edu" commit -q -m "deploy static site"
+git branch -M gh-pages
+git remote add origin "$REPO"
+git push -f -u origin gh-pages
+cd - >/dev/null
+echo "Deployed. Live at: https://kurobunty.github.io$BASE/"

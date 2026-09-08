@@ -1,0 +1,415 @@
+ISLAMIC-INSPIRED CONTEMPLATIVE DECK — 78 CULTURALLY GROUNDED VISUAL PROMPTS
+
+MASTER STYLE PROMPT — apply once to every card:
+Original culturally grounded contemplative card artwork, painterly cinematic realism blended with the tactile finish of a hand-painted illuminated manuscript, historically coherent material culture from the specifically named Muslim region on each card, dignified unidentified ordinary people only when explicitly requested, natural regional diversity without caricature or exoticism, modest historically coherent garments, believable individual facial anatomy, natural skin texture, calm understated expressions, purely geometric and botanical ornament with no writing-like marks, restrained architectural framing, tactile weathered stone, carved cedarwood, aged brass, silver, marble, water, woven textiles, and handmade paper, controlled natural light, deep indigo and midnight-blue shadows, ivory, muted teal, terracotta, moonlit silver, and restrained brushed-gold accents, one clear symbolic action, one dominant focal subject, uncluttered balanced vertical composition, consistent decorative border, clean empty lower title area, artwork only, no lettering, no logo, no watermark, vertical 9:16 portrait
+
+MASTER NEGATIVE PROMPT — apply once to every card:
+Readable text, letters, numbers, Arabic calligraphy, pseudo-Arabic glyphs, writing-like ornament, Quranic text, logo, watermark, signature, deity, prophet, companion, saint portrait, identifiable sacred person, idol, halo, occult sigil, pentagram, European biblical-fantasy figure, medieval European costume, Orientalist costume, generic exoticism, racial caricature, waxy face, mask-like face, miniature unreadable face, distorted facial anatomy, asymmetrical eyes, malformed mouth, malformed hands, extra fingers, fused fingers, cropped head, duplicate person, excessive fantasy glow, horror, gore, weapon violence, sexualized clothing, modern signage, blurry focal subject, low detail
+
+USAGE:
+In ComfyUI, combine the MASTER STYLE PROMPT with the selected card's VISUAL PROMPT. Use the MASTER NEGATIVE PROMPT in the negative conditioning node. Artwork only. Add English and Arabic titles later during card layout; never ask the image model to generate lettering. For scenes with people, use face and hand detailing only after the main composition is approved.
+
+
+CORE ARCANA
+
+CORE_00 — Card 0: The Seeker (Al-Salik)
+Theme: beginning, trust, willingness to enter the path
+Visual Prompt:
+An unidentified adult seeker from the Indus region stands on a high desert ridge shortly before dawn, wearing a modest unbleached cotton robe and long ivory woven shawl appropriate to the region, with medium-brown complexion and natural dark features. Show a medium-full three-quarter view; the figure fills the central composition and the calm face is clearly readable at card size. Both hands rest naturally beneath the shawl. A narrow footpath begins at the seeker's feet and winds toward one slender band of gold on the horizon. Sparse grasses, distant stone ridges, deep indigo sky, restrained geometric border, no constellation diagram, no writing-like marks, no other people.
+
+CORE_01 — Card I: The Instructor (Al-Muallim)
+Theme: knowledge, agency, speech, disciplined creation
+Visual Prompt:
+An unidentified mature Persianate instructor works alone at a carved cedarwood desk in a historically coherent Herat study, wearing a simple indigo robe and ivory turban without jewels or theatrical ornament. Medium seated three-quarter view, warm olive complexion, dark brows, calm individual face large enough to render accurately. One anatomically clear hand steadies a completely blank handmade folio while the other holds a reed pen above it without touching. A closed inkwell, brass compass, and ruler form an orderly triangle in warm lamplight; shelves of closed unmarked books fade into indigo shadow. No students, no readable marks, no sacred setting.
+
+CORE_02 — Card II: The Hidden Gate (Al-Bab al-Batin)
+Theme: inner wisdom, stillness, the threshold between seen and unseen
+Visual Prompt:
+An ancient carved cedar courtyard door in a quiet Moroccan riad at midnight, partly veiled by white night jasmine. Precise eight-point brass door plates and a simple centered ring handle are the dominant focal subject. A narrow line of cool moonlight escapes beneath the closed threshold and crosses a still reflecting puddle, where the door appears almost open only in reflection. Lime-plaster walls, dark zellij limited to clear non-calligraphic geometry, deep teal foliage, complete stillness. No person, no face, no hands, no letters, no symbols resembling script.
+
+CORE_03 — Card III: The Garden (Al-Rawdah)
+Theme: mercy, nurturing, abundance, life-giving care
+Visual Prompt:
+An unoccupied Andalusi courtyard garden at early morning, culturally and architecturally coherent throughout, centered on a low octagonal white-marble fountain with clear moving water. Ordered beds contain pomegranate blossoms, aromatic herbs, climbing roses, and one mature date palm. Two empty handwoven gathering baskets rest beside dark fertile soil, suggesting care and abundance without showing a person. Warm sunlight enters through a restrained horseshoe-arch arcade and casts soft geometric shadows across terracotta paving. The fountain remains dominant, with layered garden depth but no clutter. Pure geometry and botany only; no human figure, face, hands, statue, or writing-like ornament.
+
+CORE_04 — Card IV: The Steward (Al-Wali)
+Theme: responsible leadership, protection, order, service to community
+Visual Prompt:
+An empty carved stone civic seat beneath a restrained Mamluk-style muqarnas canopy overlooks a calm Cairo market courtyard at opening hour. A single aged-brass key and a rolled blank civic plan secured with plain cord rest on the seat. Sturdy limestone pillars, balanced awnings, swept paving, filled water jars, and orderly closed stalls convey guardianship through preparation rather than status. Low amber sunlight enters from one side and reveals texture in stone and wood. No throne, crown, ruler, person, readable plan, heraldry, calligraphy, or worship scene.
+
+CORE_05 — Card V: The Teacher (Al-Waiz)
+Theme: tradition, moral formation, shared wisdom
+Visual Prompt:
+An empty historic study hall inspired by the scholarly courtyards of Fez, with horseshoe arches, lime plaster, cedar beams, low brass oil lamps, concentric undyed wool rugs, and a simple wooden teaching stand. Closed unmarked books occupy recessed shelves; one worn floor cushion faces a small circle of additional cushions, suggesting knowledge shared across generations. Reverent late-afternoon light, quiet human scale, no pulpit grandeur and no worship in progress. No person, sacred portrait, scripture, readable book, calligraphy, pseudo-script, or writing-like tilework.
+
+CORE_06 — Card VI: The Covenant (Al-Mithaq)
+Theme: aligned intention, partnership, harmony, sacred commitment
+Visual Prompt:
+Two unidentified adult partners from the Swahili coast stand facing one another beneath a large carved-stone lattice window in a historically coherent Lamu courtyard. They wear modest ivory and muted-turquoise cotton garments with regionally appropriate wraps, natural dark-brown complexions, and distinct non-caricatured features. Medium-full symmetrical composition; both faces are calm and readable in gentle three-quarter profile. Their hands remain relaxed and separate at their sides. Two stone paths meet at one shared brass lamp between them while a sea breeze draws the garment hems in the same direction. No wedding ritual, clergy, halo, sacred figure, European costume, or additional people.
+
+CORE_07 — Card VII: The Voyager (Al-Musafir)
+Theme: discipline, forward movement, struggle against the lower self
+Visual Prompt:
+An unidentified Central Asian traveler pauses beside a calm Akhal-Teke horse at the edge of a windstorm on an old caravan route. The traveler wears a practical quilted indigo coat and plain wrapped head covering, shown in medium-full side view with a sun-brown face clearly readable and one anatomically simple hand holding a brass astrolabe close to the chest. Horse and cloak move with the same wind; neither appears distressed. Beyond the dark dust, one clear mountain pass opens beneath clean light. Historically coherent tack and textiles, no weapon, battle pose, fantasy armor, European rider, or pseudo-writing.
+
+CORE_08 — Card VIII: The Forbearance (Al-Hilm)
+Theme: patience, inner strength, restraint, compassionate courage
+Visual Prompt:
+An unidentified middle-aged Maghrebi caretaker stands beside a pale Barb horse in a quiet courtyard at dawn, wearing a historically coherent deep-indigo wool cloak over undyed linen and a simple wrapped headcloth. Warm-brown complexion, natural North African appearance without exaggeration, calm three-quarter face clearly visible at usable scale. The person stands at the horse's shoulder and holds one loose leather rein with a relaxed anatomically clear hand; no pulling or struggle. The horse lowers its head toward a still stone basin, with a single pearl on the rim. Restrained Maghrebi geometry, no ornate fantasy costume, aggressive horse, or additional people.
+
+CORE_09 — Card IX: The Retreat (Al-Khalwah)
+Theme: solitude, introspection, inner illumination
+Visual Prompt:
+A modest empty cave alcove in the rocky hills of southern Anatolia opens toward a vast twilight plain. A plain undyed woven sitting rug lies near one low brass oil lamp, with the flame reflected in a shallow stone bowl of water. The alcove contains only a folded wool wrap, a clay cup, and natural rock texture; the distant landscape dissolves into deep indigo silence. The lamp is the small but dominant focal point. No person, body impression, shrine, prayer performance, scripture, supernatural light, carved face, calligraphy, or pseudo-script.
+
+CORE_10 — Card X: The Wheel of Decree (Dairat al-Qadar)
+Theme: cycles, destiny, ease and hardship, changing conditions
+Visual Prompt:
+A monumental working brass astrolabe with concentric rings stands above the stone floor of a historically inspired Maragheh observatory. The instrument is shown frontally and large, its rings caught at different angles as if moved by the same natural wind. Around its base, four distinct currents carry sand, rain droplets, spring petals, and dry autumn leaves in one circular motion. A clear indigo night sky and low horizon frame the mechanism without zodiac signs or occult symbolism. No person, face, letters, numerals, readable engraving, magical portal, or pseudo-calligraphic metalwork.
+
+CORE_11 — Card XI: The Equity (Al-Adl)
+Theme: justice, accountability, truthful measure
+Visual Prompt:
+Towering but functional aged-bronze balance scales stand centered beneath a high limestone arch in a historically coherent Ottoman civic courtyard. One pan holds a plain white feather and the other a single luminous natural pearl in exact balance. Diagonal morning light reveals suspended dust and the worn floor line beneath the central fulcrum. Latticework is strictly geometric with large clean shapes, never writing-like. The composition communicates truthful measure without court spectacle. No judge, person, sword, law text, royal emblem, supernatural glow, calligraphy, glyphs, or occult symbol.
+
+CORE_12 — Card XII: The Surrender (Al-Taslim)
+Theme: release, trust in timing, changed perspective
+Visual Prompt:
+An unidentified mature Anatolian traveler stands peacefully beneath a weathered Seljuk stone arch, wearing a muted-teal robe with an ivory cotton outer wrap, modest and undecorated. Olive-brown complexion, dark brows, natural individual facial structure, shown in calm three-quarter profile with the face clearly visible at card size. Open hands are lowered near waist height and rendered simply, palms relaxed. Above and slightly beside the figure, a small suspended brass vessel releases one thin stream into a circular basin. Morning light passes through mist and creates a subtle natural spectrum. No dervish cliché, dramatic ecstasy, halo, sacred-person implication, or additional figure.
+
+CORE_13 — Card XIII: The Transformation (Al-Tahawwul)
+Theme: endings, renewal, shedding the outer self
+Visual Prompt:
+An unidentified adult traveler from the Iranian plateau walks away from the viewer across slate-colored ground at first light, face intentionally unseen. A plain charcoal traveling cloak lies folded behind rather than shaped like a body; beneath it, one green shoot emerges. Ahead, a wind-bent pomegranate tree has one barren side and one side opening into fresh leaves and blossoms. The traveler wears a simple rust-colored long coat and practical boots, culturally coherent and free of fantasy styling. A waning crescent sits low in the fading sky. No corpse, skeleton, sacred figure, dramatic magic, writing, or additional person.
+
+CORE_14 — Card XIV: The Moderation (Al-Wasatiyyah)
+Theme: balance, proportion, blending devotion and responsibility
+Visual Prompt:
+Two clear unmarked glass flasks suspended at equal height pour water and pale rosewater in matching narrow streams into one broad hammered-brass basin. The meeting streams create concentric ripples that resolve into a clean eight-point geometry through natural reflection. Frame the still life within a balanced Syrian stone arch, with cool teal daylight on one side and warm amber lamplight on the other blending at the basin. Exact symmetry without sterile perfection, tactile glass and metal. No person, hands, labels, alchemical symbols, magical liquid, writing, calligraphy, or pseudo-glyphs.
+
+CORE_15 — Card XV: The Entanglement (Al-Hawa)
+Theme: attachment, restless desire, self-deception
+Visual Prompt:
+An unidentified adult from the Caucasus is seen entirely from behind inside a dark stone garden labyrinth, face intentionally invisible. The person wears a plain forest-green wool coat, while several loose brushed-gold cords trail from the belt toward freestanding polished-metal mirrors showing only fragmented reflections of paths, cloth, and light—never altered faces. A wide moonlit exit remains clearly open behind the figure, and one hand has begun to release a cord. Restrained obsidian, green, and gold palette; believable architecture. No chains, bondage, demon, alluring figure, occult sign, horror, readable mirror marks, or pseudo-script.
+
+CORE_16 — Card XVI: The Awakening (Al-Zalzalah)
+Theme: disruption, humility, collapse of false certainty
+Visual Prompt:
+An old mud-brick watchtower on a North African desert ridge is struck by one natural fork of pale-gold lightning during a storm. Several geometric masonry blocks separate and fall outward while the sturdy foundation remains visible; dust and rain move through the break. Beneath turbulent indigo clouds, a clean line of dawn opens across the horizon and illuminates a safe empty path leading away. Architectural collapse without inhabitants, fire, bodies, or warfare. No person, face, supernatural eye, sacred building, minaret, occult symbolism, lettering, calligraphy, or writing-like cracks.
+
+CORE_17 — Card XVII: The Guidance (Al-Najm)
+Theme: hope, orientation, renewal after hardship
+Visual Prompt:
+An unidentified young Amazigh traveler kneels beside a quiet desert well beneath a brilliant natural star, wearing a practical indigo wrap and undyed wool cloak. Medium three-quarter view with warm-brown face readable at card size and natural individual features. One anatomically clear hand touches the water while the other rests on the stone rim; the star's reflection trembles around the fingertips. A small covered lantern marks the onward path as wind softens the traveler's scarf. Historically coherent Saharan setting, no headdress caricature, magic starburst, constellation lines, halo, sacred figure, or additional people.
+
+CORE_18 — Card XVIII: The Mystery (Al-Ghaib)
+Theme: uncertainty, fear, navigation through the unseen
+Visual Prompt:
+A winding path through an Omani date-palm oasis disappears gradually into silvery nocturnal mist beneath a natural full moon. A small closed brass lantern rests at the near entrance, casting only enough warm light to reveal the first few stones. Palm silhouettes and low irrigation walls create alternating bands of certainty and obscurity; the path remains physically plausible and passable. Violet-blue shadow, pale silver moonlight, ample quiet space. No person, animal, face in the fog, supernatural being, glowing eyes, occult moon symbol, text, calligraphy, or pseudo-script.
+
+CORE_19 — Card XIX: The Radiance (Al-Shams)
+Theme: joy, clarity, vitality, truth revealed
+Visual Prompt:
+Brilliant morning sun rises behind the low dome and open arcades of a historically coherent Mughal garden pavilion. Long clean shadows across warm sandstone all point toward an open garden gate, beyond which marigolds, pomegranate trees, and clear water channels catch amber light. The sun remains natural rather than personified, and the architecture is intimate rather than imperial. Terracotta, ivory, restrained gold, and fresh green dominate. No human figure, child, face in the sun, ruler, palace spectacle, sacred monument, halo, lettering, calligraphy, or pseudo-glyphs.
+
+CORE_20 — Card XX: The Gathering (Al-Hashr)
+Theme: reckoning, responsibility, awakening to one's life
+Visual Prompt:
+A vast open plain at the edge of the Jordanian desert receives solemn early-morning light as many empty footpaths converge toward a single circular stone meeting place. At its center stands an upright but unused plain brass signaling horn beside a smooth blank stone slab. The image suggests civic attention and personal reckoning, not an apocalyptic or religious event. Sparse grasses bend in one wind beneath a clearing sky. No crowd, resurrection scene, angel, sacred person, graves, bodies, writing, inscription, supernatural beam, or script-like cracks.
+
+CORE_21 — Card XXI: The Completion (Al-Kamal)
+Theme: integration, peace, spiritual maturity
+Visual Prompt:
+A large octagonal mosaic portal in a Timurid-inspired garden wall opens into a flourishing garden whose water channels, fruit trees, shaded paths, and distant pavilion form one integrated geometry. The portal is the dominant focal subject, illuminated by believable late-afternoon sunlight rather than supernatural radiance. Lapis, muted teal, ivory stone, and restrained gold tesserae form purely geometric and botanical patterns. A continuous border resolves cleanly at every corner, signaling wholeness. No human figure, celestial being, paradise claim, sacred text, doorway of light, calligraphy, pseudo-script, or occult symbol.
+
+
+QALAM — KNOWLEDGE, SPEECH, AND DISCIPLINED CRAFT
+
+QALAM_ACE — Card Ace: Ace of Qalam
+Theme: source of insight and creative knowledge
+Visual Prompt:
+A single hand-cut reed pen is suspended just above a pristine sheet of blank handmade paper on a carved cedarwood writing desk, with one dark-indigo ink droplet falling from the nib. Where it meets the paper, concentric ripples form a precise abstract eight-point geometry made only from ink and reflected light, never letters. A small ceramic inkwell and closed unmarked leather notebook sit softly out of focus. One brass lamp creates controlled amber light against midnight blue. No person, face, hand holding the pen, readable mark, pseudo-script, or floating magical symbol.
+
+QALAM_02 — Card 2: Two of Qalam
+Theme: dialogue, shared thinking, alignment of ideas
+Visual Prompt:
+Two hand-cut reed pens rest parallel rather than crossed beside two facing blank folios on a low cedar table in an Abbasid-inspired Baghdad study. Two simple ink lines begin separately and meet in one clean geometric construction of circles and straight edges at the table's center, with no letters or numbers. Balanced teal window light and warm brass lamplight give equal weight to both sides. No people, hands, duel imagery, readable diagram, calligraphy, pseudo-glyphs, or supernatural glow.
+
+QALAM_03 — Card 3: Three of Qalam
+Theme: collaboration, craft, knowledge built together
+Visual Prompt:
+Three unidentified adult craftspeople from Mamluk-era Cairo collaborate around a large drafting table in a tiled architectural workshop. Their diverse warm-brown faces are visible in clear medium three-quarter views, each distinct and naturally proportioned; modest linen garments in ivory, terracotta, and muted teal are historically coherent. One person uses a compass, one a plain ruler, and one a reed pen on a completely blank plan indicated only by non-textual geometry. Hands are separated and clearly posed. No hierarchy, European guild costume, readable writing, pseudo-script, or additional people.
+
+QALAM_04 — Card 4: Four of Qalam
+Theme: rest, incubation, renewal of the mind
+Visual Prompt:
+A closed carved-cedar manuscript box occupies the center of a quiet Ottoman library alcove at blue hour. Four clean reed pens lie evenly around it on undyed linen, their nibs facing inward, while a recently extinguished brass lamp releases one thin natural thread of smoke. A shuttered window admits cool indigo light over worn wood and a simple floor cushion. The scene feels protected and dormant, not abandoned. No person, open book, readable label, calligraphy, pseudo-script, smoke figure, or magical glow.
+
+QALAM_05 — Card 5: Five of Qalam
+Theme: friction, competing ideas, disciplined disagreement
+Visual Prompt:
+Five reed pens lie at deliberate opposing angles across a scratched cedar desk in a Persianate workshop. Five separate ink lines diverge, intersect, and finally resolve into an orderly non-calligraphic geometric pattern. A tipped ceramic inkwell is safely contained within a shallow hammered-brass tray, showing tension without damage. Strong side light divides warm amber from cool indigo, while every object remains crisply readable. No people, hands, weapon-like pens, spilled ink beyond the tray, letters, text, pseudo-script, or occult diagram.
+
+QALAM_06 — Card 6: Six of Qalam
+Theme: recognition, carrying knowledge forward
+Visual Prompt:
+An unidentified adult Central Asian scholar travels at the front of a small camel caravan through a sunlit mountain pass on the Silk Road, wearing a practical quilted teal coat and plain wrapped head covering. Show a medium-wide side view with the scholar's sun-brown face still readable, calm and individual, not heroic. Six sealed cedar manuscript cases are secured visibly and safely across two saddles. Distant academy domes sit beyond the pass in clear morning light. No fantasy caravan, European explorer, weapon, readable seal, pseudo-script, or excessive crowd.
+
+QALAM_07 — Card 7: Seven of Qalam
+Theme: resolve, defending learning, holding one's ground
+Visual Prompt:
+An unidentified adult Amazigh archivist stands in the open doorway of a historic Fez library, wearing a modest charcoal robe and undyed head wrap. Medium-full frontal composition with warm-brown face clearly readable, steady natural expression, and hands folded beneath the robe. Seven reed pens stand upright in a low ceramic holder arranged across the threshold like tools, never weapons. Wind lifts one edge of the cloak while warm library light remains protected behind. No aggressive stance, guard armor, European features, readable books, calligraphy, or pseudo-script.
+
+QALAM_08 — Card 8: Eight of Qalam
+Theme: swift insight, messages, momentum
+Visual Prompt:
+Eight completely blank handmade paper sheets travel in one clean rising arc on a strong desert wind between two restrained Seljuk stone arches. Each sheet is identifiable and separate; faint watermarks are replaced by simple non-writing geometric impressions pressed into the paper. One stationary reed pen and closed ink bottle anchor the lower foreground, while directional indigo and gold light create momentum without chaos. No person, bird-like paper, letters, ink constellations, pseudo-calligraphy, extra pages, torn pages, or magical trail.
+
+QALAM_09 — Card 9: Nine of Qalam
+Theme: persistence, careful preparation, intellectual resilience
+Visual Prompt:
+An unidentified mature Persian bookbinder works at a night desk in a historically coherent Shiraz workshop, shown in a medium seated profile with olive-brown complexion, natural dark features, and face large enough to render accurately. Nine small brass lamps form a quiet rhythm along the shelves while one anatomically clear hand holds a worn blank book and the other guides plain binding thread. Storm-dark shutters frame the background; the workspace remains orderly. No European monk imagery, spectacles unless historically coherent, readable pages, extra fingers, calligraphy, or pseudo-script.
+
+QALAM_10 — Card 10: Ten of Qalam
+Theme: overextension, burden of responsibility, need to simplify
+Visual Prompt:
+An unidentified adult Ottoman-era archive porter approaches a warmly lit repository doorway carrying ten rolled blank documents in a tall but believable cloth sling. Show the person from the side in a medium-full view, with olive complexion and natural face clearly visible; posture shows manageable strain rather than humiliation. One roll has been set safely on a nearby bench, suggesting simplification. Plain work garments, worn stone corridor, no elite costume. Exactly ten rolls, no readable labels, no European laborer stereotype, no injury, no pseudo-script.
+
+QALAM_SEEKER — Card Seeker: Seeker of Qalam
+Theme: curiosity, first study, receptivity
+Visual Prompt:
+An unidentified adolescent apprentice from the Hausa scholarly tradition sits on a woven mat in a quiet Sahelian study courtyard, wearing a modest indigo cotton tunic. Medium seated three-quarter view; deep-brown face is youthful, natural, attentive, and clearly readable. A smooth blank practice board and one reed pen rest across the lap while both hands are simply posed. The apprentice looks toward an open lantern-lit library doorway with earthen walls and carved wood. No sacred lesson, Quranic board, readable writing, caricature, European classroom, halo, or additional figure.
+
+QALAM_SCHOLAR — Card Scholar: Scholar of Qalam
+Theme: method, interpretation, disciplined learning
+Visual Prompt:
+An unidentified mature scholar from Mughal-era Lahore examines a brass astrolabe beside a completely blank folio at a carved-wood desk. Medium seated three-quarter view with medium-brown complexion, natural South Asian features, dark hair mostly covered by a plain cotton wrap, and an accurately rendered thoughtful face. One hand steadies the instrument while the other rests open beside a compass; shelves of closed unmarked books fade into indigo. Historically coherent study materials, no royal costume, sacred text, readable engraving, European features, calligraphy, or pseudo-script.
+
+QALAM_GUARDIAN — Card Guardian: Guardian of Qalam
+Theme: preservation, responsible transmission of knowledge
+Visual Prompt:
+An unidentified middle-aged Ottoman archivist carries one closed cedar manuscript chest through a fireproof stone library corridor. Medium-full three-quarter view with olive-brown complexion, individual natural face clearly readable, practical indigo work coat, and both hands visibly supporting the chest with believable anatomy. Four small wall lamps mark the safe route to a heavy open storage door. The mood is protective and composed rather than secretive. No armor, weapon, treasure chest, readable label, European monastic imagery, calligraphy, pseudo-script, or additional person.
+
+QALAM_SAGE — Card Sage: Sage of Qalam
+Theme: wisdom applied for the common good
+Visual Prompt:
+An unidentified elder philosopher from the Swahili coast stands in a shaded Lamu academy courtyard, wearing a simple ivory cotton kanzu beneath a muted-teal shoulder cloth. Medium three-quarter portrait with deep-brown complexion, natural East African features, age lines, and calm readable expression. The elder holds a brass compass above a circular floor mosaic while two adult learners appear only as soft back-facing silhouettes at a respectful distance. Architecture and garments remain regionally coherent. No clerical authority, sacred teacher, European sage stereotype, readable text, halo, calligraphy, or pseudo-script.
+
+
+NOOR — MERCY, WATER, AND EMOTIONAL LIFE
+
+NOOR_ACE — Card Ace: Ace of Noor
+Theme: grace, emotional renewal, mercy
+Visual Prompt:
+A single finely worked silver chalice stands alone at the center of a quiet ivory-marble chamber, overflowing continuously with clear spring water into a shallow octagonal basin. The vessel has simple hammered geometry and botanical engraving that cannot resemble writing. A high clerestory window casts one shaft of cool morning light across the water, producing a faint natural rainbow in the spray. Sapphire shadows, moonlit silver reflections, and restrained gold on the basin rim. No human figure, face, hands, statue, shrine, calligraphy, or writing-like ornament.
+
+NOOR_02 — Card 2: Two of Noor
+Theme: mutual care, trust, emotional reciprocity
+Visual Prompt:
+Two small hammered-silver cups stand on opposite sides of a narrow reflecting pool in an Andalusi courtyard. Each cup releases an equal stream into the water, and the two streams meet at the exact center beneath a paired horseshoe arch. Moonlit teal and silver tones are warmed by two low amber lamps set symmetrically in the distance. Clear geometry expresses reciprocity without romance or ceremony. No people, faces, hands, wedding imagery, sacred fountain, letters, calligraphy, pseudo-script, or supernatural water.
+
+NOOR_03 — Card 3: Three of Noor
+Theme: shared joy, hospitality, belonging
+Visual Prompt:
+Three unidentified adult friends from the Swahili coast arrange plain ceramic water pitchers around a courtyard fountain at dusk. Show medium-full three-quarter views with distinct deep-brown faces clearly readable, natural expressions, and modest historically coherent cotton garments in ivory, indigo, and muted teal. Each person holds only one vessel with simple separated hands; their gestures show shared work and welcome rather than posing. Coral-stone walls, carved wood, pomegranate blossoms, and warm lamps. No European dinner scene, exotic costume, duplicate faces, sacred ritual, readable marks, or pseudo-script.
+
+NOOR_04 — Card 4: Four of Noor
+Theme: withdrawal, emotional pause, overlooked grace
+Visual Prompt:
+Four full clear-glass cups rest untouched along a shaded marble ledge in a quiet Persian garden pavilion. Beyond an open arch, rippling water catches the reflected shape of a fifth cup that sits physically out of direct view, suggesting overlooked grace without magical apparition. Soft blue afternoon light, one drifting leaf, restrained turquoise tile geometry with no writing-like forms. The four cups remain countable and dominant. No person, face, hand, melancholy figure, readable text, calligraphy, pseudo-script, or extra cups.
+
+NOOR_05 — Card 5: Five of Noor
+Theme: grief, loss, what remains after disappointment
+Visual Prompt:
+Five silver cups occupy wet flagstones beside a shallow Moroccan courtyard pool after rain: three lie overturned in the foreground and two remain upright near a small green shoot emerging from a crack. Dark clouds recede above lime-plaster walls while one warm interior window begins to reflect in the water. The arrangement is quiet and dignified, emphasizing what remains rather than ruin. Exactly five cups, no person, destitution, grave symbolism, blood-like liquid, readable marks, calligraphy, pseudo-script, or supernatural glow.
+
+NOOR_06 — Card 6: Six of Noor
+Theme: memory, tenderness, generous remembrance
+Visual Prompt:
+Six small ceramic water bowls form a gentle circle around an old stone well in an Omani date-palm courtyard at morning. Every bowl holds a different reflection of the same palm canopy. A neatly folded child's indigo shawl rests on a clean bench nearby, suggesting tender memory without depicting or implying harm to a child. Warm sun touches the well rope, clay walls, and irrigation channel. Exactly six bowls, no person, ghost, shrine, memorial inscription, readable text, calligraphy, or pseudo-script.
+
+NOOR_07 — Card 7: Seven of Noor
+Theme: imagination, temptation, discernment of desire
+Visual Prompt:
+A dark still pool beneath a moonlit Timurid garden arch contains seven separate reflections: a flowering garden, a plain crown-like circlet, an open road, a covered lantern, a pomegranate, a closed cedar box, and a distant mountain. The real objects are absent; only the quiet symbolic reflections appear, painterly yet physically contained within water. The pool's center remains perfectly still, inviting discernment. No people, faces, genies, jewels spilling outward, occult symbols, readable text, calligraphy, pseudo-script, or more than seven reflected motifs.
+
+NOOR_08 — Card 8: Eight of Noor
+Theme: leaving emotional stagnation, seeking deeper truth
+Visual Prompt:
+An unidentified adult Amazigh traveler walks away from eight empty silver cups aligned beside a dry stone basin, moving toward a distant moonlit irrigation channel through the Atlas foothills. Show the traveler from behind so the face is intentionally unseen, wearing a practical indigo wool wrap and carrying no weapon. The walking path is clear, and the blue water ahead remains natural rather than glowing. Exactly eight cups, culturally coherent landscape, no abandoned-child implication, fantasy nomad costume, sacred journey, text, calligraphy, or pseudo-script.
+
+NOOR_09 — Card 9: Nine of Noor
+Theme: contentment, gratitude, inner fullness
+Visual Prompt:
+Nine softly reflective silver cups are arranged evenly along a low tiled wall surrounding a serene Persian garden courtyard. All cups are full with clear water and catch the same late-golden sky. Beneath a pomegranate tree in the middle distance, an unidentified adult rests with back turned, face intentionally unseen, wearing a plain saffron-brown robe. The cups and flourishing garden carry the meaning, not the figure. Exactly nine cups, no banquet excess, luxury display, readable tilework, calligraphy, pseudo-script, or magical glow.
+
+NOOR_10 — Card 10: Ten of Noor
+Theme: shared mercy, family, communal joy
+Visual Prompt:
+Ten lantern-lit water vessels are arranged around a long communal table in a flowering Lahore courtyard at evening. A small multigenerational South Asian neighborhood gathers naturally in the background, with varied medium-brown complexions and modest regionally coherent garments; faces are visible only on the nearest three adults and rendered distinctly at usable scale, while others turn in conversation. Bread, dates, and water suggest shared hospitality without feast excess. Exactly ten vessels, no duplicated faces, wedding, royal banquet, sacred gathering, text, or pseudo-script.
+
+NOOR_SEEKER — Card Seeker: Seeker of Noor
+Theme: openness of heart, gentle attention
+Visual Prompt:
+An unidentified Malay adolescent kneels beside a low courtyard fountain, offering a shallow ceramic dish of water to a tired small bird. Medium seated three-quarter view with warm-brown complexion, natural Southeast Asian features, calm readable face, and modest historically coherent cotton garments in ivory and muted teal. Both hands support the dish clearly and gently. Tropical foliage, carved timber screen, and soft morning light establish a coherent Malay setting. No angelic child, halo, sacred act, European features, extra fingers, text, calligraphy, or pseudo-script.
+
+NOOR_SCHOLAR — Card Scholar: Scholar of Noor
+Theme: emotional insight, listening, reflection
+Visual Prompt:
+An unidentified mature Kashmiri contemplative sits beside a still garden pool holding a small unmarked vessel of rosewater. Medium three-quarter profile with medium-brown complexion, natural South Asian features, age-appropriate face clearly readable, and a modest deep-indigo wool pheran. One hand supports the vessel while the other rests open on the knee. Layered carved-wood arches and cool moonlight reflect without visual clutter. No religious authority, saintly pose, halo, European features, scripture, readable ornament, calligraphy, or pseudo-script.
+
+NOOR_GUARDIAN — Card Guardian: Guardian of Noor
+Theme: compassion in action, protection of the vulnerable
+Visual Prompt:
+An unidentified adult Saharan water carrier crosses an arid path toward a shaded public rest shelter, carrying a practical goatskin water bag close to the body. Medium-full side view with dark-brown complexion, natural individual face clearly readable, and functional indigo and undyed garments appropriate to the region without fantasy styling. A line of fresh footprints and the shelter's filled clay jars show purposeful care. No weapon, heroic warrior pose, desert stereotype, suffering crowd, sacred figure, extra limbs, lettering, or pseudo-script.
+
+NOOR_SAGE — Card Sage: Sage of Noor
+Theme: benevolent leadership, public mercy
+Visual Prompt:
+An unidentified elder West African community organizer stands beneath the shaded arch of a Sahelian civic courtyard while neighbors share bread and water from an open kitchen. Medium three-quarter view with deep-brown complexion, natural age lines, dignified readable face, and a simple indigo woven robe. The elder holds a plain inventory bowl rather than a staff or symbol of rank; nearby adults work cooperatively, mostly back-facing and clearly distinct. Earthen architecture and wood are regionally coherent. No ruler, saint, halo, caricature, text, or pseudo-script.
+
+
+MIZAN — DISCERNMENT, BOUNDARIES, AND JUSTICE
+
+MIZAN_ACE — Card Ace: Ace of Mizan
+Theme: clarity, truth, decisive discernment
+Visual Prompt:
+A pristine but functional sheathed Damascus-steel blade stands upright in a narrow slot in a stone floor, centered beneath one large eight-point lattice window in a historically coherent Syrian civic hall. A straight band of reflected daylight divides a low cloud of incense-free dust and reveals clear space on both sides. The sword remains fully sheathed and signifies discernment rather than violence; its metalwork is plain geometry with no inscription. No person, blood, battle, severed object, threatening pose, readable engraving, calligraphy, pseudo-script, or occult sign.
+
+MIZAN_02 — Card 2: Two of Mizan
+Theme: decision, tension held in balance, careful pause
+Visual Prompt:
+Two symmetrical limestone paths approach a closed carved-wood lattice gate in an Ottoman garden court, stopping at equal distance from the threshold. A fully sheathed ceremonial blade lies horizontally on a low stone bench between the paths, while two plain indigo curtains move equally in opposite breezes. Cool and warm natural light meet at the central gate without supernatural effects. No person, hands, crossroads sign, combat, exposed blade, readable inscription, heraldry, calligraphy, pseudo-script, or occult symbolism.
+
+MIZAN_03 — Card 3: Three of Mizan
+Theme: painful truth, honest recognition
+Visual Prompt:
+A triptych of polished metal mirrors stands in a quiet Mamluk domestic chamber during rain. One clean fracture line crosses all three panels and catches a narrow ray of white daylight. Below, three small fully sheathed utility blades rest safely and separately on undyed woven cloth, their handles plain and unadorned. Droplets on a dark shutter and one displaced cushion convey difficult recognition without melodrama. No person, reflected face, blood, heart symbol, violence, readable metalwork, calligraphy, pseudo-script, or supernatural crack.
+
+MIZAN_04 — Card 4: Four of Mizan
+Theme: rest, recovery, suspension of conflict
+Visual Prompt:
+Four fully sheathed Damascus-steel blades are arranged at the four sides of a square around an extinguished brass lamp in a quiet Seljuk stone alcove. Their handles point outward, creating a protected empty center rather than a threat. Cool blue dawn enters through a high arch and touches folded wool bedding on a simple bench. Exact count, restrained metal and stone texture, complete stillness. No person, tomb, battlefield, exposed edge, blood, heraldic emblem, readable engraving, calligraphy, pseudo-script, or magical light.
+
+MIZAN_05 — Card 5: Five of Mizan
+Theme: conflict, pride, the cost of winning
+Visual Prompt:
+Five fully sheathed ceremonial blades lie separated across a deserted Maghrebi courtyard after a storm, each pointing in a different direction. A torn but completely blank indigo cloth has caught on a low wall, and rainwater carries dust toward a central drain. One upright chair stands apart from four overturned stools, suggesting the cost of hollow victory without showing harm. Subdued charcoal, bronze, and wet terracotta. No person, body, blood, battle debris, exposed sword, flag symbol, text, calligraphy, or pseudo-script.
+
+MIZAN_06 — Card 6: Six of Mizan
+Theme: transition, moving toward fairness and peace
+Visual Prompt:
+An unidentified middle-aged Egyptian boat operator guides a small covered wooden boat beneath six tall stone bridge arches at dawn. Medium-wide side view with warm-brown complexion, natural face readable at card size, simple linen work clothes, and both hands clearly controlling one long steering oar. Six slender metal lanterns hang safely along the boat and reflect separately in calm Nile water. The vessel moves toward open golden light. No royal barge, European gondolier, refugees, weapons, sacred crossing, readable markings, or pseudo-script.
+
+MIZAN_07 — Card 7: Seven of Mizan
+Theme: strategy, caution, unseen consequences
+Visual Prompt:
+Seven closed blank envelopes are spread in a deliberate fan across a cedar table in an Ottoman civic office. Beside them rest a small fully sheathed inspection knife, a plain brass seal press with no emblem, and one unlit lamp. Long geometric lattice shadows cross some envelopes while leaving others clear, suggesting incomplete information and careful strategy. Exactly seven envelopes, with crisp paper and metal textures. No person, secret code, readable seal, opened letter, exposed blade, spy fantasy, calligraphy, pseudo-script, or occult diagram.
+
+MIZAN_08 — Card 8: Eight of Mizan
+Theme: restriction, mental imprisonment, finding the opening
+Visual Prompt:
+An unidentified adult Levantine craft worker stands within an intricate but natural lattice-shadow pattern cast across a courtyard floor. Medium-full back three-quarter view with the face intentionally unseen, wearing a plain terracotta robe and indigo shoulder wrap. Eight slim fully sheathed blades stand in low floor slots around the shadow boundary, but one wide opening leads toward sunlight and the person's nearest foot has turned toward it. No ropes, blindfold, prison, victimization, weapon threat, European costume, readable marks, calligraphy, or pseudo-script.
+
+MIZAN_09 — Card 9: Nine of Mizan
+Theme: anxiety, conscience, difficult thought
+Visual Prompt:
+An unidentified adult from the Bosnian Ottoman tradition sits awake beside a low brass lamp in a modest timber-and-plaster room before dawn. Medium seated three-quarter view with light-olive complexion, natural Balkan Muslim features, tired but anatomically accurate face clearly readable, and hands resting separately on the knees. Nine narrow sword-shaped shadows cast by the window lattice stretch across the wall, while the real room contains no weapons. A dawn shutter begins to brighten. No horror, self-harm, bedbound melodrama, European biblical imagery, text, or pseudo-script.
+
+MIZAN_10 — Card 10: Ten of Mizan
+Theme: ending of a trial, release after hardship
+Visual Prompt:
+Ten fully sheathed ceremonial blades lie in one straight orderly line across wet stone after rain in a Persian civic courtyard. Beyond them, the first natural light of dawn reaches an open garden gate and a clean path continues into living green. Each sheath is intact, unmarked, and clearly separate; the nearest rain puddle reflects only sky. The arrangement communicates a concluded trial and release, never injury. No person, corpse, blood, battlefield, exposed steel, execution imagery, readable engraving, calligraphy, or pseudo-script.
+
+MIZAN_SEEKER — Card Seeker: Seeker of Mizan
+Theme: alertness, willingness to learn truth
+Visual Prompt:
+An unidentified young Ottoman gate clerk stands beside a city entrance examining a completely blank folded document in clear morning wind. Medium three-quarter view with olive-brown complexion, natural individual face clearly readable, modest practical coat and wrapped head covering. A small fully sheathed seal-inspection knife hangs unused at the belt while both hands hold the paper simply and visibly. The open gate and balanced stonework frame the figure. No soldier pose, weapon handling, European guard costume, readable document, official emblem, calligraphy, or pseudo-script.
+
+MIZAN_SCHOLAR — Card Scholar: Scholar of Mizan
+Theme: discernment, law, careful judgment
+Visual Prompt:
+An unidentified mature woman civic arbiter in a historically coherent Mamluk Cairo office reviews two smooth blank tablets beside a small balance scale. Medium seated three-quarter profile with warm-brown complexion, natural Egyptian features, age-appropriate face clearly readable, and a modest deep-blue robe with ivory head covering. One hand rests open near the scale; the other remains on the desk, fingers simple and separated. Soft impartial daylight illuminates both tablets equally. No clerical claim, sacred law, throne, European judge costume, readable text, calligraphy, or pseudo-script.
+
+MIZAN_GUARDIAN — Card Guardian: Guardian of Mizan
+Theme: courage, ethical protection, clear boundaries
+Visual Prompt:
+An unidentified adult Kurdish community guardian stands calmly between two open stone gates on a mountain road, wearing a practical dark-indigo wool coat and regionally coherent woven sash without military decoration. Medium-full frontal view with olive-brown complexion, natural West Asian features, steady readable face, and both hands resting away from a fully sheathed sword at the hip. One gate leads toward homes and the other toward open pasture, conveying boundaries through presence rather than aggression. No battle, armor, nationalism, emblem, sacred warrior, lettering, or pseudo-script.
+
+MIZAN_SAGE — Card Sage: Sage of Mizan
+Theme: wise governance, justice tempered with mercy
+Visual Prompt:
+An unidentified elder Andalusi civic mediator sits beneath a restrained horseshoe arch at a plain stone table holding a small balance scale, one fully sheathed ceremonial blade, and two closed unmarked law books. Medium seated three-quarter view with warm olive complexion, natural individual features, visible age lines, and a simple ivory robe with muted-teal mantle. Balanced daylight reaches both sides of the face. The setting is civic, not religious or royal. No crown, throne, saintliness, European judge, readable book, calligraphy, pseudo-script, or additional figures.
+
+
+ARD — LAND, CRAFT, AND MATERIAL STEWARDSHIP
+
+ARD_ACE — Card Ace: Ace of Ard
+Theme: sustenance, grounded opportunity, material stewardship
+Visual Prompt:
+A single hand-hammered bronze planting token bearing only a clean eight-point geometry rests on rich dark soil in a terraced Yemeni garden. Beside it, a date seed has split and one tender green shoot holds three dew drops. Low morning light reveals mineral soil, a narrow irrigation channel, and the rough edge of a stone terrace while the token and shoot remain dominant. No person, hand, treasure, currency text, royal profile, readable engraving, calligraphy, pseudo-script, magic plant, or excessive gold.
+
+ARD_02 — Card 2: Two of Ard
+Theme: resource balance, adaptable stewardship
+Visual Prompt:
+Two woven market baskets hang evenly from a smooth wooden carrying pole resting across a shaded Omani courtyard niche. One basket contains dates and grain; the other contains simple clay and woodworking tools of equal visual weight. A muted-green cotton cloth lifts gently between them in a sea breeze, and a brass balance marker sits at the pole's center. Functional plaster, stone, and palm fiber textures. No person, hands, luxury goods, unequal baskets, modern tool, readable label, calligraphy, or pseudo-script.
+
+ARD_03 — Card 3: Three of Ard
+Theme: craft, teamwork, building for others
+Visual Prompt:
+Three unidentified adult Moroccan craftspeople set non-calligraphic geometric clay tiles around the entrance of a public bathhouse. Medium-full working composition with distinct warm-brown faces visible at usable scale, natural features, and modest practical garments in ivory, rust, and indigo. Each worker performs one separate action—placing a tile, checking a plumb line, mixing mortar—with hands clearly isolated and anatomically simple. Lime plaster, terracotta, and blue tile remain culturally coherent. No European guild styling, racial caricature, unreadable glyphs, sacred building, or extra workers.
+
+ARD_04 — Card 4: Four of Ard
+Theme: security, holding too tightly, fear of loss
+Visual Prompt:
+Four plain bronze tokens sit in a tight square on top of a closed cedar storage chest in a dim Persianate storeroom. Heavy cord wraps the chest more times than necessary, while one small open window reveals a lively sunlit produce market beyond. Dusty shelves hold empty jars, emphasizing guarded resources rather than wealth. The four tokens are clearly separate and unmarked. No person, miser caricature, treasure hoard, lock shaped like a face, readable coin, royal emblem, calligraphy, pseudo-script, or supernatural shine.
+
+ARD_05 — Card 5: Five of Ard
+Theme: scarcity, exclusion, dignity during hardship
+Visual Prompt:
+Five empty woven baskets stand upright outside a rain-darkened Sahelian market arcade, each clean but visibly worn. In the distance, warm light spills from the open door of a community bread oven, and a covered walkway provides a clear route toward it. Earthen walls, timber posts, wet ground, and one growing acacia create dignity and resilience without depicting suffering bodies. Exactly five baskets, no destitute person, begging scene, abandoned child, disaster spectacle, readable sign, calligraphy, pseudo-script, or religious charity claim.
+
+ARD_06 — Card 6: Six of Ard
+Theme: charity, fair exchange, generosity
+Visual Prompt:
+An unidentified middle-aged Yemeni community host distributes bread, figs, and dates from six woven baskets in a shaded highland courtyard. Medium three-quarter view with medium-brown complexion, natural Arabian features, warm readable face, and modest regionally coherent layered cotton garments. One hand offers a loaf to the clearly visible open hands of one recipient; other neighbors wait calmly from behind. Six baskets remain countable and portions appear equal. No savior pose, poverty spectacle, European features, sacred ritual, extra fingers, readable labels, or pseudo-script.
+
+ARD_07 — Card 7: Seven of Ard
+Theme: patience, cultivation, long-term effort
+Visual Prompt:
+An unidentified Omani orchard keeper examines seven clusters of dates ripening on low accessible palm stems in a terraced oasis. Medium-full side view with deep warm-brown complexion, natural face readable at card size, and simple practical ivory garments with a muted-teal wrap. One hand supports a single cluster while the other checks a stone irrigation gate; fingers remain clearly separated. Repaired terrace walls and flowing aflaj channels lead into the distance. Exactly seven clusters, no fantasy abundance, European farmer, text, calligraphy, or pseudo-script.
+
+ARD_08 — Card 8: Eight of Ard
+Theme: mastery through work, repetition, craft discipline
+Visual Prompt:
+An unidentified adult Anatolian potter shapes the eighth of eight glazed clay tiles on a wooden workbench in a warm workshop. Medium seated three-quarter view with olive-brown complexion, natural individual face clearly readable, plain indigo work robe, and both clay-marked hands shown separately performing one simple pressing action. Seven completed tiles form an orderly row, each carrying a different large non-calligraphic geometry. Kiln light and cool window light balance the scene. No decorative writing, pseudo-script, duplicate hands, European artisan costume, or magical ceramics.
+
+ARD_09 — Card 9: Nine of Ard
+Theme: earned sufficiency, care for what has grown
+Visual Prompt:
+Nine ripe pomegranates are arranged with generous spacing along a low sandstone wall in a flourishing enclosed garden in northern Iran. In the middle distance, an unidentified orchard worker tends vines with back turned, face intentionally unseen, wearing a plain rust-colored coat and ivory head wrap. Late golden light reveals repaired trellises, healthy soil, and a full but not extravagant harvest basket. Exactly nine foreground fruits, no palace luxury, sensualized figure, European costume, readable garden plaque, calligraphy, pseudo-script, or supernatural glow.
+
+ARD_10 — Card 10: Ten of Ard
+Theme: legacy, shared prosperity, durable community
+Visual Prompt:
+A stable Sahelian community complex joins a shared granary, shaded healing room, public well, and central acacia courtyard at harvest time. Ten carved stone storage markers with purely geometric notches form a circle around the tree. Neighbors of varied ages enter carrying modest baskets, shown mostly in back and side views; the nearest two deep-brown faces are distinct and readable. Earthen architecture, timber, woven shade, and grain are culturally coherent. No monumental palace, aid-agency imagery, poverty spectacle, sacred building, readable sign, pseudo-script, or duplicated people.
+
+ARD_SEEKER — Card Seeker: Seeker of Ard
+Theme: learning through making, respect for materials
+Visual Prompt:
+An unidentified young Kashmiri apprentice potter shapes wet clay on a low wooden wheel inside a communal workshop. Medium seated three-quarter view with medium-brown complexion, natural South Asian features, focused readable face, and a practical muted-teal wool garment. Both hands are fully visible on opposite sides of one simple bowl, fingers separated and anatomically clear. Clay, water, wooden ribs, finished bowls, and a few plain geometric tiles occupy orderly shelves. No child labor distress, European workshop costume, extra hands, readable marks, calligraphy, or pseudo-script.
+
+ARD_SCHOLAR — Card Scholar: Scholar of Ard
+Theme: practical wisdom, careful cultivation
+Visual Prompt:
+An unidentified mature Iranian qanat and orchard keeper studies a small working irrigation model on a stone terrace. Medium three-quarter view with olive-brown complexion, natural Persian features, age-appropriate readable face, and plain indigo work clothes. One hand adjusts a brass measuring cup while the other points to a branching water channel; blank seed packets and fertile soil sit nearby. Real qanat openings and pomegranate trees extend into the distance. No court scholar costume, sacred authority, readable plan, European features, calligraphy, pseudo-script, or magical water.
+
+ARD_GUARDIAN — Card Guardian: Guardian of Ard
+Theme: protection of common resources, reliable labor
+Visual Prompt:
+An unidentified adult Yemeni stone builder repairs a terrace wall beside a shared highland water channel. Medium-full side view with medium-brown complexion, natural Arabian features, calm readable face, and practical layered garments in ivory and terracotta. The builder carries one fitted stone close to the torso while a wooden lever and stacked blocks show the next steps; hands are simple and clearly separated. A small communal granary stands safely uphill. No warrior symbolism, heroic monumentality, European laborer, modern machinery, text, calligraphy, or pseudo-script.
+
+ARD_SAGE — Card Sage: Sage of Ard
+Theme: patronage, stewardship, building institutions
+Visual Prompt:
+An unidentified elder South Asian master builder reviews the construction of a public healing house and granary from a shaded Mughal-era civic arch. Medium three-quarter view with medium-brown complexion, natural individual features, silver hair, age lines, and a dignified readable face. The elder holds a plain measuring cord; a completely blank plan lies on a stone table weighted by one unmarked bronze token. Craftspeople work as small distinct background figures. No ruler, palace project, saintly pose, European architect costume, readable plan, calligraphy, pseudo-script, or modern equipment.

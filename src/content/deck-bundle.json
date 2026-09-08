@@ -1,0 +1,1915 @@
+{
+  "deckVersion": "1.0.0",
+  "generatedAt": "2026-09-03T10:28:14",
+  "provenance": {
+    "manifestChecksum": "1432d6d6e39691d7d66c7f0dd35d59585afad72a14ceca4e7fb6c83d867c129f",
+    "guidebookChecksum": "dd1dffc7dbe334e0f1c2e5824a181343b6583d4eb16b76b5f54b033b94dc4332",
+    "qaReportChecksum": "570734734b4a5692507352f1d81e49bf8f2432c30c6d3d0fcf79acc8c8014aaa",
+    "artworkMapChecksum": "653dd633a75e20866dfb2369b1fa38fd884fe1675ad9169dead9860e0f9d9b72",
+    "sourceManifest": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\islamic_contemplative_deck_manifest.json",
+    "sourceGuidebookDocx": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\Culturally_Inspired_Contemplative_Tarot_Guidebook_78_Cards.docx",
+    "sourceQaReport": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\Culturally_Inspired_Contemplative_Tarot_Guidebook_QA_Report.md",
+    "builderScript": "build_guidebook_revised.py"
+  },
+  "frontMatter": {
+    "title": "Culturally Inspired Contemplative Tarot",
+    "subtitle": "A 78-card guide for reflection, journaling, and careful conversation",
+    "sections": [
+      {
+        "title": "About this deck",
+        "body": "This deck uses the familiar 78-card tarot framework: twenty-two Core Arcana cards explore broad human thresholds, while four fourteen-card suits consider thought and language, emotion and relationship, discernment and boundaries, and material life and stewardship. Its visual vocabulary is culturally inspired by varied West, Central, and South Asian arts of geometry, gardens, manuscripts, courtyards, textiles, metalwork, and attentive craft. These references are creative influences, not a claim to represent a single culture, community, period, or religious tradition."
+      },
+      {
+        "title": "How to use the cards",
+        "body": "Choose a card deliberately or at random as a prompt, not an answer. First describe what you notice without interpreting it. Read the card theme and invitation; then test the out-of-balance passage against your actual circumstances. Journal with the question, try the small practice, and revise the intention into language you can genuinely act on. In groups, let each person interpret their own experience and decline any question. Decisions should still rely on evidence, consent, professional advice where needed, and direct conversation with affected people."
+      },
+      {
+        "title": "Boundaries",
+        "body": "The cards do not predict events, reveal hidden facts, access the unseen, confer religious authority, prescribe ritual, diagnose health, replace professional care, or guarantee outcomes. They do not make desired outcomes happen by symbolic force. No image, title, subtitle, or interpretation should be treated as scripture, doctrine, omen, command, or proof. If a prompt increases fear, compulsion, or certainty about another person's private motives, set it aside and return to verifiable information and appropriate support."
+      },
+      {
+        "title": "Language and titles",
+        "body": "Non-English subtitles are retained as poetic companions to the English titles. They require review by fluent speakers and culturally informed editors before publication. They carry no doctrinal status and should not be used to teach language, theology, or religious practice. Several choices are explicitly flagged in the accompanying QA report rather than presented as settled or authoritative."
+      },
+      {
+        "title": "A note on care",
+        "body": "Cultural inspiration asks for specificity, credit, and revision—not a generalized atmosphere of an imagined ‘East.’ Future art and language review should identify the actual region, period, object, and community behind a reference; avoid sacred figures and events, decorative scripture, and ritual prescriptions; and invite readers from relevant cultures to challenge conflations or inaccuracies."
+      }
+    ],
+    "closingNote": "Use as a reflective prompt; keep decisions grounded in evidence, consent, and appropriate support.",
+    "footer": "For contemplation, not prediction, religious guidance, or claims about the unseen."
+  },
+  "cards": [
+    {
+      "id": "CORE_00",
+      "index": 0,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "0",
+      "title": "The Seeker",
+      "transliteration": "Al-Salik",
+      "guide": {
+        "theme": "beginning, trust, willingness to enter the path",
+        "invitation": "A beginning does not need to prove where it will end. This card invites a modest experiment: enough courage to move, enough humility to revise, and enough care to notice who may be affected by the step.",
+        "outOfBalance": "Curiosity can become avoidant novelty: many starts, no accountability, and risk mistaken for freedom.",
+        "contemplate": "How does beginning, trust, willingness to enter the path appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Seeker, apply the exercise specifically to beginning, trust, willingness to enter the path. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet beginning, trust, willingness to enter the path with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the path and the cloak. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_00.jpg",
+        "sourceChecksum": "76db61d6de6db93ae866e2cfd91fc41bfdd297af3dd4880fda595cf14147a68b",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_00_The_Seeker.png"
+      }
+    },
+    {
+      "id": "CORE_01",
+      "index": 1,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "I",
+      "title": "The Instructor",
+      "transliteration": "Al-Muallim",
+      "guide": {
+        "theme": "knowledge, agency, speech, disciplined creation",
+        "invitation": "Knowledge becomes agency when it is shaped into responsible action. The invitation is to bring skill, language, and available tools into alignment rather than using competence to control the room.",
+        "outOfBalance": "Skill can become performance, manipulation, or the belief that having words means having wisdom.",
+        "contemplate": "How does knowledge, agency, speech, disciplined creation appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Instructor, apply the exercise specifically to knowledge, agency, speech, disciplined creation. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet knowledge, agency, speech, disciplined creation with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the pen and the manuscript. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_01.jpg",
+        "sourceChecksum": "48e128ca142c9092bd2bff3f65f9ddeea3773020edb6448e40daf248768b3e9e",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_01_The_Instructor.png"
+      }
+    },
+    {
+      "id": "CORE_02",
+      "index": 2,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "II",
+      "title": "The Hidden Gate",
+      "transliteration": "Al-Bab al-Batin",
+      "guide": {
+        "theme": "inner wisdom, stillness, the threshold between known and not-yet-known",
+        "invitation": "Some understanding forms before it can be explained. The invitation is to protect a quiet interval, distinguish privacy from avoidance, and let incomplete knowledge remain incomplete without turning it into mystery-as-certainty.",
+        "outOfBalance": "Silence can become secrecy, indecision, or a screen onto which fear projects invented answers.",
+        "contemplate": "How does inner wisdom, stillness, the threshold between known and not-yet-known appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Notice where tension sits in the body; soften one area before choosing a response. For The Hidden Gate, apply the exercise specifically to inner wisdom, stillness, the threshold between known and not-yet-known. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet inner wisdom, stillness, the threshold between known and not-yet-known with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the gate and the door. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_02.jpg",
+        "sourceChecksum": "f0d847bc9b81f39daa801b03b5c94644c47045276e2427fb9e3447579e0193fb",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_02_The_Hidden_Gate.png"
+      }
+    },
+    {
+      "id": "CORE_03",
+      "index": 3,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "III",
+      "title": "The Garden",
+      "transliteration": "Al-Rawdah",
+      "guide": {
+        "theme": "mercy, nurturing, abundance, life-giving care",
+        "invitation": "Care is a set of conditions, not a mood. The invitation is to notice what needs water, time, shelter, encouragement, or a firmer edge—and to tend it without making yourself indispensable.",
+        "outOfBalance": "Nurturing can become overfunctioning, rescuing, or giving so continuously that resentment grows underground.",
+        "contemplate": "How does mercy, nurturing, abundance, life-giving care appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Name one duty that is yours and one burden that is not yours to control. For The Garden, apply the exercise specifically to mercy, nurturing, abundance, life-giving care. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet mercy, nurturing, abundance, life-giving care with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the garden and the fountain. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_03.jpg",
+        "sourceChecksum": "a05595d629afdc2f0d9df927fa8e00111bb2bf8d9e7339300129e089ea58cf3c",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_03_The_Garden.png"
+      }
+    },
+    {
+      "id": "CORE_04",
+      "index": 4,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "IV",
+      "title": "The Steward",
+      "transliteration": "Al-Wali",
+      "guide": {
+        "theme": "responsible leadership, protection, order, service to community",
+        "invitation": "Structure can shelter people or merely defend status. The invitation is to make authority accountable, boundaries legible, and responsibility dependable, especially when no praise follows.",
+        "outOfBalance": "Order can harden into control; protection can become paternalism; duty can become an identity that refuses help.",
+        "contemplate": "How does responsible leadership, protection, order, service to community appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Steward, apply the exercise specifically to responsible leadership, protection, order, service to community. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet responsible leadership, protection, order, service to community with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the key and the stone. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_04.jpg",
+        "sourceChecksum": "83967bb04000eedab40ef9464edb5577a4cc0ee1351138e2e85bdaa6525ad057",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_04_The_Steward.png"
+      }
+    },
+    {
+      "id": "CORE_05",
+      "index": 5,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "V",
+      "title": "The Teacher",
+      "transliteration": "Al-Waiz",
+      "guide": {
+        "theme": "tradition, moral formation, shared wisdom",
+        "invitation": "Becoming teachable is different from surrendering judgment. The invitation is to receive tested wisdom, ask honest questions, and decide which inherited practices still produce care and integrity.",
+        "outOfBalance": "Respect for tradition can slide into borrowed certainty, obedience without inquiry, or contempt for unfamiliar experience.",
+        "contemplate": "How does tradition, moral formation, shared wisdom appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Teacher, apply the exercise specifically to tradition, moral formation, shared wisdom. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet tradition, moral formation, shared wisdom with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the lamp and the book. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_05.jpg",
+        "sourceChecksum": "dafa65b4aef19c917fc6b4807424984d84058bb8c4e5ef4e165a489408070f3c",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_05_The_Teacher.png"
+      }
+    },
+    {
+      "id": "CORE_06",
+      "index": 6,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "VI",
+      "title": "The Covenant",
+      "transliteration": "Al-Mithaq",
+      "guide": {
+        "theme": "aligned intention, partnership, harmony, careful commitment",
+        "invitation": "Commitment becomes trustworthy through consent, clarity, and repair. The invitation is to compare stated values with daily behavior and name any agreement that has become vague, unequal, or assumed.",
+        "outOfBalance": "Loyalty can hide coercion, unequal labor, or promises maintained for appearance after mutuality has disappeared.",
+        "contemplate": "How does aligned intention, partnership, harmony, careful commitment appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Notice where tension sits in the body; soften one area before choosing a response. For The Covenant, apply the exercise specifically to aligned intention, partnership, harmony, careful commitment. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet aligned intention, partnership, harmony, careful commitment with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the path and the lamp. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_06.jpg",
+        "sourceChecksum": "7dc1de8dc3b78e5419f883103471501f02c739a4a5ba82461163e248ef0fb76b",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_06_The_Covenant.png"
+      }
+    },
+    {
+      "id": "CORE_07",
+      "index": 7,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "VII",
+      "title": "The Voyager",
+      "transliteration": "Al-Musafir",
+      "guide": {
+        "theme": "discipline, forward movement, working with reactive impulses",
+        "invitation": "Movement needs direction more than intensity. The invitation is to gather scattered energy around one chosen course while keeping ambition answerable to rest, relationships, and consequence.",
+        "outOfBalance": "Discipline can become force, speed, and tunnel vision that treats bodies and relationships as obstacles.",
+        "contemplate": "How does discipline, forward movement, working with reactive impulses appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Name one duty that is yours and one burden that is not yours to control. For The Voyager, apply the exercise specifically to discipline, forward movement, working with reactive impulses. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet discipline, forward movement, working with reactive impulses with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the astrolabe and the cloak. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_07.jpg",
+        "sourceChecksum": "0a91fbf80273de42f2e8be7823868583a0940522c925a4872d22ee893f22260f",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_07_The_Voyager.png"
+      }
+    },
+    {
+      "id": "CORE_08",
+      "index": 8,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "VIII",
+      "title": "The Forbearance",
+      "transliteration": "Al-Hilm",
+      "guide": {
+        "theme": "patience, inner strength, restraint, compassionate courage",
+        "invitation": "Forbearance is strength that can tolerate activation without passing it onward. The invitation is to make room between feeling and response, neither denying anger nor letting it choose your conduct.",
+        "outOfBalance": "Restraint can become suppression or quiet self-erasure when a needed boundary is endlessly postponed.",
+        "contemplate": "How does patience, inner strength, restraint, compassionate courage appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Forbearance, apply the exercise specifically to patience, inner strength, restraint, compassionate courage. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet patience, inner strength, restraint, compassionate courage with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the water and the pearl. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_08.jpg",
+        "sourceChecksum": "67642978815e58b01f5b86c598176adb1b6ab96d2ecd0d89e917e70214c29ac8",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_08_The_Forbearance.png"
+      }
+    },
+    {
+      "id": "CORE_09",
+      "index": 9,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "IX",
+      "title": "The Retreat",
+      "transliteration": "Al-Khalwah",
+      "guide": {
+        "theme": "solitude, introspection, inner illumination",
+        "invitation": "Chosen solitude can return your own voice to you. The invitation is to step back from performance and noise long enough to hear fatigue, conscience, and desire without treating withdrawal as a permanent home.",
+        "outOfBalance": "Solitude can become isolation, avoidance of feedback, or a protected story in which no one may challenge you.",
+        "contemplate": "How does solitude, introspection, inner illumination appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Retreat, apply the exercise specifically to solitude, introspection, inner illumination. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet solitude, introspection, inner illumination with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the lamp and the stone. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_09.jpg",
+        "sourceChecksum": "68a2a89234f7c50df0feb87754b55fb9212ed0f6c5c5caa0adff4dd57a0e03d0",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_09_The_Retreat.png"
+      }
+    },
+    {
+      "id": "CORE_10",
+      "index": 10,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "X",
+      "title": "The Wheel of Decree",
+      "transliteration": "Dairat al-Qadar",
+      "guide": {
+        "theme": "cycles, changing conditions, ease and hardship, changing conditions",
+        "invitation": "Conditions turn, sometimes through choice and sometimes beyond it. The invitation is to release the fantasy of total control while identifying the small, consequential part that still belongs to you.",
+        "outOfBalance": "Acceptance can become passivity, while agency can become self-blame for conditions no person could control.",
+        "contemplate": "How does cycles, changing conditions, ease and hardship, changing conditions appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Notice where tension sits in the body; soften one area before choosing a response. For The Wheel of Decree, apply the exercise specifically to cycles, changing conditions, ease and hardship, changing conditions. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet cycles, changing conditions, ease and hardship, changing conditions with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Rest your attention on the astrolabe. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_10.jpg",
+        "sourceChecksum": "569e605e85c2dea42e9ab9df2f05fdcc4bf7983f8e02f05229493d60d8b76bc8",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_10_The_Wheel_of_Decree.png"
+      }
+    },
+    {
+      "id": "CORE_11",
+      "index": 11,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XI",
+      "title": "The Equity",
+      "transliteration": "Al-Adl",
+      "guide": {
+        "theme": "justice, accountability, truthful measure",
+        "invitation": "Fairness requires more than equal portions; it asks what histories, needs, and consequences are present. The invitation is to measure carefully, accept accountability, and leave room for proportionate mercy.",
+        "outOfBalance": "Fair measure can become punitive exactness, abstraction, or confidence that ignores unequal starting points.",
+        "contemplate": "How does justice, accountability, truthful measure appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Name one duty that is yours and one burden that is not yours to control. For The Equity, apply the exercise specifically to justice, accountability, truthful measure. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet justice, accountability, truthful measure with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the scales and the feather. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_11.jpg",
+        "sourceChecksum": "711810c6a27d899525a8f342219e50f1cb239d4129f74c4a2eb15da33e3b5890",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_11_The_Equity.png"
+      }
+    },
+    {
+      "id": "CORE_12",
+      "index": 12,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XII",
+      "title": "The Surrender",
+      "transliteration": "Al-Taslim",
+      "guide": {
+        "theme": "release, patience with timing, changed perspective",
+        "invitation": "Release can be an active decision rather than defeat. The invitation is to stop spending force on what cannot be commanded and redirect attention toward response, perspective, and the support needed to wait.",
+        "outOfBalance": "Letting go can become resignation when grief, advocacy, or a difficult conversation is still required.",
+        "contemplate": "How does release, patience with timing, changed perspective appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Surrender, apply the exercise specifically to release, patience with timing, changed perspective. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet release, patience with timing, changed perspective with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the water and the vessel. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_12.jpg",
+        "sourceChecksum": "2b3f525fb3b6be9dd51fa7cdf4f9459c73b45dd3c4864334a508e1044f46ad81",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_00_XII\\Card_12_The_Surrender.png"
+      }
+    },
+    {
+      "id": "CORE_13",
+      "index": 13,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XIII",
+      "title": "The Transformation",
+      "transliteration": "Al-Tahawwul",
+      "guide": {
+        "theme": "endings, renewal, shedding the outer self",
+        "invitation": "An ending can be true even when affection remains. The invitation is to grieve what has completed, loosen an identity organized around it, and let renewal arrive without demanding immediate meaning.",
+        "outOfBalance": "Change can be rushed into reinvention, bypassing grief and repeating what was never understood.",
+        "contemplate": "How does endings, renewal, shedding the outer self appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Transformation, apply the exercise specifically to endings, renewal, shedding the outer self. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet endings, renewal, shedding the outer self with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the tree and the cloak. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_13.jpg",
+        "sourceChecksum": "80d5d54eee61a1125c1c37b3bab213b1e45a7be25599d3c506aad79d73bc62cc",
+        "sourceRel": "Cards_13_19\\CORE_13_The_Transformation_v1.png"
+      }
+    },
+    {
+      "id": "CORE_14",
+      "index": 14,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XIV",
+      "title": "The Moderation",
+      "transliteration": "Al-Wasatiyyah",
+      "guide": {
+        "theme": "balance, proportion, blending devotion and responsibility",
+        "invitation": "Balance is responsive, not static. The invitation is to adjust the mixture of effort and rest, self-protection and openness, urgency and patience until life becomes sustainable rather than merely impressive.",
+        "outOfBalance": "Moderation can become chronic compromise, using balance to avoid a clear no or a wholehearted yes.",
+        "contemplate": "How does balance, proportion, blending devotion and responsibility appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Notice where tension sits in the body; soften one area before choosing a response. For The Moderation, apply the exercise specifically to balance, proportion, blending devotion and responsibility. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet balance, proportion, blending devotion and responsibility with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the water and the arch. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_14.jpg",
+        "sourceChecksum": "4beaf0c234ad7c2a8f2f08ac14ab4f0494bf0c43dd4f79225126b3de409751fa",
+        "sourceRel": "Cards_13_19\\CORE_14_The_Moderation_v1.png"
+      }
+    },
+    {
+      "id": "CORE_15",
+      "index": 15,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XV",
+      "title": "The Entanglement",
+      "transliteration": "Al-Hawa",
+      "guide": {
+        "theme": "attachment, restless desire, self-deception",
+        "invitation": "Entanglement begins when a need, fear, or reward quietly narrows choice. The invitation is to see the loop without shame, name what it costs, and recover one practical degree of freedom.",
+        "outOfBalance": "Shame can tighten the very loop you want to escape, while denial lets the cost spread to others.",
+        "contemplate": "How does attachment, restless desire, self-deception appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Name one duty that is yours and one burden that is not yours to control. For The Entanglement, apply the exercise specifically to attachment, restless desire, self-deception. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet attachment, restless desire, self-deception with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the mirror and the stone. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_15.jpg",
+        "sourceChecksum": "ba0181d896c715fd4de804a1a0d12251f7077f3298b094e864c6cf6c78f74651",
+        "sourceRel": "Cards_13_19\\CORE_15_The_Entanglement_v1.png"
+      }
+    },
+    {
+      "id": "CORE_16",
+      "index": 16,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XVI",
+      "title": "The Awakening",
+      "transliteration": "Al-Zalzalah",
+      "guide": {
+        "theme": "disruption, humility, collapse of false certainty",
+        "invitation": "When a false structure breaks, the nervous system may call exposure catastrophe. The invitation is to separate actual danger from injured certainty and rebuild from evidence, support, and a more honest foundation.",
+        "outOfBalance": "Disruption can provoke frantic rebuilding, blame, or attachment to the first explanation that restores certainty.",
+        "contemplate": "How does disruption, humility, collapse of false certainty appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Awakening, apply the exercise specifically to disruption, humility, collapse of false certainty. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet disruption, humility, collapse of false certainty with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Rest your attention on the stone. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_16.jpg",
+        "sourceChecksum": "7acdf6ca986be88d5e7428588f34a529eee736a3f3e1b3863c7f8a9d37024564",
+        "sourceRel": "Cards_13_19\\CORE_16_The_Awakening_v1.png"
+      }
+    },
+    {
+      "id": "CORE_17",
+      "index": 17,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XVII",
+      "title": "The Guidance",
+      "transliteration": "Al-Najm",
+      "guide": {
+        "theme": "hope, orientation, renewal after hardship",
+        "invitation": "Hope is most useful when it has a practice attached. The invitation is to notice one credible source of orientation after strain and give it repeated attention without demanding that it erase difficulty.",
+        "outOfBalance": "Hope can become fantasy when it asks for optimism but refuses evidence, grief, or practical support.",
+        "contemplate": "How does hope, orientation, renewal after hardship appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Guidance, apply the exercise specifically to hope, orientation, renewal after hardship. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet hope, orientation, renewal after hardship with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the lantern and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_17.jpg",
+        "sourceChecksum": "7baab1687dbda55767817b8dfb83f116feff609f7a206c31f26c96d8e91a5b63",
+        "sourceRel": "Cards_13_19\\CORE_17_The_Guidance_v1.png"
+      }
+    },
+    {
+      "id": "CORE_18",
+      "index": 18,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XVIII",
+      "title": "The Mystery",
+      "transliteration": "Al-Ghaib",
+      "guide": {
+        "theme": "uncertainty, fear, navigation through uncertainty",
+        "invitation": "Uncertainty easily recruits fear into storytelling. The invitation is to separate observation, interpretation, and projection, allowing intuition to raise questions without promoting every impression to fact.",
+        "outOfBalance": "Caution can become suspicion; imagination can become conviction; uncertainty can become an excuse to stop checking facts.",
+        "contemplate": "How does uncertainty, fear, navigation through uncertainty appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Notice where tension sits in the body; soften one area before choosing a response. For The Mystery, apply the exercise specifically to uncertainty, fear, navigation through uncertainty. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet uncertainty, fear, navigation through uncertainty with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the path and the lantern. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_18.jpg",
+        "sourceChecksum": "c3e5c887c32c99d06541934e64e0c19711ec1bd91e7fb9a1a2205f4b06fe2a5a",
+        "sourceRel": "Cards_13_19\\CORE_18_The_Mystery_v1.png"
+      }
+    },
+    {
+      "id": "CORE_19",
+      "index": 19,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XIX",
+      "title": "The Radiance",
+      "transliteration": "Al-Shams",
+      "guide": {
+        "theme": "joy, clarity, vitality, truth revealed",
+        "invitation": "Clarity and pleasure can be received without possession. The invitation is to let warmth restore energy, make good news visible, and share attention so that confidence does not become self-importance.",
+        "outOfBalance": "Confidence can become exposure-seeking, forced positivity, or a refusal to make room for another person's shadow.",
+        "contemplate": "How does joy, clarity, vitality, truth revealed appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Name one duty that is yours and one burden that is not yours to control. For The Radiance, apply the exercise specifically to joy, clarity, vitality, truth revealed. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet joy, clarity, vitality, truth revealed with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the gate and the garden. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_19.jpg",
+        "sourceChecksum": "d432e5216cd2fe353a661fa56e26db31ae9c85ed1a30b87145649b24cb8ff46e",
+        "sourceRel": "Cards_13_19\\CORE_19_The_Radiance_v1.png"
+      }
+    },
+    {
+      "id": "CORE_20",
+      "index": 20,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XX",
+      "title": "The Gathering",
+      "transliteration": "Al-Hashr",
+      "guide": {
+        "theme": "reckoning, responsibility, awakening to one’s life",
+        "invitation": "An honest accounting is not a trial staged by the inner critic. The invitation is to review impact, unfinished duties, and possible repair with enough compassion to remain responsible rather than collapse into shame.",
+        "outOfBalance": "Accountability can collapse into self-punishment, which centers your pain and leaves the harmed impact unrepaired.",
+        "contemplate": "How does reckoning, responsibility, awakening to one’s life appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "Write the smallest reversible next step and the boundary that would keep it responsible. For The Gathering, apply the exercise specifically to reckoning, responsibility, awakening to one’s life. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet reckoning, responsibility, awakening to one’s life with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the path and the stone. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_20.jpg",
+        "sourceChecksum": "1e9bdb69a0782d2c468165fddbb7dbe0b98270d725863a5da07b59a1903fff26",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_20_The_Gathering.png"
+      }
+    },
+    {
+      "id": "CORE_21",
+      "index": 21,
+      "arcana": "Core Arcana",
+      "suit": null,
+      "rank": "XXI",
+      "title": "The Completion",
+      "transliteration": "Al-Kamal",
+      "guide": {
+        "theme": "integration, peace, integrated maturity",
+        "invitation": "Completion is the capacity to carry a lesson without continually reopening the test. The invitation is to acknowledge what has integrated, thank what helped, and cross into the next cycle without denying future work.",
+        "outOfBalance": "Completion can become triumphalism or premature closure that excludes the people who experienced the story differently.",
+        "contemplate": "How does integration, peace, integrated maturity appear in my present choices, and what becomes possible when I face it without exaggeration or avoidance?",
+        "practice": "List what is known, what is inferred, and whose perspective is missing. For The Completion, apply the exercise specifically to integration, peace, integrated maturity. Return after a short pause and revise anything that sounds absolute.",
+        "intention": "I will meet integration, peace, integrated maturity with honesty, proportion, and one concrete act that respects both my limits and other people's dignity.",
+        "visualMeditation": "Move your attention between the garden and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "CORE_21.jpg",
+        "sourceChecksum": "a4bba689106a1107ea8ef8b8aefd256f4032c5ffcdcdfbd04109f7c23b0d419d",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_21_The_Completion.png"
+      }
+    },
+    {
+      "id": "QALAM_ACE",
+      "index": 22,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "Ace",
+      "title": "Ace of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "source of insight and creative knowledge",
+        "invitation": "This card places source of insight and creative knowledge within thought, language, learning, and the ethics of interpretation. It marks a first opening, inviting you to begin before certainty hardens into delay. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, source of insight and creative knowledge may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is source of insight and creative knowledge already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ace of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach source of insight and creative knowledge through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the ink. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_ACE.jpg",
+        "sourceChecksum": "f1606e6b6febaabb71f5416e00499476509cff1741571c0a75ad9c1f0b4b6456",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_22_Ace_of_Qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_02",
+      "index": 23,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "2",
+      "title": "Two of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "dialogue, shared thinking, alignment of ideas",
+        "invitation": "This card places dialogue, shared thinking, alignment of ideas within thought, language, learning, and the ethics of interpretation. It marks a tension or partnership, inviting you to hold both sides long enough to see the relationship between them. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, dialogue, shared thinking, alignment of ideas may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is dialogue, shared thinking, alignment of ideas already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Two of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach dialogue, shared thinking, alignment of ideas through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the ink. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_02.jpg",
+        "sourceChecksum": "28a4a29c8233ad9320e79b816bdb441067ed4ffdf9960ba25cd65319537ede6c",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_23_Two_of_Qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_03",
+      "index": 24,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "3",
+      "title": "Three of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "collaboration, craft, knowledge built together",
+        "invitation": "This card places collaboration, craft, knowledge built together within thought, language, learning, and the ethics of interpretation. It marks growth through participation, inviting you to invite contribution instead of carrying the whole process alone. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, collaboration, craft, knowledge built together may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is collaboration, craft, knowledge built together already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Three of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach collaboration, craft, knowledge built together through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the compass. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_03.jpg",
+        "sourceChecksum": "366bd58c6c2d5fb2f46b54168a63c0013232441da903a1e8338274af65640b77",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_24_Three_of_Qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_04",
+      "index": 25,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "4",
+      "title": "Four of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "rest, incubation, renewal of the mind",
+        "invitation": "This card places rest, incubation, renewal of the mind within thought, language, learning, and the ethics of interpretation. It marks stability and its limits, inviting you to test whether protection has become confinement. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, rest, incubation, renewal of the mind may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is rest, incubation, renewal of the mind already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Four of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach rest, incubation, renewal of the mind through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the lamp. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_04.jpg",
+        "sourceChecksum": "d6d3fdd48b1035169d261f50e310fa52df4e84dbdd915eebee8c6e247d4fadda",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_19_25\\Card_25_Four_of_Qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_05",
+      "index": 26,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "5",
+      "title": "Five of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "friction, competing ideas, disciplined disagreement",
+        "invitation": "This card places friction, competing ideas, disciplined disagreement within thought, language, learning, and the ethics of interpretation. It marks friction, loss, or disruption, inviting you to acknowledge the difficulty without making it the whole story. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, friction, competing ideas, disciplined disagreement may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is friction, competing ideas, disciplined disagreement already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Five of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach friction, competing ideas, disciplined disagreement through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the ink. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_05.jpg",
+        "sourceChecksum": "604769fe1f24d9ff2b50db1688c8b9657bc42021632c94e6555b19f2d1e6ff0d",
+        "sourceRel": "Cards_25_31\\card_27_five_of_qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_06",
+      "index": 27,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "6",
+      "title": "Six of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "recognition, carrying knowledge forward",
+        "invitation": "This card places recognition, carrying knowledge forward within thought, language, learning, and the ethics of interpretation. It marks movement toward reciprocity, inviting you to notice what can be shared, repaired, or carried forward. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, recognition, carrying knowledge forward may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is recognition, carrying knowledge forward already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Six of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach recognition, carrying knowledge forward through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the manuscript. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_06.jpg",
+        "sourceChecksum": "6d09c8bbe2a1dd25b935eb8aecbce2ceb2949d63cdc1196578acb37bfa1c6a7d",
+        "sourceRel": "tarot_cards_25_31_complete\\card_28_six_of_qalam_v2.png"
+      }
+    },
+    {
+      "id": "QALAM_07",
+      "index": 28,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "7",
+      "title": "Seven of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "resolve, defending learning, holding one’s ground",
+        "invitation": "This card places resolve, defending learning, holding one’s ground within thought, language, learning, and the ethics of interpretation. It marks discernment under pressure, inviting you to choose by values rather than by the most vivid option. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, resolve, defending learning, holding one’s ground may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is resolve, defending learning, holding one’s ground already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seven of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach resolve, defending learning, holding one’s ground through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the lamp. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_07.jpg",
+        "sourceChecksum": "d26bf2eb18997dd2b9d428f1523337d1844aab276bbf29ac6998e719fadb2810",
+        "sourceRel": "Cards_25_31\\card_29_seven_of_qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_08",
+      "index": 29,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "8",
+      "title": "Eight of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "swift insight, messages, momentum",
+        "invitation": "This card places swift insight, messages, momentum within thought, language, learning, and the ethics of interpretation. It marks momentum and disciplined repetition, inviting you to direct energy into one bounded action. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, swift insight, messages, momentum may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is swift insight, messages, momentum already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Eight of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach swift insight, messages, momentum through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the ink and the manuscript. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_08.jpg",
+        "sourceChecksum": "034ed8b39a1d1baf711d7134af2dbc95921a5a0d0b201566648b24ea95ad3b57",
+        "sourceRel": "Cards_25_31\\card_30_eight_of_qalam.png"
+      }
+    },
+    {
+      "id": "QALAM_09",
+      "index": 30,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "9",
+      "title": "Nine of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "persistence, careful preparation, intellectual resilience",
+        "invitation": "This card places persistence, careful preparation, intellectual resilience within thought, language, learning, and the ethics of interpretation. It marks ripening near completion, inviting you to receive what is sufficient while tending what remains. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, persistence, careful preparation, intellectual resilience may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is persistence, careful preparation, intellectual resilience already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Nine of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach persistence, careful preparation, intellectual resilience through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lamp and the book. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_09.jpg",
+        "sourceChecksum": "edd3e2e024c8a6a31f3bea9f9271244122fa343fd32c865d3546869d3196be58",
+        "sourceRel": "Cards_31_37\\CARD_31_Nine_of_Qalam_v2.png"
+      }
+    },
+    {
+      "id": "QALAM_10",
+      "index": 31,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "10",
+      "title": "Ten of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "overextension, burden of responsibility, need to simplify",
+        "invitation": "This card places overextension, burden of responsibility, need to simplify within thought, language, learning, and the ethics of interpretation. It marks a cycle at full weight, inviting you to decide what should be completed, shared, or put down. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, overextension, burden of responsibility, need to simplify may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is overextension, burden of responsibility, need to simplify already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ten of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach overextension, burden of responsibility, need to simplify through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the manuscript. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_10.jpg",
+        "sourceChecksum": "9c8150fe823f09a2213c9eabeb6376fd9f27ec4c7b201532f0db6451395d6295",
+        "sourceRel": "Cards_31_37\\CARD_32_Ten_of_Qalam_v1.png"
+      }
+    },
+    {
+      "id": "QALAM_SEEKER",
+      "index": 32,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "Seeker",
+      "title": "Seeker of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "curiosity, first study, receptivity",
+        "invitation": "This card places curiosity, first study, receptivity within thought, language, learning, and the ethics of interpretation. It marks beginner's attention, inviting you to ask a sincere question without performing expertise. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, curiosity, first study, receptivity may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is curiosity, first study, receptivity already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seeker of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach curiosity, first study, receptivity through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the pen and the lantern. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_SEEKER.jpg",
+        "sourceChecksum": "dbff760ec5f0cea5627d7ea4392b0381e4b8d4a9d078777cfd61570b90da6b7d",
+        "sourceRel": "Cards_31_37\\CARD_33_Seeker_of_Qalam_v1.png"
+      }
+    },
+    {
+      "id": "QALAM_SCHOLAR",
+      "index": 33,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "Scholar",
+      "title": "Scholar of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "method, interpretation, disciplined learning",
+        "invitation": "This card places method, interpretation, disciplined learning within thought, language, learning, and the ethics of interpretation. It marks developed understanding, inviting you to slow interpretation down and examine the method. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, method, interpretation, disciplined learning may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is method, interpretation, disciplined learning already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Scholar of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach method, interpretation, disciplined learning through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the book and the astrolabe. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_SCHOLAR.jpg",
+        "sourceChecksum": "d64e0c446a2b7af84f928faf1a9ab9241ae20b4d538c0ec347c91eed4eee6db2",
+        "sourceRel": "Cards_31_37\\CARD_34_Scholar_of_Qalam_v1.png"
+      }
+    },
+    {
+      "id": "QALAM_GUARDIAN",
+      "index": 34,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "Guardian",
+      "title": "Guardian of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "preservation, responsible transmission of knowledge",
+        "invitation": "This card places preservation, responsible transmission of knowledge within thought, language, learning, and the ethics of interpretation. It marks protective responsibility, inviting you to set a boundary that preserves access, dignity, and trust. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, preservation, responsible transmission of knowledge may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is preservation, responsible transmission of knowledge already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Guardian of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach preservation, responsible transmission of knowledge through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lamp and the manuscript. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_GUARDIAN.jpg",
+        "sourceChecksum": "723b4cb6ce8fb40580242b7b0a90f668d9aaf502a4daf5c4b9bea556727fa1f2",
+        "sourceRel": "Cards_31_37\\CARD_35_Guardian_of_Qalam_v1.png"
+      }
+    },
+    {
+      "id": "QALAM_SAGE",
+      "index": 35,
+      "arcana": "Minor Arcana",
+      "suit": "Qalam",
+      "rank": "Sage",
+      "title": "Sage of Qalam",
+      "transliteration": "",
+      "guide": {
+        "theme": "wisdom applied for the common good",
+        "invitation": "This card places wisdom applied for the common good within thought, language, learning, and the ethics of interpretation. It marks mature influence, inviting you to translate experience into service without claiming final authority. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, wisdom applied for the common good may be pulled toward certainty, argument, or information overload. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is wisdom applied for the common good already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Sage of Qalam, spend ten quiet minutes and write one sentence that separates what you know from what you assume. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach wisdom applied for the common good through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the compass. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "QALAM_SAGE.jpg",
+        "sourceChecksum": "a49b83651664ea142821210b9faa19745b8796f680512924f61734de80ce23e9",
+        "sourceRel": "Cards_31_37\\CARD_36_Sage_of_Qalam_v1.png"
+      }
+    },
+    {
+      "id": "NOOR_ACE",
+      "index": 36,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "Ace",
+      "title": "Ace of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "unexpected care, emotional renewal, mercy",
+        "invitation": "This card places unexpected care, emotional renewal, mercy within feeling, relationship, receptivity, and the circulation of care. It marks a first opening, inviting you to begin before certainty hardens into delay. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, unexpected care, emotional renewal, mercy may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is unexpected care, emotional renewal, mercy already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ace of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach unexpected care, emotional renewal, mercy through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the chalice. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_ACE.jpg",
+        "sourceChecksum": "e509ca99743b950c5bf9651c87d9d8c34c3a0a00f981fc7b6f40fa2c8da78dc1",
+        "sourceRel": "Cards_31_37\\CARD_37_Ace_of_Noor_v1.png"
+      }
+    },
+    {
+      "id": "NOOR_02",
+      "index": 37,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "2",
+      "title": "Two of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "mutual care, trust, emotional reciprocity",
+        "invitation": "This card places mutual care, trust, emotional reciprocity within feeling, relationship, receptivity, and the circulation of care. It marks a tension or partnership, inviting you to hold both sides long enough to see the relationship between them. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, mutual care, trust, emotional reciprocity may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is mutual care, trust, emotional reciprocity already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Two of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach mutual care, trust, emotional reciprocity through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the cup. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_02.jpg",
+        "sourceChecksum": "7d781f97659592b081889350460b3026e966554a62fa4c29ce91905a694a1938",
+        "sourceRel": "tarot_cards_37_43\\card_38_two_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_03",
+      "index": 38,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "3",
+      "title": "Three of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "shared joy, hospitality, belonging",
+        "invitation": "This card places shared joy, hospitality, belonging within feeling, relationship, receptivity, and the circulation of care. It marks growth through participation, inviting you to invite contribution instead of carrying the whole process alone. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, shared joy, hospitality, belonging may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is shared joy, hospitality, belonging already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Three of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach shared joy, hospitality, belonging through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lamp and the fountain. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_03.jpg",
+        "sourceChecksum": "067242fd8478f25bdf026b3087be058fdf0404d9cec4b2a2b2133a286228220e",
+        "sourceRel": "tarot_cards_37_43\\card_39_three_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_04",
+      "index": 39,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "4",
+      "title": "Four of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "withdrawal, emotional pause, overlooked unexpected care",
+        "invitation": "This card places withdrawal, emotional pause, overlooked unexpected care within feeling, relationship, receptivity, and the circulation of care. It marks stability and its limits, inviting you to test whether protection has become confinement. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, withdrawal, emotional pause, overlooked unexpected care may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is withdrawal, emotional pause, overlooked unexpected care already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Four of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach withdrawal, emotional pause, overlooked unexpected care through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the garden and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_04.jpg",
+        "sourceChecksum": "1dac5c93b7baed0e3c833c99f5366136ac61ac6de6f1f56e6f8d846f33a03bae",
+        "sourceRel": "tarot_cards_37_43\\card_40_four_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_05",
+      "index": 40,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "5",
+      "title": "Five of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "grief, loss, what remains after disappointment",
+        "invitation": "This card places grief, loss, what remains after disappointment within feeling, relationship, receptivity, and the circulation of care. It marks friction, loss, or disruption, inviting you to acknowledge the difficulty without making it the whole story. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, grief, loss, what remains after disappointment may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is grief, loss, what remains after disappointment already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Five of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach grief, loss, what remains after disappointment through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the cup and the pool. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_05.jpg",
+        "sourceChecksum": "7daa3a2275976b9c61b2f63e97919a64bdb747257a625b2df24438d14f551fc7",
+        "sourceRel": "tarot_cards_37_43\\card_41_five_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_06",
+      "index": 41,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "6",
+      "title": "Six of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "memory, tenderness, generous remembrance",
+        "invitation": "This card places memory, tenderness, generous remembrance within feeling, relationship, receptivity, and the circulation of care. It marks movement toward reciprocity, inviting you to notice what can be shared, repaired, or carried forward. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, memory, tenderness, generous remembrance may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is memory, tenderness, generous remembrance already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Six of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach memory, tenderness, generous remembrance through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the well. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_06.jpg",
+        "sourceChecksum": "49cf4a241a35a3ddbeffe36340482fe1f4630fcba4e4487c2a9eece4d177860f",
+        "sourceRel": "tarot_cards_37_43\\card_42_six_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_07",
+      "index": 42,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "7",
+      "title": "Seven of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "imagination, temptation, discernment of desire",
+        "invitation": "This card places imagination, temptation, discernment of desire within feeling, relationship, receptivity, and the circulation of care. It marks discernment under pressure, inviting you to choose by values rather than by the most vivid option. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, imagination, temptation, discernment of desire may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is imagination, temptation, discernment of desire already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seven of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach imagination, temptation, discernment of desire through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lantern and the garden. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_07.jpg",
+        "sourceChecksum": "f9e7f8991ce1bb0c5ee81e8aacc7b7377128e63a98f2afb1a1248d13f994ce87",
+        "sourceRel": "tarot_cards_37_43\\card_43_seven_of_noor.png"
+      }
+    },
+    {
+      "id": "NOOR_08",
+      "index": 43,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "8",
+      "title": "Eight of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "leaving emotional stagnation, seeking deeper honesty",
+        "invitation": "This card places leaving emotional stagnation, seeking deeper honesty within feeling, relationship, receptivity, and the circulation of care. It marks momentum and disciplined repetition, inviting you to direct energy into one bounded action. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, leaving emotional stagnation, seeking deeper honesty may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is leaving emotional stagnation, seeking deeper honesty already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Eight of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach leaving emotional stagnation, seeking deeper honesty through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the cup. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_08.jpg",
+        "sourceChecksum": "6c349e48f740fa911e465ae87078911d276cbdf165aeece44a6ab47cf4530755",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_43_Eight_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_09",
+      "index": 44,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "9",
+      "title": "Nine of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "contentment, gratitude, inner fullness",
+        "invitation": "This card places contentment, gratitude, inner fullness within feeling, relationship, receptivity, and the circulation of care. It marks ripening near completion, inviting you to receive what is sufficient while tending what remains. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, contentment, gratitude, inner fullness may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is contentment, gratitude, inner fullness already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Nine of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach contentment, gratitude, inner fullness through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the garden and the cup. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_09.jpg",
+        "sourceChecksum": "fe037531e4f912a1a131ce9042e60759167aa15eaf886cc7ba6d3d64cd0421b8",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_44_Nine_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_10",
+      "index": 45,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "10",
+      "title": "Ten of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "shared mercy, family, communal joy",
+        "invitation": "This card places shared mercy, family, communal joy within feeling, relationship, receptivity, and the circulation of care. It marks a cycle at full weight, inviting you to decide what should be completed, shared, or put down. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, shared mercy, family, communal joy may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is shared mercy, family, communal joy already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ten of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach shared mercy, family, communal joy through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lantern and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_10.jpg",
+        "sourceChecksum": "3e92c8c2ff48addea852ac4bad5cc8a3ab90bce7d409c899ca32f381e52fe9a4",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_45_Ten_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_SEEKER",
+      "index": 46,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "Seeker",
+      "title": "Seeker of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "openness of heart, gentle attention",
+        "invitation": "This card places openness of heart, gentle attention within feeling, relationship, receptivity, and the circulation of care. It marks beginner's attention, inviting you to ask a sincere question without performing expertise. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, openness of heart, gentle attention may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is openness of heart, gentle attention already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seeker of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach openness of heart, gentle attention through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the fountain and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_SEEKER.jpg",
+        "sourceChecksum": "f1eed792da27c230accc9cdbf6b60c61b0ebe9bad920116cc1416d71cdf9e2c1",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_46_Seeker_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_SCHOLAR",
+      "index": 47,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "Scholar",
+      "title": "Scholar of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "emotional insight, listening, reflection",
+        "invitation": "This card places emotional insight, listening, reflection within feeling, relationship, receptivity, and the circulation of care. It marks developed understanding, inviting you to slow interpretation down and examine the method. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, emotional insight, listening, reflection may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is emotional insight, listening, reflection already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Scholar of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach emotional insight, listening, reflection through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the pool. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_SCHOLAR.jpg",
+        "sourceChecksum": "f5ad2acf46b3e9e555835f6705b9826a834a002283df3eef64c4a82b62321487",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_47_Scholar_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_GUARDIAN",
+      "index": 48,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "Guardian",
+      "title": "Guardian of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "compassion in action, protection of the vulnerable",
+        "invitation": "This card places compassion in action, protection of the vulnerable within feeling, relationship, receptivity, and the circulation of care. It marks protective responsibility, inviting you to set a boundary that preserves access, dignity, and trust. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, compassion in action, protection of the vulnerable may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is compassion in action, protection of the vulnerable already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Guardian of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach compassion in action, protection of the vulnerable through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the water. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_GUARDIAN.jpg",
+        "sourceChecksum": "2a06ecec8fe35ba77100b54a83501561d838fe77ef737cc586a096fb6947b5c1",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_48_Guardian_of_Noor.png"
+      }
+    },
+    {
+      "id": "NOOR_SAGE",
+      "index": 49,
+      "arcana": "Minor Arcana",
+      "suit": "Noor",
+      "rank": "Sage",
+      "title": "Sage of Noor",
+      "transliteration": "",
+      "guide": {
+        "theme": "benevolent leadership, public mercy",
+        "invitation": "This card places benevolent leadership, public mercy within feeling, relationship, receptivity, and the circulation of care. It marks mature influence, inviting you to translate experience into service without claiming final authority. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, benevolent leadership, public mercy may be pulled toward emotional fusion, withdrawal, or idealization. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is benevolent leadership, public mercy already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Sage of Noor, spend ten quiet minutes and name the feeling, the need beneath it, and one respectful request. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach benevolent leadership, public mercy through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the basket. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "NOOR_SAGE.jpg",
+        "sourceChecksum": "1a7468ddecbb38f44df2bf5f155b58342f7634cdaabbd8cfbdb03782fec27686",
+        "sourceRel": "Islamic_Contemplative_Deck_Cards_43_49\\Card_49_Sage_of_Noor.png"
+      }
+    },
+    {
+      "id": "MIZAN_ACE",
+      "index": 50,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "Ace",
+      "title": "Ace of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "clarity, truth, decisive discernment",
+        "invitation": "This card places clarity, truth, decisive discernment within discernment, boundaries, conflict, and fair consequence. It marks a first opening, inviting you to begin before certainty hardens into delay. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, clarity, truth, decisive discernment may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is clarity, truth, decisive discernment already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ace of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach clarity, truth, decisive discernment through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the star and the window. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_ACE.jpg",
+        "sourceChecksum": "5b94d6bfbcabaada4cf8ea3db491eb2821b9435fdf72e1075fc801e6d7f08467",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_50_ace_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_02",
+      "index": 51,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "2",
+      "title": "Two of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "decision, tension held in balance, careful pause",
+        "invitation": "This card places decision, tension held in balance, careful pause within discernment, boundaries, conflict, and fair consequence. It marks a tension or partnership, inviting you to hold both sides long enough to see the relationship between them. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, decision, tension held in balance, careful pause may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is decision, tension held in balance, careful pause already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Two of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach decision, tension held in balance, careful pause through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the gate and the path. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_02.jpg",
+        "sourceChecksum": "fade66242bcc43849348712c6aa7136612331bd75a8387f96e1f77e12ff87406",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_51_two_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_03",
+      "index": 52,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "3",
+      "title": "Three of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "painful truth, honest recognition",
+        "invitation": "This card places painful truth, honest recognition within discernment, boundaries, conflict, and fair consequence. It marks growth through participation, inviting you to invite contribution instead of carrying the whole process alone. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, painful truth, honest recognition may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is painful truth, honest recognition already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Three of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach painful truth, honest recognition through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the mirror and the window. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_03.jpg",
+        "sourceChecksum": "35acb2eae5dc6d07f281f36acf59275d3a30946bcd04082366057ffc8d1e8d59",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_52_three_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_04",
+      "index": 53,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "4",
+      "title": "Four of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "rest, recovery, suspension of conflict",
+        "invitation": "This card places rest, recovery, suspension of conflict within discernment, boundaries, conflict, and fair consequence. It marks stability and its limits, inviting you to test whether protection has become confinement. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, rest, recovery, suspension of conflict may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is rest, recovery, suspension of conflict already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Four of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach rest, recovery, suspension of conflict through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lamp and the arch. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_04.jpg",
+        "sourceChecksum": "739cef0d0b614469a2f772aaacfaa33b590c0e9d5a9bc574417696d414436b23",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_53_four_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_05",
+      "index": 54,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "5",
+      "title": "Five of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "conflict, pride, the cost of winning",
+        "invitation": "This card places conflict, pride, the cost of winning within discernment, boundaries, conflict, and fair consequence. It marks friction, loss, or disruption, inviting you to acknowledge the difficulty without making it the whole story. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, conflict, pride, the cost of winning may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is conflict, pride, the cost of winning already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Five of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach conflict, pride, the cost of winning through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the contrast of light and shadow. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_05.jpg",
+        "sourceChecksum": "484e3215f80d9d6d6c1a16a1dba75f2dcfa08dde0507e6a9cce585196bc7ad7d",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_54_five_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_06",
+      "index": 55,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "6",
+      "title": "Six of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "transition, moving toward fairness and peace",
+        "invitation": "This card places transition, moving toward fairness and peace within discernment, boundaries, conflict, and fair consequence. It marks movement toward reciprocity, inviting you to notice what can be shared, repaired, or carried forward. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, transition, moving toward fairness and peace may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is transition, moving toward fairness and peace already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Six of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach transition, moving toward fairness and peace through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lantern and the water. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_06.jpg",
+        "sourceChecksum": "89adb5f59aa23f1a7c844a2f8f7adba7c123f70164c9b55f150487a6ea1abea4",
+        "sourceRel": "tarot_cards_49_to_55 (1)\\card_55_six_of_mizan.png"
+      }
+    },
+    {
+      "id": "MIZAN_07",
+      "index": 56,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "7",
+      "title": "Seven of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "strategy, caution, uncertain consequences",
+        "invitation": "This card places strategy, caution, uncertain consequences within discernment, boundaries, conflict, and fair consequence. It marks discernment under pressure, inviting you to choose by values rather than by the most vivid option. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, strategy, caution, uncertain consequences may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is strategy, caution, uncertain consequences already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seven of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach strategy, caution, uncertain consequences through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the table. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_07.jpg",
+        "sourceChecksum": "5a1cc8a9a50e1b4ebbc63c26b9cf137c59d7d34b73b3f7771c2d3671c479dae1",
+        "sourceRel": "Tarrot Cards 55-61\\card_57_seven_of_swords.png"
+      }
+    },
+    {
+      "id": "MIZAN_08",
+      "index": 57,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "8",
+      "title": "Eight of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "restriction, mental imprisonment, finding the opening",
+        "invitation": "This card places restriction, mental imprisonment, finding the opening within discernment, boundaries, conflict, and fair consequence. It marks momentum and disciplined repetition, inviting you to direct energy into one bounded action. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, restriction, mental imprisonment, finding the opening may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is restriction, mental imprisonment, finding the opening already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Eight of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach restriction, mental imprisonment, finding the opening through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the path. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_08.jpg",
+        "sourceChecksum": "4ee4a32d700ed46af482bc1ae63a904f93f0a7c5d597731ef15f875f448f813a",
+        "sourceRel": "Tarrot Cards 55-61\\card_58_eight_of_swords.png"
+      }
+    },
+    {
+      "id": "MIZAN_09",
+      "index": 58,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "9",
+      "title": "Nine of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "anxiety, conscience, difficult thought",
+        "invitation": "This card places anxiety, conscience, difficult thought within discernment, boundaries, conflict, and fair consequence. It marks ripening near completion, inviting you to receive what is sufficient while tending what remains. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, anxiety, conscience, difficult thought may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is anxiety, conscience, difficult thought already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Nine of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach anxiety, conscience, difficult thought through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the lamp and the window. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_09.jpg",
+        "sourceChecksum": "c6fd8daef8319951bd4cd43ba90adc7c085fd816eaf09182f58de90452b06ebd",
+        "sourceRel": "Tarrot Cards 55-61\\card_59_nine_of_swords.png"
+      }
+    },
+    {
+      "id": "MIZAN_10",
+      "index": 59,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "10",
+      "title": "Ten of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "ending of a trial, release after hardship",
+        "invitation": "This card places ending of a trial, release after hardship within discernment, boundaries, conflict, and fair consequence. It marks a cycle at full weight, inviting you to decide what should be completed, shared, or put down. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, ending of a trial, release after hardship may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is ending of a trial, release after hardship already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ten of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach ending of a trial, release after hardship through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the gate and the garden. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_10.jpg",
+        "sourceChecksum": "7a81cda7a82c54f6018bed69796b140ca4b94169ae94c30ae8f02358848729f1",
+        "sourceRel": "Tarrot Cards 55-61\\card_60_ten_of_swords.png"
+      }
+    },
+    {
+      "id": "MIZAN_SEEKER",
+      "index": 60,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "Seeker",
+      "title": "Seeker of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "alertness, willingness to learn truth",
+        "invitation": "This card places alertness, willingness to learn truth within discernment, boundaries, conflict, and fair consequence. It marks beginner's attention, inviting you to ask a sincere question without performing expertise. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, alertness, willingness to learn truth may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is alertness, willingness to learn truth already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seeker of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach alertness, willingness to learn truth through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the gate. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_SEEKER.jpg",
+        "sourceChecksum": "06794e7e0038b8abcde3d444e74e0e83de2741b4964948c3fd3193cc88590667",
+        "sourceRel": "Tarrot Cards 55-61\\card_61_page_of_swords.png"
+      }
+    },
+    {
+      "id": "MIZAN_SCHOLAR",
+      "index": 61,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "Scholar",
+      "title": "Scholar of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "discernment, law, careful judgment",
+        "invitation": "This card places discernment, law, careful judgment within discernment, boundaries, conflict, and fair consequence. It marks developed understanding, inviting you to slow interpretation down and examine the method. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, discernment, law, careful judgment may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is discernment, law, careful judgment already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Scholar of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach discernment, law, careful judgment through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the stone. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_SCHOLAR.jpg",
+        "sourceChecksum": "219064c670666e2ea916624d6890fbc34aa51eeb65be4104d643e17a8859dff6",
+        "sourceRel": "tarot_cards_61_67\\card_61_mizan_scholar.png"
+      }
+    },
+    {
+      "id": "MIZAN_GUARDIAN",
+      "index": 62,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "Guardian",
+      "title": "Guardian of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "courage, ethical protection, clear boundaries",
+        "invitation": "This card places courage, ethical protection, clear boundaries within discernment, boundaries, conflict, and fair consequence. It marks protective responsibility, inviting you to set a boundary that preserves access, dignity, and trust. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, courage, ethical protection, clear boundaries may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is courage, ethical protection, clear boundaries already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Guardian of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach courage, ethical protection, clear boundaries through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the gate and the cloak. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_GUARDIAN.jpg",
+        "sourceChecksum": "92e6a94be8418db7812487f8f254b4281ebb4e1710068de9bb2fdfd8524eb024",
+        "sourceRel": "tarot_cards_61_67\\card_62_mizan_guardian.png"
+      }
+    },
+    {
+      "id": "MIZAN_SAGE",
+      "index": 63,
+      "arcana": "Minor Arcana",
+      "suit": "Mizan",
+      "rank": "Sage",
+      "title": "Sage of Mizan",
+      "transliteration": "",
+      "guide": {
+        "theme": "wise governance, justice tempered with mercy",
+        "invitation": "This card places wise governance, justice tempered with mercy within discernment, boundaries, conflict, and fair consequence. It marks mature influence, inviting you to translate experience into service without claiming final authority. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, wise governance, justice tempered with mercy may be pulled toward rigidity, defensiveness, or winning at the cost of dignity. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is wise governance, justice tempered with mercy already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Sage of Mizan, spend ten quiet minutes and list the affected people and one consequence your preferred choice may create. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach wise governance, justice tempered with mercy through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the book and the scales. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "MIZAN_SAGE.jpg",
+        "sourceChecksum": "b3e0e348d630c1d4cf38dab38a087cfe4f9c231a714d1bbf64e46ba1925dc5b9",
+        "sourceRel": "tarot_cards_61_67\\card_63_mizan_sage.png"
+      }
+    },
+    {
+      "id": "ARD_ACE",
+      "index": 64,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "Ace",
+      "title": "Ace of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "sustenance, grounded opportunity, material stewardship",
+        "invitation": "This card places sustenance, grounded opportunity, material stewardship within work, resources, embodiment, and durable stewardship. It marks a first opening, inviting you to begin before certainty hardens into delay. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, sustenance, grounded opportunity, material stewardship may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is sustenance, grounded opportunity, material stewardship already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ace of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach sustenance, grounded opportunity, material stewardship through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the garden and the seed. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_ACE.jpg",
+        "sourceChecksum": "e9c8d01f6a674080d16cbfa5cd5fd89bcce8d12522e944aa51fd1771b6fef75e",
+        "sourceRel": "tarot_cards_61_67\\card_64_ace_of_ard.png"
+      }
+    },
+    {
+      "id": "ARD_02",
+      "index": 65,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "2",
+      "title": "Two of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "resource balance, adaptable stewardship",
+        "invitation": "This card places resource balance, adaptable stewardship within work, resources, embodiment, and durable stewardship. It marks a tension or partnership, inviting you to hold both sides long enough to see the relationship between them. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, resource balance, adaptable stewardship may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is resource balance, adaptable stewardship already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Two of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach resource balance, adaptable stewardship through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the basket. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_02.jpg",
+        "sourceChecksum": "e1b03d7c4b3eeea52f0fdad2677d1c6a4e7a85cf0283aeb49497242adfdfb5ac",
+        "sourceRel": "tarot_cards_61_67\\card_65_two_of_ard.png"
+      }
+    },
+    {
+      "id": "ARD_03",
+      "index": 66,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "3",
+      "title": "Three of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "craft, teamwork, building for others",
+        "invitation": "This card places craft, teamwork, building for others within work, resources, embodiment, and durable stewardship. It marks growth through participation, inviting you to invite contribution instead of carrying the whole process alone. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, craft, teamwork, building for others may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is craft, teamwork, building for others already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Three of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach craft, teamwork, building for others through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the contrast of light and shadow. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_03.jpg",
+        "sourceChecksum": "abae7e7b90b9ad8e633e61d80719b89bfeb9b2a9b6eb377192b3849a64278e16",
+        "sourceRel": "tarot_cards_61_67\\card_66_three_of_ard.png"
+      }
+    },
+    {
+      "id": "ARD_04",
+      "index": 67,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "4",
+      "title": "Four of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "security, holding too tightly, fear of loss",
+        "invitation": "This card places security, holding too tightly, fear of loss within work, resources, embodiment, and durable stewardship. It marks stability and its limits, inviting you to test whether protection has become confinement. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, security, holding too tightly, fear of loss may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is security, holding too tightly, fear of loss already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Four of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach security, holding too tightly, fear of loss through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the coin and the window. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_04.jpg",
+        "sourceChecksum": "af8efef1d15c3bb22fd6e6d43f5e7140b65cf54586776575a42474c1053bc358",
+        "sourceRel": "tarot_cards_61_67\\card_67_four_of_ard.png"
+      }
+    },
+    {
+      "id": "ARD_05",
+      "index": 68,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "5",
+      "title": "Five of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "scarcity, exclusion, dignity during hardship",
+        "invitation": "This card places scarcity, exclusion, dignity during hardship within work, resources, embodiment, and durable stewardship. It marks friction, loss, or disruption, inviting you to acknowledge the difficulty without making it the whole story. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, scarcity, exclusion, dignity during hardship may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is scarcity, exclusion, dignity during hardship already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Five of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach scarcity, exclusion, dignity during hardship through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the door and the basket. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "missing",
+        "assetKey": null,
+        "sourceChecksum": null
+      }
+    },
+    {
+      "id": "ARD_06",
+      "index": 69,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "6",
+      "title": "Six of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "charity, fair exchange, generosity",
+        "invitation": "This card places charity, fair exchange, generosity within work, resources, embodiment, and durable stewardship. It marks movement toward reciprocity, inviting you to notice what can be shared, repaired, or carried forward. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, charity, fair exchange, generosity may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is charity, fair exchange, generosity already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Six of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach charity, fair exchange, generosity through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the basket. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_06.jpg",
+        "sourceChecksum": "860c4318046d1478fb40a4259566f5a131fbf5696ee9437295b86a8ef603f217",
+        "sourceRel": "Final Phase Miscelaneous\\70.png"
+      }
+    },
+    {
+      "id": "ARD_07",
+      "index": 70,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "7",
+      "title": "Seven of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "patience, cultivation, long-term effort",
+        "invitation": "This card places patience, cultivation, long-term effort within work, resources, embodiment, and durable stewardship. It marks discernment under pressure, inviting you to choose by values rather than by the most vivid option. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, patience, cultivation, long-term effort may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is patience, cultivation, long-term effort already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seven of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach patience, cultivation, long-term effort through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the stone. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_07.jpg",
+        "sourceChecksum": "c567560daa16479af56fcc16b05f7b13d553c6dbfe3dacaf561b7039e84f082e",
+        "sourceRel": "Final Phase Miscelaneous\\71.png"
+      }
+    },
+    {
+      "id": "ARD_08",
+      "index": 71,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "8",
+      "title": "Eight of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "mastery through work, repetition, craft discipline",
+        "invitation": "This card places mastery through work, repetition, craft discipline within work, resources, embodiment, and durable stewardship. It marks momentum and disciplined repetition, inviting you to direct energy into one bounded action. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, mastery through work, repetition, craft discipline may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is mastery through work, repetition, craft discipline already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Eight of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach mastery through work, repetition, craft discipline through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the contrast of light and shadow. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_08.jpg",
+        "sourceChecksum": "50be87ead54cc7705989394e693eb77ed1fc9894a6a8f234ddd1e34d1f4e372d",
+        "sourceRel": "Final Phase Miscelaneous\\72.png"
+      }
+    },
+    {
+      "id": "ARD_09",
+      "index": 72,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "9",
+      "title": "Nine of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "earned sufficiency, care for what has grown",
+        "invitation": "This card places earned sufficiency, care for what has grown within work, resources, embodiment, and durable stewardship. It marks ripening near completion, inviting you to receive what is sufficient while tending what remains. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, earned sufficiency, care for what has grown may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is earned sufficiency, care for what has grown already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Nine of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach earned sufficiency, care for what has grown through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the garden. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_09.jpg",
+        "sourceChecksum": "cdb183ea063ccbcbf7679eacb4625a1b1cd0b85034ff0d4a8a826429c67c16b0",
+        "sourceRel": "Final Phase Miscelaneous\\73.png"
+      }
+    },
+    {
+      "id": "ARD_10",
+      "index": 73,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "10",
+      "title": "Ten of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "legacy, shared prosperity, durable community",
+        "invitation": "This card places legacy, shared prosperity, durable community within work, resources, embodiment, and durable stewardship. It marks a cycle at full weight, inviting you to decide what should be completed, shared, or put down. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, legacy, shared prosperity, durable community may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is legacy, shared prosperity, durable community already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Ten of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach legacy, shared prosperity, durable community through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the tree and the basket. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_10.jpg",
+        "sourceChecksum": "c24ecd49b3a0fe94e5fe0bc75ffbd75d28fba08e2549df3a94edcb468328e866",
+        "sourceRel": "Final Phase Miscelaneous\\74.png"
+      }
+    },
+    {
+      "id": "ARD_SEEKER",
+      "index": 74,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "Seeker",
+      "title": "Seeker of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "learning through making, respect for materials",
+        "invitation": "This card places learning through making, respect for materials within work, resources, embodiment, and durable stewardship. It marks beginner's attention, inviting you to ask a sincere question without performing expertise. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, learning through making, respect for materials may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is learning through making, respect for materials already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Seeker of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach learning through making, respect for materials through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Rest your attention on the bowl. Notice its position, weight, and surrounding space. What part of your inner life feels similarly placed right now?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_SEEKER.jpg",
+        "sourceChecksum": "8b97c5c3ca9e0419ac402a4a99cb133fbfa33b5f82c0be2204872d545991b1a8",
+        "sourceRel": "Final Phase Miscelaneous\\75.png"
+      }
+    },
+    {
+      "id": "ARD_SCHOLAR",
+      "index": 75,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "Scholar",
+      "title": "Scholar of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "practical wisdom, careful cultivation",
+        "invitation": "This card places practical wisdom, careful cultivation within work, resources, embodiment, and durable stewardship. It marks developed understanding, inviting you to slow interpretation down and examine the method. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, practical wisdom, careful cultivation may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is practical wisdom, careful cultivation already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Scholar of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach practical wisdom, careful cultivation through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the cup and the seed. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_SCHOLAR.jpg",
+        "sourceChecksum": "610fd3305b3ba42d75977aa34a4286e9ce01ef797b73e1033f3250543eaf5e2b",
+        "sourceRel": "Final Phase Miscelaneous\\76.png"
+      }
+    },
+    {
+      "id": "ARD_GUARDIAN",
+      "index": 76,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "Guardian",
+      "title": "Guardian of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "protection of common resources, reliable labor",
+        "invitation": "This card places protection of common resources, reliable labor within work, resources, embodiment, and durable stewardship. It marks protective responsibility, inviting you to set a boundary that preserves access, dignity, and trust. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, protection of common resources, reliable labor may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is protection of common resources, reliable labor already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Guardian of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach protection of common resources, reliable labor through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the water and the stone. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_GUARDIAN.jpg",
+        "sourceChecksum": "fee2d255e6f30f312791107f5228daee2f57eb8e1792af99d13d3dc569e87ae0",
+        "sourceRel": "Final Phase Miscelaneous\\77.png"
+      }
+    },
+    {
+      "id": "ARD_SAGE",
+      "index": 77,
+      "arcana": "Minor Arcana",
+      "suit": "Ard",
+      "rank": "Sage",
+      "title": "Sage of Ard",
+      "transliteration": "",
+      "guide": {
+        "theme": "patronage, stewardship, building institutions",
+        "invitation": "This card places patronage, stewardship, building institutions within work, resources, embodiment, and durable stewardship. It marks mature influence, inviting you to translate experience into service without claiming final authority. The work is not to force a result but to notice how attention, behavior, and consequence meet in this particular situation.",
+        "outOfBalance": "Out of balance, patronage, stewardship, building institutions may be pulled toward scarcity panic, overwork, or control through possession. The warning sign is a narrowing of choice: you repeat the same response, stop receiving useful feedback, or ask other people to carry a cost you have not named.",
+        "contemplate": "Where is patronage, stewardship, building institutions already visible in my behavior, and what consequence am I reluctant to acknowledge?",
+        "practice": "For Sage of Ard, spend ten quiet minutes and take one concrete step involving time, money, maintenance, rest, or shared labor. Keep the step small enough to complete today; then note what changed in your body, attention, or relationship to the problem.",
+        "intention": "Today I will approach patronage, stewardship, building institutions through one accountable choice, leaving room for evidence, consent, and revision.",
+        "visualMeditation": "Move your attention between the coin and the arch. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
+      },
+      "artwork": {
+        "status": "approved",
+        "assetKey": "ARD_SAGE.jpg",
+        "sourceChecksum": "76e7510d50dabd15189341ce9c70af45dc2f7f2a7a99113fcc2e9d4ecdca4a77",
+        "sourceRel": "Final Phase Miscelaneous\\78.jpeg"
+      }
+    }
+  ]
+}
