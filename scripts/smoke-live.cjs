@@ -37,9 +37,8 @@ const puppeteer = require('puppeteer-core');
   await page.goBack({ waitUntil: 'networkidle0' });
   await clickButton('Tarot');
   await page.waitForFunction(() => document.body.innerText.includes('Choose a spread'));
-  await clickButton('Choose a spread');
   await page.waitForFunction(() => document.body.innerText.includes('Your question'));
-  if (!page.url().includes('/sufi-contemplative-tarot-app/draw')) throw new Error(`bad draw URL ${page.url()}`);
+  if (!page.url().includes('/sufi-meditation-quranic-guidance-tarot-app/draw')) throw new Error(`bad draw URL ${page.url()}`);
   const drawText = await page.evaluate(() => document.body.innerText);
   for (const text of ['Clarity for today', 'A decision', 'A relationship']) {
     if (!drawText.includes(text)) throw new Error(`missing suggested set: ${text}`);
@@ -61,7 +60,7 @@ const puppeteer = require('puppeteer-core');
   });
   await clickButton('Draw');
   await page.waitForFunction(() => document.body.innerText.includes('Meditate on image'));
-  if (!page.url().includes('/sufi-contemplative-tarot-app/draw/session')) throw new Error(`bad session URL ${page.url()}`);
+  if (!page.url().includes('/sufi-meditation-quranic-guidance-tarot-app/draw/session')) throw new Error(`bad session URL ${page.url()}`);
   const before = await page.evaluate(() => document.body.innerText);
   if (!before.includes('What am I avoiding?') || !before.includes('Respond with courage')) throw new Error('question/intention missing at top');
 
