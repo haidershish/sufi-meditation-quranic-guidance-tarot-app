@@ -21,16 +21,22 @@ export default function Home() {
 
       <View style={styles.navGrid}>
         <NavCard
+          icon="◌"
+          accent={palette.teal}
           label="Meditation"
           caption="Guided practices for rest and presence"
           onPress={() => router.push(appPath("/meditations", Platform.OS) as never)}
         />
         <NavCard
+          icon="✦"
+          accent={palette.gold}
           label="Tarot"
           caption="Reflect with the 78-card contemplative deck"
           onPress={() => router.push(appPath("/draw", Platform.OS) as never)}
         />
         <NavCard
+          icon="▱"
+          accent={palette.terracotta}
           label="Quranic Guidance"
           caption="Receive a five-verse passage for reflection"
           onPress={() => router.push(appPath("/guidance", Platform.OS) as never)}
@@ -44,18 +50,21 @@ export default function Home() {
   );
 }
 
-function NavCard({ label, caption, onPress }: { label: string; caption: string; onPress: () => void }) {
+function NavCard({ icon, accent, label, caption, onPress }: { icon: string; accent: string; label: string; caption: string; onPress: () => void }) {
   const { palette } = useApp();
   return (
     <Pressable
       onPress={onPress}
       style={({ pressed }) => [
         styles.navCard,
-        { backgroundColor: palette.surface, borderColor: palette.border, opacity: pressed ? 0.85 : 1 },
+        { backgroundColor: palette.surface, borderColor: accent, opacity: pressed ? 0.85 : 1 },
       ]}
       accessibilityRole="button"
       accessibilityLabel={label}
     >
+      <T variant="title" style={{ color: accent, lineHeight: 32 }} accessibilityElementsHidden>
+        {icon}
+      </T>
       <T variant="heading" bold style={{ color: palette.text }}>
         {label}
       </T>

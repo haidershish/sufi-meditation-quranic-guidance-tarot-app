@@ -32,7 +32,10 @@ export default function ChooseSpread() {
     setQuestions(Array(spreadId === "single" ? 1 : 3).fill(""));
   }, [spreadId]);
 
+  const customComplete = !customMode || questions.every((question) => question.trim().length > 0);
+
   const draw = () => {
+    if (!customComplete) return;
     const spread = SPREADS[spreadId];
     const cards = drawCards(allCards.map((c) => c.id), spread, cryptoRandom);
     const resolved = resolveQuestions(spreadId, customMode ? questions : [], selectedSet);
@@ -54,7 +57,7 @@ export default function ChooseSpread() {
               onPress={() => { setSpreadId(spread.id); selection(prefs.haptics); }}
               style={[styles.spread, { backgroundColor: active ? palette.accentSoft : palette.surface, borderColor: active ? palette.accent : palette.border }]}
               accessibilityRole="radio"
-              accessibilityState={{ selected: active }}
+              accessibilityState={{ checked: active }}
             >
               <T variant="heading" bold>{spread.name}</T>
               <T variant="caption" muted>{spread.description}</T>
@@ -74,7 +77,7 @@ export default function ChooseSpread() {
               onPress={() => { setSelectedSet(index); setCustomMode(false); selection(prefs.haptics); }}
               style={[styles.option, { backgroundColor: active ? palette.accentSoft : palette.surface, borderColor: active ? palette.accent : palette.border }]}
               accessibilityRole="radio"
-              accessibilityState={{ selected: active }}
+              accessibilityState={{ checked: active }}
             >
               <T bold>{set.title}</T>
               <T variant="caption" muted>{set.description}</T>
@@ -86,7 +89,7 @@ export default function ChooseSpread() {
           onPress={() => setCustomMode(true)}
           style={[styles.option, { backgroundColor: customMode ? palette.accentSoft : palette.surface, borderColor: customMode ? palette.accent : palette.border }]}
           accessibilityRole="radio"
-          accessibilityState={{ selected: customMode }}
+          accessibilityState={{ checked: customMode }}
         >
           <T bold>Write my own {spreadId === "single" ? "question" : "three questions"}</T>
         </Pressable>
@@ -101,10 +104,12 @@ export default function ChooseSpread() {
               onChangeText={(text) => setQuestions((current) => current.map((q, i) => i === index ? text : q))}
               placeholder={spreadId === "single" ? "What would you like to reflect on?" : `Question ${index + 1}`}
               placeholderTextColor={palette.textSubtle}
+              accessibilityLabel={spreadId === "single" ? "Reflection question" : `Custom question ${index + 1}`}
               multiline
               style={[styles.input, { backgroundColor: palette.surface, borderColor: palette.border, color: palette.text }]}
             />
           ))}
+          {!customComplete ? <T variant="caption" style={{ color: palette.danger }}>Complete each question to continue.</T> : null}
         </View>
       ) : null}
 
@@ -114,11 +119,12 @@ export default function ChooseSpread() {
         onChangeText={setIntention}
         placeholder="What are you bringing to this reflection?"
         placeholderTextColor={palette.textSubtle}
+        accessibilityLabel="Your intention (optional)"
         multiline
         style={[styles.input, { backgroundColor: palette.surface, borderColor: palette.border, color: palette.text }]}
       />
 
-      <View style={{ marginTop: 24 }}><Button label="Draw" onPress={draw} /></View>
+      <View style={{ marginTop: 24 }}><Button label="Draw" onPress={draw} disabled={!customComplete} /></View>
     </Screen>
   );
 }

@@ -25,7 +25,7 @@ MANIFEST = SOURCE_DIR / "islamic_contemplative_deck_manifest.json"
 GUIDEBOOK = SOURCE_DIR / "Culturally_Inspired_Contemplative_Tarot_Guidebook_78_Cards.docx"
 QA_REPORT = SOURCE_DIR / "Culturally_Inspired_Contemplative_Tarot_Guidebook_QA_Report.md"
 IMGDIR = Path(r"C:\AI\Sufi Tarot")
-REPO = Path(r"C:\Users\User\Documents\ChatGPT\Tarot")
+REPO = Path(__file__).resolve().parents[1]
 ASSETS = REPO / "assets" / "cards"
 CONTENT = REPO / "src" / "content"
 
@@ -124,6 +124,17 @@ if fp.exists():
                     "version": 0, "official": False, "legacy": False, "path": f,
                 })
 
+# Keep committed art usable when the original external art folder is absent or
+# only partially populated.
+for i, c in enumerate(cards):
+    if i in candidates:
+        continue
+    existing = ASSETS / f"{c['card_id']}.jpg"
+    if existing.exists():
+        candidates.setdefault(i, []).append({
+            "version": 0, "official": True, "legacy": False, "path": existing,
+        })
+
 
 def pick(cands):
     # highest version, then official batch, then non-legacy
@@ -165,6 +176,7 @@ def build_card(i, c):
     copy = B.core_copy(c) if is_core else B.minor_copy(c)
     guide = {
         "theme": B.clean_theme(c["theme"]),
+        "descriptionOfImage": B.description_of_image(c),
         "invitation": copy["The invitation"],
         "outOfBalance": copy["When out of balance"],
         "contemplate": copy["Contemplate"],
@@ -177,11 +189,18 @@ def build_card(i, c):
     if cands:
         src = pick(cands)["path"]
         key = f"{c['card_id']}.jpg"
+        try:
+            source_rel = str(src.relative_to(IMGDIR))
+        except ValueError:
+            try:
+                source_rel = str(src.relative_to(REPO))
+            except ValueError:
+                source_rel = str(src)
         art = {
             "status": "approved",
             "assetKey": key,
             "sourceChecksum": sha256_file(src),
-            "sourceRel": str(src.relative_to(IMGDIR)) if str(src).startswith(str(IMGDIR)) else str(src),
+            "sourceRel": source_rel,
         }
     return {
         "id": c["card_id"], "index": i,
@@ -201,8 +220,16 @@ built = [build_card(i, c) for i, c in enumerate(cards)]
 ASSETS.mkdir(parents=True, exist_ok=True)
 for b in built:
     if b["artwork"]["status"] == "approved":
-        src = IMGDIR / b["artwork"]["sourceRel"]
-        optimize(src, ASSETS / b["artwork"]["assetKey"])
+        source_rel = Path(b["artwork"]["sourceRel"])
+        if source_rel.is_absolute():
+            src = source_rel
+        elif source_rel.parts[:2] == ("assets", "cards"):
+            src = REPO / source_rel
+        else:
+            src = IMGDIR / source_rel
+        dst = ASSETS / b["artwork"]["assetKey"]
+        if src.resolve() != dst.resolve():
+            optimize(src, dst)
 
 approved = sum(1 for b in built if b["artwork"]["status"] == "approved")
 missing = [b["id"] for b in built if b["artwork"]["status"] == "missing"]

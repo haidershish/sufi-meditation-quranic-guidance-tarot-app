@@ -2,7 +2,7 @@
 import json, sys
 from pathlib import Path
 
-REPO = Path(r"C:\Users\User\Documents\ChatGPT\Tarot")
+REPO = Path(__file__).resolve().parents[1]
 BUNDLE = REPO / "src" / "content" / "deck-bundle.json"
 ASSETS = REPO / "assets" / "cards"
 
@@ -17,8 +17,8 @@ if len(cards) != 78:
 if len(set(ids)) != 78:
     errors.append(f"duplicate ids: {[i for i in ids if ids.count(i) > 1]}")
 
-# 2. seven guide sections non-empty per card
-REQ = ["theme", "invitation", "outOfBalance", "contemplate", "practice", "intention", "visualMeditation"]
+# 2. eight guide sections non-empty per card
+REQ = ["theme", "descriptionOfImage", "invitation", "outOfBalance", "contemplate", "practice", "intention", "visualMeditation"]
 for c in cards:
     for k in REQ:
         v = c["guide"].get(k)

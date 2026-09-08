@@ -5,6 +5,7 @@ export type ArtworkStatus = "approved" | "placeholder" | "missing";
 
 export type CardGuide = {
   theme: string;
+  descriptionOfImage: string;
   invitation: string;
   outOfBalance: string;
   contemplate: string;

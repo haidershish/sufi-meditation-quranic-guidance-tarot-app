@@ -13,6 +13,7 @@ if (raw.cards.length !== 78) fail(`expected 78 cards, got ${raw.cards.length}`);
 const ids = new Set<string>();
 const GUIDE_KEYS = [
   "theme",
+  "descriptionOfImage",
   "invitation",
   "outOfBalance",
   "contemplate",

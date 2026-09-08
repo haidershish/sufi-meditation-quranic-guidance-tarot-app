@@ -7,7 +7,7 @@ approved art are omitted; the UI renders the branded placeholder back.
 import json
 from pathlib import Path
 
-REPO = Path(r"C:\Users\User\Documents\ChatGPT\Tarot")
+REPO = Path(__file__).resolve().parents[1]
 BUNDLE = REPO / "src" / "content" / "deck-bundle.json"
 OUT = REPO / "src" / "content" / "art.ts"
 

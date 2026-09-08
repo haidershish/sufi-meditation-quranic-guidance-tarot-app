@@ -148,11 +148,12 @@ The source files have distinct, explicit responsibilities:
 
 The app must preserve and present the guidebook's introductory material. “About this deck,” “How to use the cards,” “Boundaries,” “Language and titles,” and “A note on care” become an in-app **About & Guide** section. The shorter contextual boundary remains available from each reading without replacing the full guidebook text.
 
-Every runtime card record includes the guidebook's seven reader-facing sections:
+Every runtime card record includes the guidebook's eight reader-facing sections:
 
 ```ts
 type CardGuide = {
   theme: string;
+  descriptionOfImage: string;
   invitation: string;
   outOfBalance: string;
   contemplate: string;
@@ -184,14 +185,14 @@ type DeckCard = {
 The importer must:
 
 - require exactly 78 unique card IDs;
-- normalize arcana, suit, rank, title, transliteration, and all seven guidebook sections;
+- normalize arcana, suit, rank, title, transliteration, and all eight guidebook sections;
 - preserve the source card ID as the permanent key;
 - attach an explicit artwork status (`approved`, `placeholder`, or `missing`);
 - attach QA flags and prevent unresolved high-priority language/cultural issues from silently disappearing;
 - reject missing required copy, duplicate IDs, unsafe paths, or malformed dimensions; and
 - emit a `deckVersion` plus separate checksums for the manifest, guidebook content, QA report, and artwork map.
 
-The generated bundle should contain provenance so a release can state exactly which guidebook and QA revision it includes. Tests compare the normalized content against all 78 guidebook entries and require exactly one each of `theme`, `invitation`, `outOfBalance`, `contemplate`, `practice`, `intention`, and `visualMeditation` per card.
+The generated bundle should contain provenance so a release can state exactly which guidebook and QA revision it includes. Tests compare the normalized content against all 78 guidebook entries and require exactly one each of `theme`, `descriptionOfImage`, `invitation`, `outOfBalance`, `contemplate`, `practice`, `intention`, and `visualMeditation` per card.
 
 Only the six current pilot images are approved artwork. The remaining cards should use an intentional branded card-back/placeholder until their art passes QA; draft generated images must not be presented as final.
 
@@ -279,7 +280,7 @@ Show saved sessions newest-first. A user can reopen, edit their own note, or del
 ## 10. Testing strategy
 
 - Unit tests: draw uniqueness, seeded repeatability in tests, spread positions, state transitions, migrations.
-- Content tests: 78 unique cards, all seven guidebook sections per card, front-matter completeness, QA-flag mapping, valid schema, asset mapping, and stable source checksums.
+- Content tests: 78 unique cards, all eight guidebook sections per card, front-matter completeness, QA-flag mapping, valid schema, asset mapping, and stable source checksums.
 - Component tests: reveal controls, journaling, empty/error states, accessibility labels.
 - End-to-end: one-card draw and save on Android emulator and Chromium; three-card draw; reload/resume; delete session.
 - Visual checks: phone, small tablet, and desktop breakpoints; light/dark mode; large text; reduced motion.
@@ -331,7 +332,7 @@ Approve this architecture, replace the interrupted scaffold with Expo, establish
 
 ### Phase 1 — recognizable vertical slice
 
-Import the manifest and complete revised guidebook, expose the About & Guide material, implement one-card draw/reveal/read with all seven card sections, integrate one approved pilot image plus intentional placeholders, and verify on Android and web.
+Import the manifest and complete revised guidebook, expose the About & Guide material, implement one-card draw/reveal/read with all eight card sections, integrate one approved pilot image plus intentional placeholders, and verify on Android and web.
 
 ### Phase 2 — complete MVP
 

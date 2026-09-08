@@ -25,16 +25,15 @@ export default function QuranicGuidance() {
         <T variant="title" bold style={{ color: palette.accent }}>Quranic Guidance</T>
         <T>{guidanceCopy.opening}</T>
         <T muted>{guidanceCopy.practice}</T>
-        <Button label="Receive five continuous verses" onPress={draw} />
+        <Button label={passage ? "Receive another passage" : "Receive five continuous verses"} onPress={draw} />
 
         {passage ? (
           <View style={[styles.passage, { backgroundColor: palette.surface, borderColor: palette.border }]}>
             <T variant="heading" bold>{`Surah ${passage.surah}, verses ${passage.startAyah}-${passage.endAyah}`}</T>
             {passage.verses.map((verse) => (
               <View key={`${verse.surah}:${verse.ayah}`} style={styles.verse}>
-                <T style={[styles.arabic, { color: palette.teal }]}>{verse.arabic}</T>
+                <T variant="label" style={{ color: palette.gold }}>{`${verse.surah}:${verse.ayah}`}</T>
                 <T>{verse.english}</T>
-                <T variant="caption" muted>{`${verse.surah}:${verse.ayah}`}</T>
               </View>
             ))}
           </View>
@@ -42,7 +41,7 @@ export default function QuranicGuidance() {
           <View style={[styles.notice, { backgroundColor: palette.surfaceAlt, borderColor: palette.border }]}>
             <T bold>Verified verse data is not installed yet.</T>
             <T muted>
-              The supplied PDF is retained as a provenance reference, but it cannot safely produce canonical verse text. Add a licensed, verse-structured Arabic and translation source before this feature is activated.
+              The supplied PDF is retained as a provenance reference, but it cannot safely produce canonical verse text. Add a licensed, verse-structured translation source before this feature is activated.
             </T>
           </View>
         ) : null}
@@ -52,7 +51,7 @@ export default function QuranicGuidance() {
           <T variant="caption" muted style={styles.review}>{guidanceCopy.review}</T>
         </View>
         <T variant="caption" muted onPress={() => Linking.openURL(quranSource.structuredSources.english.documentation)} accessibilityRole="link">
-          Arabic: Uthmani text via AlQuran Cloud. English: {quranSource.structuredSources.english.translator} via AlQuran Cloud.
+          Translation: {quranSource.structuredSources.english.translator} via AlQuran Cloud.
         </T>
         <T variant="caption" muted onPress={() => Linking.openURL(quranSource.url)} accessibilityRole="link">
           PDF provenance reference: {quranSource.title} ({quranSource.translator}); it is not the displayed translation.
@@ -66,7 +65,6 @@ const styles = StyleSheet.create({
   stack: { gap: 16, marginTop: 8 },
   passage: { borderWidth: 1, borderRadius: 18, gap: 16, padding: 18 },
   verse: { gap: 6 },
-  arabic: { fontSize: 24, lineHeight: 42, textAlign: "right" },
   notice: { borderWidth: 1, borderRadius: 14, gap: 8, padding: 14 },
   review: { marginTop: 8 },
 });

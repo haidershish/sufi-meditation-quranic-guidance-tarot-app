@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Platform, Pressable, StyleSheet, TextInput, View, useWindowDimensions } from "react-native";
+import { Platform, Pressable, StyleSheet, TextInput, View, useWindowDimensions, type ViewStyle } from "react-native";
 import { router } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
@@ -34,6 +34,8 @@ export default function Session() {
   const spread = SPREADS[session.spreadId];
   const total = session.cards.length;
   const allRevealed = revealed >= total;
+  const wideReading = Platform.OS === "web" && width >= 760;
+  const stickyRailStyle = wideReading ? ({ position: "sticky", top: 24 } as unknown as ViewStyle) : undefined;
   const cardW = Math.min(total === 1 ? 220 : 150, (width - 60) / Math.max(total, 1));
   const questions = session.questions ?? spread.positions.map((p) => p.prompt);
 
@@ -54,7 +56,12 @@ export default function Session() {
       <View style={[styles.context, { backgroundColor: palette.surface, borderColor: palette.border }]}>
         <T variant="label" style={{ color: palette.gold }}>YOUR QUESTION{questions.length > 1 ? "S" : ""}</T>
         {questions.map((q, i) => <T key={`${i}-${q}`} bold>{questions.length > 1 ? `${i + 1}. ` : ""}{q}</T>)}
-        {session.intention ? <><T variant="label" style={{ color: palette.gold, marginTop: 8 }}>YOUR INTENTION</T><T>{session.intention}</T></> : null}
+        {session.intention ? (
+          <View style={[styles.intention, { borderLeftColor: palette.gold }]}>
+            <T variant="label" style={{ color: palette.gold }}>YOUR INTENTION</T>
+            <T bold>{session.intention}</T>
+          </View>
+        ) : null}
       </View>
 
       <View style={styles.cards}>
@@ -91,23 +98,37 @@ export default function Session() {
             const card = getCard(dc.cardId);
             return (
               <View key={dc.cardId} style={[styles.cardRead, { backgroundColor: palette.surface, borderColor: palette.border }]}>
-                <View style={{ flexDirection: "row", gap: 12, marginBottom: 16 }}>
-                  <Pressable onPress={() => setZoom({ card, concealed: false })} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}>
-                    <CardFace card={card} width={92} height={92 * 1.62} />
-                  </Pressable>
-                  <View style={{ flex: 1, justifyContent: "center", gap: 2 }}>
-                    <T variant="label" style={{ color: palette.gold }}>{questions[i]}</T>
-                    <T variant="heading" bold>{card.title}</T>
-                    <T variant="caption" muted>{card.transliteration}</T>
-                    <T variant="caption" muted>Tap image to enlarge</T>
+                <View style={wideReading ? styles.readLayout : undefined}>
+                  <View style={wideReading ? styles.readCopy : undefined}>
+                    <View style={styles.readHeader}>
+                      {!wideReading ? (
+                        <Pressable onPress={() => setZoom({ card, concealed: false })} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}>
+                          <CardFace card={card} width={92} height={92 * 1.62} />
+                        </Pressable>
+                      ) : null}
+                      <View style={{ flex: 1, justifyContent: "center", gap: 2 }}>
+                        <T variant="label" style={{ color: palette.gold }}>{questions[i]}</T>
+                        <T variant="heading" bold>{card.title}</T>
+                        <T variant="caption" muted>{card.transliteration}</T>
+                        {!wideReading ? <T variant="caption" muted>Tap image to enlarge</T> : null}
+                      </View>
+                    </View>
+                    <GuideSections guide={card.guide} />
                   </View>
+                  {wideReading ? (
+                    <View style={[styles.readRail, stickyRailStyle]}>
+                      <Pressable onPress={() => setZoom({ card, concealed: false })} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}>
+                        <CardFace card={card} width={150} height={150 * 1.62} />
+                      </Pressable>
+                      <T variant="caption" muted>Tap image to enlarge</T>
+                    </View>
+                  ) : null}
                 </View>
-                <GuideSections guide={card.guide} />
               </View>
             );
           })}
           <T variant="label" style={{ color: palette.textMuted, marginTop: 24, marginBottom: 8 }}>YOUR REFLECTION (PRIVATE, SAVED ON THIS DEVICE)</T>
-          <TextInput value={journal} onChangeText={setJournal} placeholder="What did you notice? What would you like to carry forward?" placeholderTextColor={palette.textSubtle} multiline style={[styles.input, { backgroundColor: palette.surface, borderColor: palette.border, color: palette.text }]} />
+          <TextInput accessibilityLabel="Your reflection (private, saved on this device)" value={journal} onChangeText={setJournal} placeholder="What did you notice? What would you like to carry forward?" placeholderTextColor={palette.textSubtle} multiline style={[styles.input, { backgroundColor: palette.surface, borderColor: palette.border, color: palette.text }]} />
           <View style={{ marginTop: 20, gap: 12 }}><Button label="Save reading" onPress={save} disabled={saving} /><Button label="Discard" variant="ghost" onPress={discard} /></View>
         </View>
       )}
@@ -118,7 +139,12 @@ export default function Session() {
 
 const styles = StyleSheet.create({
   context: { borderRadius: 16, borderWidth: 1, padding: 16, gap: 5, marginBottom: 22 },
+  intention: { borderLeftWidth: 2, paddingLeft: 12, gap: 2, marginTop: 8 },
   cards: { justifyContent: "center", flexDirection: "row", flexWrap: "wrap", gap: 16 },
   cardRead: { borderRadius: 16, borderWidth: 1, padding: 16, marginBottom: 16 },
+  readLayout: { flexDirection: "row", alignItems: "flex-start", gap: 24 },
+  readCopy: { flex: 1, minWidth: 0 },
+  readHeader: { flexDirection: "row", gap: 12, marginBottom: 16 },
+  readRail: { width: 160, alignItems: "center", gap: 8 },
   input: { borderRadius: 14, borderWidth: 1, padding: 14, minHeight: 120, textAlignVertical: "top", fontSize: 16 },
 });

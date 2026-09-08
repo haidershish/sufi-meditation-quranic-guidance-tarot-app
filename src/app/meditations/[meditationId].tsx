@@ -6,7 +6,7 @@ import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
 import { Button } from "@/components/Button";
 import { useApp } from "@/context/app";
-import { meditationsById, type MeditationStatus } from "@/content/meditations";
+import { meditationsById } from "@/content/meditations";
 import { appPath } from "@/platform/paths";
 
 export default function MeditationDetail() {
@@ -22,7 +22,7 @@ export default function MeditationDetail() {
     };
   }, [player]);
 
-  if (!meditation) {
+  if (!meditation || meditation.status !== "final") {
     return (
       <Screen>
         <T variant="heading" bold>
@@ -42,8 +42,6 @@ export default function MeditationDetail() {
   const elapsed = Math.min(Math.max(status.currentTime, 0), total);
   const ready = status.isLoaded && !status.error;
   const finished = total > 0 && elapsed >= total - 0.25;
-  const statusText = statusLabel(meditation.status);
-
   const togglePlayback = async () => {
     if (!ready) return;
     if (status.playing) {
@@ -63,15 +61,12 @@ export default function MeditationDetail() {
         {categoryLabel(meditation.category)} · {formatTime(meditation.durationSecs)}
       </T>
 
-      <View style={[styles.statusBox, { backgroundColor: palette.surface, borderColor: palette.border }]}>
-        <T variant="label" bold style={{ color: statusColor(meditation.status, palette.terracotta, palette.teal) }}>
-          {meditation.status.toUpperCase()}
-        </T>
-        <T variant="body" style={{ color: statusColor(meditation.status, palette.terracotta, palette.teal) }}>
-          {statusText}
+      <View style={[styles.metaBox, { backgroundColor: palette.surface, borderColor: palette.border }]}>
+        <T variant="label" bold style={{ color: palette.gold }}>
+          GUIDED PRACTICE
         </T>
         <T variant="caption" muted>
-          Source: {meditation.source} · {meditation.sourceRelativePath}
+          From {meditation.source} · {categoryLabel(meditation.category)}
         </T>
       </View>
 
@@ -118,15 +113,6 @@ export default function MeditationDetail() {
   );
 }
 
-function statusLabel(status: MeditationStatus): string {
-  if (status === "final") return "Final recording";
-  return `${status[0].toUpperCase()}${status.slice(1)} recording — not final`;
-}
-
-function statusColor(status: MeditationStatus, pending: string, approved: string): string {
-  return status === "final" ? approved : pending;
-}
-
 function categoryLabel(category: string): string {
   return category
     .split("-")
@@ -140,7 +126,7 @@ function formatTime(seconds: number): string {
 }
 
 const styles = StyleSheet.create({
-  statusBox: { borderRadius: 16, borderWidth: 1, padding: 16, gap: 6, marginTop: 20 },
+  metaBox: { borderRadius: 16, borderWidth: 1, padding: 16, gap: 6, marginTop: 20 },
   player: { borderRadius: 16, borderWidth: 1, padding: 16, gap: 14, marginTop: 16 },
   timeRow: { flexDirection: "row", justifyContent: "space-between", marginTop: 6 },
   progressTrack: { height: 8, borderRadius: 4, overflow: "hidden" },
