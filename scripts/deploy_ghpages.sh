@@ -30,4 +30,4 @@ git branch -M gh-pages
 git remote add origin "$REPO"
 git push -f -u origin gh-pages
 cd - >/dev/null
-echo "Deployed. Live at: https://kurobunty.github.io$BASE/"
+echo "Deployed. Live at: https://haidershish.github.io$BASE/"
