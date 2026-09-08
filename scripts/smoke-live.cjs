@@ -25,6 +25,18 @@ const puppeteer = require('puppeteer-core');
   for (const text of ['Meditation', 'Tarot', 'Quranic Guidance']) {
     if (!(await page.evaluate((label) => document.body.innerText.includes(label), text))) throw new Error(`missing home track: ${text}`);
   }
+  await clickButton('Meditation');
+  await page.waitForFunction(() => document.body.innerText.includes('All recordings longer than 2.5 minutes'));
+  if (!page.url().includes('/sufi-meditation-quranic-guidance-tarot-app/meditations')) throw new Error(`bad meditation URL ${page.url()}`);
+  await page.goBack({ waitUntil: 'networkidle0' });
+  await clickButton('Quranic Guidance');
+  await page.waitForFunction(() => document.body.innerText.includes('Receive five continuous verses'));
+  await clickButton('Receive five continuous verses');
+  await page.waitForFunction(() => document.body.innerText.includes('Surah ') && (document.body.innerText.match(/\d+:\d+/g) || []).length >= 5);
+  if (!page.url().includes('/sufi-meditation-quranic-guidance-tarot-app/guidance')) throw new Error(`bad guidance URL ${page.url()}`);
+  await page.goBack({ waitUntil: 'networkidle0' });
+  await clickButton('Tarot');
+  await page.waitForFunction(() => document.body.innerText.includes('Choose a spread'));
   await clickButton('Choose a spread');
   await page.waitForFunction(() => document.body.innerText.includes('Your question'));
   if (!page.url().includes('/sufi-contemplative-tarot-app/draw')) throw new Error(`bad draw URL ${page.url()}`);
