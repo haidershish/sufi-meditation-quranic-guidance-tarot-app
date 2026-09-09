@@ -1,0 +1,463 @@
+ISLAMIC-INSPIRED CONTEMPLATIVE DECK — 78 VISUAL PROMPTS
+
+MASTER STYLE PROMPT — apply once to every card:
+original Sufi-inspired contemplative card art, painterly cinematic realism, anonymous respectful human figures only when needed, flowing ivory cotton and silk textiles, Islamic geometric ornament and refined arabesque border motifs, historically inspired courtyard, desert, garden, library, or stone architecture, tactile weathered stone, cedarwood, brass, silver, marble, water, woven textile, and paper, controlled dramatic natural light, deep indigo and midnight blue shadows, ivory, muted teal, terracotta, moonlit silver, and restrained brushed-gold accents, one clear symbolic action, one dominant focal subject, balanced vertical composition, elegant empty lower title area, no generated lettering, no logos, no watermark, vertical 9:16 portrait
+
+MASTER NEGATIVE PROMPT — apply once to every card:
+readable text, Arabic calligraphy, pseudo-Arabic glyphs, Quranic text, logos, watermark, signature, deity, prophet, saint portrait, idol, halo, occult sigils, pentagram, tarot text, excessive fantasy glow, horror, gore, weapon violence, sexualized clothing, modern signage, duplicate people, malformed hands, extra fingers, distorted face, cropped head, blurry subject, low detail
+
+USAGE: In ComfyUI, combine the MASTER STYLE PROMPT + the selected card's VISUAL PROMPT. Use the MASTER NEGATIVE PROMPT in the negative conditioning node.
+Artwork only. Add English and Arabic titles later during card layout; do not ask the model to generate lettering.
+
+
+CORE_00 — Card 0: The Seeker (Al-Salik)
+Theme: beginning, trust, willingness to enter the path
+Visual Prompt:
+an anonymous seeker in a flowing ivory cloak standing on a high desert ridge before dawn, one hand raised toward a narrow horizon of gold, fabric moving gently in the night wind, a small path beginning behind the figure, faint geometric constellations across the sky
+
+
+CORE_01 — Card I: The Instructor (Al-Muallim)
+Theme: knowledge, agency, speech, disciplined creation
+Visual Prompt:
+an anonymous scholar at a cedarwood desk with one glowing blank manuscript page, a reed pen, inkwell, brass compass, and a single pool of warm lamplight, shelves fading into indigo shadow, no readable writing
+
+
+CORE_02 — Card II: The Hidden Gate (Al-Bab al-Batin)
+Theme: inner wisdom, stillness, the threshold between seen and unseen
+Visual Prompt:
+an ancient cedar courtyard door partly veiled in night jasmine, interlocking eight-point brass door plates, a narrow spill of moonlight under the threshold, a calm reflecting puddle mirroring the closed gate
+
+
+CORE_03 — Card III: The Garden (Al-Rawdah)
+Theme: mercy, nurturing, abundance, life-giving care
+Visual Prompt:
+a luminous enclosed garden with date palms, pomegranate blossoms, a central marble fountain, two empty woven baskets resting beside fertile planting beds, early sunbeams passing through a geometric arcade
+
+
+CORE_04 — Card IV: The Steward (Al-Wali)
+Theme: responsible leadership, protection, order, service to community
+Visual Prompt:
+an empty carved stone seat beneath a muqarnas canopy overlooking a calm market courtyard at opening hour, a brass key and rolled civic plan placed on the seat, sturdy pillars and ordered awnings conveying guardianship
+
+CORE_05 — Card V: The Teacher (Al-Waiz)
+Theme: tradition, moral formation, shared wisdom
+Visual Prompt:
+an empty historic study hall with horseshoe arches, brass oil lamps, a simple wooden teaching stand, concentric floor rugs, and shelves of closed unmarked books, reverent warm light without worship scene
+
+CORE_06 — Card VI: The Covenant (Al-Mithaq)
+Theme: aligned intention, partnership, harmony, sacred commitment
+Visual Prompt:
+two anonymous figures in ivory and muted turquoise garments standing apart beneath a large interlocking-star window, their flowing garments drawn together by one gentle wind current, two stone paths meeting at a shared golden lamp
+
+
+CORE_07 — Card VII: The Voyager (Al-Musafir)
+Theme: discipline, forward movement, struggle against the lower self
+Visual Prompt:
+an anonymous desert traveler beside a poised Arabian horse at the edge of a windstorm, holding a brass astrolabe toward a break in the clouds, cloak and mane swept in one direction, a clear route visible beyond the storm
+
+
+CORE_08 — Card VIII: The Forbearance (Al-Hilm)
+Theme: patience, inner strength, restraint, compassionate courage
+Visual Prompt:
+an anonymous figure in a simple dark blue cloak calmly holding a restless white horse by a loose rein beside a still water basin, no force or struggle, soft dawn light, a single pearl balanced on the basin edge
+
+CORE_09 — Card IX: The Retreat (Al-Khalwah)
+Theme: solitude, introspection, inner illumination
+Visual Prompt:
+a modest cave alcove opening onto a vast quiet desert at twilight, an empty woven prayer rug near a single brass oil lamp, the lamp reflecting in a shallow stone bowl, vast indigo silence beyond
+
+CORE_10 — Card X: The Wheel of Decree (Dairat al-Qadar)
+Theme: cycles, destiny, ease and hardship, changing conditions
+Visual Prompt:
+a monumental brass astrolabe with concentric rings turning above a desert observatory floor, four seasonal winds suggested by sand, rain, petals, and dry leaves circling the mechanism, cosmic indigo sky
+
+CORE_11 — Card XI: The Equity (Al-Adl)
+Theme: justice, accountability, truthful measure
+Visual Prompt:
+towering bronze scales centered within a high stone arch with geometric latticework, one pan holding a white feather and the other a luminous pearl in precise balance, diagonal morning light revealing dust motes
+
+CORE_12 — Card XII: The Surrender (Al-Taslim)
+Theme: release, trust in timing, changed perspective
+Visual Prompt:
+an anonymous dervish-like figure in an ivory robe standing peacefully beneath a vaulted arch, arms gently open, a suspended brass vessel releasing a thin stream into a basin, sunlight refracting through mist and water
+
+
+CORE_13 — Card XIII: The Transformation (Al-Tahawwul)
+Theme: endings, renewal, shedding the outer self
+Visual Prompt:
+an anonymous traveler walking beyond a barren tree whose branches are beginning to bloom with luminous green shoots, a discarded dark cloak lies behind on slate desert ground, a waning crescent moon above
+
+
+CORE_14 — Card XIV: The Moderation (Al-Wasatiyyah)
+Theme: balance, proportion, blending devotion and responsibility
+Visual Prompt:
+two unmarked crystal flasks pouring clear water and rosewater into one brass basin, ripples forming a precise eight-point pattern, framed by a calm balanced arch in amber and teal light
+
+
+CORE_15 — Card XV: The Entanglement (Al-Hawa)
+Theme: attachment, restless desire, self-deception
+Visual Prompt:
+an anonymous figure seen from behind inside a dark stone labyrinth, thin gold cords lead toward many glowing mirrors while one open moonlit exit remains behind, distorted reflections suggest false choices, restrained forest green and obsidian
+
+
+CORE_16 — Card XVI: The Awakening (Al-Zalzalah)
+Theme: disruption, humility, collapse of false certainty
+Visual Prompt:
+an old desert watchtower struck by a single bolt of golden lightning, geometric stone blocks separating in midair without people present, a clear dawn line opening beneath turbulent indigo clouds
+
+
+CORE_17 — Card XVII: The Guidance (Al-Najm)
+Theme: hope, orientation, renewal after hardship
+Visual Prompt:
+an anonymous traveler kneeling beside a quiet desert well beneath one brilliant eight-point navigational star, one hand touching water where the star’s reflection trembles, a distant lantern and gentle night wind
+
+
+CORE_18 — Card XVIII: The Mystery (Al-Ghaib)
+Theme: uncertainty, fear, navigation through the unseen
+Visual Prompt:
+a winding desert path disappearing into silvery nocturnal mist under a luminous full moon, date palm silhouettes on either side, a small covered lantern at the path’s entrance, violet shadows and pale silver light
+
+
+CORE_19 — Card XIX: The Radiance (Al-Shams)
+Theme: joy, clarity, vitality, truth revealed
+Visual Prompt:
+a brilliant morning sun rising behind a grand geometric dome and arched courtyard, long elegant shadows pointing toward an open garden gate, warm amber light and terracotta stone, no figures
+
+
+CORE_20 — Card XX: The Gathering (Al-Hashr)
+Theme: reckoning, responsibility, awakening to one’s life
+Visual Prompt:
+a vast open desert plain beneath a sky opening with solemn golden light, a single unmarked brass horn resting upright beside a stone tablet with no writing, many distant paths converging toward the horizon
+
+CORE_21 — Card XXI: The Completion (Al-Kamal)
+Theme: integration, peace, spiritual maturity
+Visual Prompt:
+a glowing octagonal mosaic portal opening into a boundless garden of light, water channels and trees extending beyond sight, a continuous border of interlacing stars, no human figure, lapis and radiant gold
+
+QALAM_ACE — Card Ace: Ace of Qalam
+Theme: source of insight and creative knowledge
+Visual Prompt:
+a single glowing reed pen hovering above a pristine unmarked scroll, a drop of ink opening into an abstract eight-point pattern, warm lamplight against midnight blue
+
+
+QALAM_02 — Card 2: Two of Qalam
+Theme: dialogue, shared thinking, alignment of ideas
+Visual Prompt:
+two reed pens resting crossed beside two open blank folios on a low cedar table, their ink lines meeting in a single geometric diagram, balanced teal and brass light
+
+
+QALAM_03 — Card 3: Three of Qalam
+Theme: collaboration, craft, knowledge built together
+Visual Prompt:
+three anonymous apprentices working around a large drafting table in a tiled workshop, each contributing a tool—reed pen, compass, ruler—to an unmarked architectural plan
+
+
+QALAM_04 — Card 4: Four of Qalam
+Theme: rest, incubation, renewal of the mind
+Visual Prompt:
+a closed cedar manuscript box, four reed pens arranged around it, and an extinguished brass lamp in a quiet library alcove at blue hour, restful composition
+
+
+QALAM_05 — Card 5: Five of Qalam
+Theme: friction, competing ideas, disciplined disagreement
+Visual Prompt:
+five reed pens scattered across a desk with ink lines diverging into a tense but orderly geometric pattern, a tipped inkwell contained by a brass tray, no people
+
+
+QALAM_06 — Card 6: Six of Qalam
+Theme: recognition, carrying knowledge forward
+Visual Prompt:
+an anonymous scholar riding a camel caravan through a sunlit desert pass, six sealed manuscript cases secured high on the saddle, distant academy domes on the horizon
+
+
+QALAM_07 — Card 7: Seven of Qalam
+Theme: resolve, defending learning, holding one’s ground
+Visual Prompt:
+an anonymous archivist standing at a library doorway with seven reed pens planted upright in a low sand ridge before them, wind lifting their cloak, warm lamp behind
+
+QALAM_08 — Card 8: Eight of Qalam
+Theme: swift insight, messages, momentum
+Visual Prompt:
+eight loose manuscript sheets carried in a clean arc by desert wind between two arches, abstract ink constellations visible on the pages but no words, dynamic indigo and gold
+
+
+QALAM_09 — Card 9: Nine of Qalam
+Theme: persistence, careful preparation, intellectual resilience
+Visual Prompt:
+an anonymous scholar at a night desk beneath nine small brass lamps, repairing the binding of a worn blank book, shelves and storm-dark windows behind
+
+
+QALAM_10 — Card 10: Ten of Qalam
+Theme: overextension, burden of responsibility, need to simplify
+Visual Prompt:
+an anonymous traveler struggling gently beneath a tall bundle of ten rolled manuscripts, walking toward a warmly lit archive doorway only a few steps away
+
+
+QALAM_SEEKER — Card Seeker: Seeker of Qalam
+Theme: curiosity, first study, receptivity
+Visual Prompt:
+a young anonymous apprentice seated on a woven rug with a wax tablet and one reed pen, looking toward a lantern-lit open doorway, attentive and hopeful
+
+
+QALAM_SCHOLAR — Card Scholar: Scholar of Qalam
+Theme: method, interpretation, disciplined learning
+Visual Prompt:
+an anonymous mature scholar examining a brass astrolabe and blank illuminated folio at a cedar desk, shelves of sealed books behind, calm amber and indigo light
+
+
+QALAM_GUARDIAN — Card Guardian: Guardian of Qalam
+Theme: preservation, responsible transmission of knowledge
+Visual Prompt:
+an anonymous archivist carrying a cedar manuscript chest through a stone library corridor, four small lamps marking the route, protective composed posture
+
+
+QALAM_SAGE — Card Sage: Sage of Qalam
+Theme: wisdom applied for the common good
+Visual Prompt:
+an elder anonymous philosopher in a high academy courtyard, holding a brass compass above a circular floor mosaic, students only as distant silhouettes, morning light
+
+NOOR_ACE — Card Ace: Ace of Noor
+Theme: grace, emotional renewal, mercy
+Visual Prompt:
+an ornate silver chalice overflowing with crystal-clear spring water beneath a high clerestory window, a soft rainbow crosses the water, quiet ivory and sapphire setting
+
+
+NOOR_02 — Card 2: Two of Noor
+Theme: mutual care, trust, emotional reciprocity
+Visual Prompt:
+two small silver cups on opposite sides of a reflecting pool, their water joined by one narrow stream beneath a twin-arched window, moonlit teal and silver
+
+
+NOOR_03 — Card 3: Three of Noor
+Theme: shared joy, hospitality, belonging
+Visual Prompt:
+three anonymous friends in flowing modest garments placing water pitchers beside a courtyard fountain at dusk, faces turned away, pomegranate blossoms and warm lamps
+
+
+NOOR_04 — Card 4: Four of Noor
+Theme: withdrawal, emotional pause, overlooked grace
+Visual Prompt:
+four full crystal cups resting untouched along a shaded marble ledge, a fifth cup reflected in rippling water beyond an open garden arch, soft muted blue light
+
+
+NOOR_05 — Card 5: Five of Noor
+Theme: grief, loss, what remains after disappointment
+Visual Prompt:
+five overturned silver cups beside a shallow pool, two cups remain upright near a small green shoot emerging from damp stone, rain clearing over a dark courtyard
+
+
+NOOR_06 — Card 6: Six of Noor
+Theme: memory, tenderness, generous remembrance
+Visual Prompt:
+six small water bowls arranged around an old courtyard well, date palms reflected in the water, an anonymous child’s folded shawl resting nearby, gentle morning light
+
+NOOR_07 — Card 7: Seven of Noor
+Theme: imagination, temptation, discernment of desire
+Visual Prompt:
+seven shimmering reflections appear in a dark pool beneath a moonlit arch, each reflection showing a different abstract symbol—garden, crown, road, lantern—while the real water remains still
+
+
+NOOR_08 — Card 8: Eight of Noor
+Theme: leaving emotional stagnation, seeking deeper truth
+Visual Prompt:
+an anonymous traveler walking away from eight silver cups lined beside an empty dry pool, moving toward a distant moonlit water channel through desert hills
+
+NOOR_09 — Card 9: Nine of Noor
+Theme: contentment, gratitude, inner fullness
+Visual Prompt:
+nine softly glowing cups arranged on a low tiled wall around a serene garden courtyard, an anonymous seated figure in the distance resting beneath a pomegranate tree
+
+
+NOOR_10 — Card 10: Ten of Noor
+Theme: shared mercy, family, communal joy
+Visual Prompt:
+ten lantern-lit water vessels arranged around a long communal table in a flowering courtyard, anonymous neighbors gathering in the background, warm evening hospitality
+
+
+NOOR_SEEKER — Card Seeker: Seeker of Noor
+Theme: openness of heart, gentle attention
+Visual Prompt:
+an anonymous youth kneeling beside a courtyard fountain, offering a small dish of water to a tired bird, morning light and quiet compassion
+
+
+NOOR_SCHOLAR — Card Scholar: Scholar of Noor
+Theme: emotional insight, listening, reflection
+Visual Prompt:
+an anonymous contemplative seated beside a reflecting pool holding a small vessel of rosewater, face turned toward the water, layered arches and soft moonlight
+
+
+NOOR_GUARDIAN — Card Guardian: Guardian of Noor
+Theme: compassion in action, protection of the vulnerable
+Visual Prompt:
+an anonymous wanderer carrying a water skin across arid dunes toward a distant shaded rest shelter, blue cloth catching the wind, merciful determined mood
+
+
+NOOR_SAGE — Card Sage: Sage of Noor
+Theme: benevolent leadership, public mercy
+Visual Prompt:
+an anonymous elder overseeing an open community kitchen and water station from a courtyard arch, bread baskets and water jars being shared, no identifiable faces
+
+
+MIZAN_ACE — Card Ace: Ace of Mizan
+Theme: clarity, truth, decisive discernment
+Visual Prompt:
+a pristine Damascus steel sword standing upright in a stone floor, its reflection splitting a cloud of dispersing smoke, framed by one eight-point star window, no violence
+
+
+MIZAN_02 — Card 2: Two of Mizan
+Theme: decision, tension held in balance, careful pause
+Visual Prompt:
+two symmetrical stone paths meeting before a closed lattice gate, a sheathed sword laid horizontally across a low bench, wind moving two equal curtains
+
+
+MIZAN_03 — Card 3: Three of Mizan
+Theme: painful truth, honest recognition
+Visual Prompt:
+a three-part polished metal mirror cracked by a single line of light, three small blades resting safely below it on a woven cloth, rain on a dark window
+
+
+MIZAN_04 — Card 4: Four of Mizan
+Theme: rest, recovery, suspension of conflict
+Visual Prompt:
+four sheathed Damascus blades arranged around a sleeping brass lamp in a quiet stone alcove, cool blue dawn entering through a high arch
+
+
+MIZAN_05 — Card 5: Five of Mizan
+Theme: conflict, pride, the cost of winning
+Visual Prompt:
+five ceremonial blades placed apart on a deserted courtyard floor after a storm, a torn unmarked banner caught on a low wall, no people, subdued charcoal and bronze
+
+
+MIZAN_06 — Card 6: Six of Mizan
+Theme: transition, moving toward fairness and peace
+Visual Prompt:
+an anonymous boatman guiding a small covered boat beneath six tall bridge arches at dawn, six slender metal lanterns reflecting in calm water, hopeful forward motion
+
+
+MIZAN_07 — Card 7: Seven of Mizan
+Theme: strategy, caution, unseen consequences
+Visual Prompt:
+seven sealed letters spread across a cedar table beside a small inspection dagger and a brass seal press, long lattice shadows creating a careful secretive pattern
+
+
+MIZAN_08 — Card 8: Eight of Mizan
+Theme: restriction, mental imprisonment, finding the opening
+Visual Prompt:
+an anonymous figure standing inside an intricate lattice-shadow pattern cast on a courtyard floor, eight slim sheathed blades form a circle but one clear path opens toward sunlight
+
+
+MIZAN_09 — Card 9: Nine of Mizan
+Theme: anxiety, conscience, difficult thought
+Visual Prompt:
+an anonymous figure seated awake beside a low lamp in a dark room, nine narrow sword-shaped shadows stretch across the wall, a dawn window beginning to brighten
+
+
+MIZAN_10 — Card 10: Ten of Mizan
+Theme: ending of a trial, release after hardship
+Visual Prompt:
+ten ceremonial blades laid in a straight line across wet stone after rain, beyond them the first light of dawn reaches an open garden gate, no bodies or violence
+
+
+MIZAN_SEEKER — Card Seeker: Seeker of Mizan
+Theme: alertness, willingness to learn truth
+Visual Prompt:
+an anonymous young gatekeeper holding a small seal-inspection dagger beside a city gate, studying an unmarked letter in clear morning wind
+
+
+MIZAN_SCHOLAR — Card Scholar: Scholar of Mizan
+Theme: discernment, law, careful judgment
+Visual Prompt:
+an anonymous magistrate reviewing blank stone tablets and a small balance scale at a raised bench, face in profile and unidentifiable, soft impartial light
+
+
+MIZAN_GUARDIAN — Card Guardian: Guardian of Mizan
+Theme: courage, ethical protection, clear boundaries
+Visual Prompt:
+an anonymous protector standing calmly between two opposing gates with a lowered sheathed sword, wind sweeping a dark blue cloak, no battle or aggression
+
+
+MIZAN_SAGE — Card Sage: Sage of Mizan
+Theme: wise governance, justice tempered with mercy
+Visual Prompt:
+an anonymous elder statesperson seated beneath a lattice arch with scales, a sheathed sword, and two closed law books on a stone table, balanced daylight
+
+
+ARD_ACE — Card Ace: Ace of Ard
+Theme: sustenance, grounded opportunity, material stewardship
+Visual Prompt:
+a hand-hammered bronze coin bearing an abstract eight-point geometry resting on rich dark garden soil, a tender green shoot and dew-lit date seed beside it
+
+
+ARD_02 — Card 2: Two of Ard
+Theme: resource balance, adaptable stewardship
+Visual Prompt:
+two woven market baskets hanging evenly from a wooden carrying pole over a tiled courtyard, one filled with dates and one with clay tools, breeze lifting a green cloth
+
+
+ARD_03 — Card 3: Three of Ard
+Theme: craft, teamwork, building for others
+Visual Prompt:
+three anonymous craftspeople setting geometric clay tiles into the entrance of a public bathhouse, hands visible only as they work, warm terracotta and indigo shadows
+
+ARD_04 — Card 4: Four of Ard
+Theme: security, holding too tightly, fear of loss
+Visual Prompt:
+four bronze coins arranged on a closed cedar chest in a dim storeroom, one small window open toward a lively sunlit market outside
+
+ARD_05 — Card 5: Five of Ard
+Theme: scarcity, exclusion, dignity during hardship
+Visual Prompt:
+five empty woven baskets outside a rain-darkened stone market arcade, warm light spilling from a community bread door in the distance, no destitute figures
+
+ARD_06 — Card 6: Six of Ard
+Theme: charity, fair exchange, generosity
+Visual Prompt:
+an anonymous hostess distributing bread, figs, and dates from six woven baskets in a community courtyard, recipients shown from behind, warm humane afternoon light
+
+
+ARD_07 — Card 7: Seven of Ard
+Theme: patience, cultivation, long-term effort
+Visual Prompt:
+an anonymous farmer examining seven clusters of ripening dates in a terraced hillside orchard, carefully repaired stone walls and irrigation channels visible below
+
+
+ARD_08 — Card 8: Eight of Ard
+Theme: mastery through work, repetition, craft discipline
+Visual Prompt:
+an anonymous potter shaping a sequence of eight glazed clay tiles on a wooden workbench, each tile carrying a different geometric motif, focused workshop light
+
+
+ARD_09 — Card 9: Nine of Ard
+Theme: earned sufficiency, care for what has grown
+Visual Prompt:
+nine ripe pomegranates arranged along a low garden wall in a flourishing enclosed orchard, an anonymous figure tending vines in the distance, late golden light
+
+
+ARD_10 — Card 10: Ten of Ard
+Theme: legacy, shared prosperity, durable community
+Visual Prompt:
+a public granary and clinic courtyard at harvest time, ten carved stone storage markers around a central tree, neighbors entering with baskets, stable warm architecture
+
+
+ARD_SEEKER — Card Seeker: Seeker of Ard
+Theme: learning through making, respect for materials
+Visual Prompt:
+an anonymous apprentice potter shaping wet clay on a wooden wheel inside a communal workshop, bowls, dates, and clay tiles on surrounding shelves
+
+
+ARD_SCHOLAR — Card Scholar: Scholar of Ard
+Theme: practical wisdom, careful cultivation
+Visual Prompt:
+an anonymous orchard keeper studying irrigation channels and seed packets on a stone terrace, brass measuring cup, fertile soil, and distant date palms
+
+
+ARD_GUARDIAN — Card Guardian: Guardian of Ard
+Theme: protection of common resources, reliable labor
+Visual Prompt:
+an anonymous builder repairing a terrace wall beside a shared water channel, carrying fitted stone blocks, a small community granary visible behind
+
+
+ARD_SAGE — Card Sage: Sage of Ard
+Theme: patronage, stewardship, building institutions
+Visual Prompt:
+an anonymous master builder reviewing a public hospital and granary construction site from a shaded arch, plans without readable text weighted by a bronze coin

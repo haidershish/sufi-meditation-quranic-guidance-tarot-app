@@ -5,6 +5,7 @@ import { T } from "@/components/T";
 import { Button } from "@/components/Button";
 import { CardFace } from "@/components/CardFace";
 import { GuideSections } from "@/components/GuideSections";
+import { CardCrossExamination } from "@/components/CardCrossExamination";
 import { useApp } from "@/context/app";
 import { getCard, deckVersion } from "@/content/deck";
 import { SPREADS } from "@/domain/spreads";
@@ -52,6 +53,7 @@ export default function CardDetail() {
         {meta}
       </T>
 
+      <CardCrossExamination card={card} />
       <GuideSections guide={card.guide} />
 
       <View style={{ marginTop: 28, gap: 12 }}>

@@ -99,6 +99,9 @@ export default function Library() {
             <T variant="caption" muted numberOfLines={1}>
               {item.title}
             </T>
+            <T variant="caption" numberOfLines={2} style={{ textAlign: "center", maxWidth: cardWidth }}>
+              {item.guide.theme}
+            </T>
           </Pressable>
         )}
       />

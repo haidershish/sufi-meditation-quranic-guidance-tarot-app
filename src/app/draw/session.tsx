@@ -7,6 +7,7 @@ import { Button } from "@/components/Button";
 import { CardFace, CardBack } from "@/components/CardFace";
 import { CardZoom } from "@/components/CardZoom";
 import { GuideSections } from "@/components/GuideSections";
+import { CardCrossExamination } from "@/components/CardCrossExamination";
 import { useApp } from "@/context/app";
 import { getCard } from "@/content/deck";
 import { SPREADS } from "@/domain/spreads";
@@ -118,6 +119,7 @@ export default function Session() {
                       {!wideReading ? <Pressable onPress={() => setZoom({ card, concealed: false })} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}><CardFace card={card} width={readingThumbW} height={readingThumbW * 1.62} /></Pressable> : null}
                       <View style={{ flex: 1, justifyContent: "center", gap: 2 }}><T variant="label" style={{ color: palette.gold }}>{questions[i]}</T><T variant="heading" bold>{card.title}</T><T variant="caption" muted>{card.transliteration}</T>{!wideReading ? <T variant="caption" muted>Tap image to enlarge</T> : null}</View>
                     </View>
+                    <CardCrossExamination card={card} />
                     <GuideSections guide={card.guide} />
                   </View>
                   {wideReading ? <View style={[styles.readRail, stickyRailStyle]}><Pressable onPress={() => setZoom({ card, concealed: false })} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}><CardFace card={card} width={150} height={150 * 1.62} /></Pressable><T variant="caption" muted>Tap image to enlarge</T></View> : null}

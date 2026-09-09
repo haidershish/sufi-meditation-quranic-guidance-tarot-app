@@ -1,5 +1,6 @@
 import bundle from "./deck-bundle.json";
 import type { DeckBundle, DeckCard } from "../domain/types";
+import { VISUAL_GUIDE_OVERRIDES } from "./visual-overrides";
 
 const raw = bundle as unknown as DeckBundle;
 
@@ -31,10 +32,15 @@ for (const c of raw.cards) {
   }
 }
 
-export const deckBundle: DeckBundle = raw;
+const cards: DeckCard[] = raw.cards.map((card) => {
+  const override = VISUAL_GUIDE_OVERRIDES[card.id];
+  return override ? { ...card, guide: { ...card.guide, ...override } } : card;
+});
+
+export const deckBundle: DeckBundle = { ...raw, cards };
 export const deckVersion: string = raw.deckVersion;
 export const frontMatter = raw.frontMatter;
-export const allCards: DeckCard[] = raw.cards;
+export const allCards: DeckCard[] = cards;
 
 export const cardsById = new Map<string, DeckCard>(allCards.map((c) => [c.id, c]));
 
