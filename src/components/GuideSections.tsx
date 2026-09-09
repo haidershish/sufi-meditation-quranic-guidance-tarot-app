@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, View } from "react-native";
 import type { CardGuide } from "@/domain/types";
 import { useApp } from "@/context/app";
 import { T } from "./T";
+import { AppIcon } from "./AppIcon";
 
 const SECTIONS: { key: keyof CardGuide; label: string }[] = [
   { key: "theme", label: "Card theme" },
@@ -33,9 +34,7 @@ export function GuideSections({ guide }: { guide: CardGuide }) {
             <T variant="label" style={{ color: palette.gold, letterSpacing: 1, textTransform: "uppercase" }}>
               {s.label}
             </T>
-            <T variant="body" style={{ color: palette.gold }}>
-              {expanded.includes(s.key) ? "−" : "+"}
-            </T>
+            <AppIcon name={expanded.includes(s.key) ? "close" : "expand"} size={18} color={palette.gold} />
           </Pressable>
           {expanded.includes(s.key) ? (
             <T variant="body" style={{ color: palette.text }}>

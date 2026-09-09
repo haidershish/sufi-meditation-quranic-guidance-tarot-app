@@ -1,4 +1,4 @@
-import { Platform, View, StyleSheet } from "react-native";
+import { Platform, View, StyleSheet, useWindowDimensions } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
@@ -16,6 +16,7 @@ import { appPath } from "@/platform/paths";
 
 export default function CardDetail() {
   const { palette, prefs } = useApp();
+  const { width } = useWindowDimensions();
   const { cardId } = useLocalSearchParams<{ cardId: string }>();
   const card = getCard(cardId ?? "");
 
@@ -33,7 +34,7 @@ export default function CardDetail() {
   return (
     <Screen scroll>
       <View style={{ alignItems: "center", marginBottom: 20 }}>
-        <CardFace card={card} width={190} height={190 * 1.62} />
+        <CardFace card={card} width={Math.min(280, width - 64)} height={Math.min(280, width - 64) * 1.62} />
         {!hasArt(card.id) ? (
           <T variant="caption" muted style={{ marginTop: 8 }}>
             Artwork is being prepared.

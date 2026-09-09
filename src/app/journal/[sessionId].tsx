@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Platform, Pressable, StyleSheet, TextInput, View } from "react-native";
+import { Platform, Pressable, StyleSheet, TextInput, View, useWindowDimensions } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
@@ -17,6 +17,7 @@ import type { DeckCard, ReadingSession } from "@/domain/types";
 
 export default function SessionDetail() {
   const { palette, prefs } = useApp();
+  const { width } = useWindowDimensions();
   const { sessionId } = useLocalSearchParams<{ sessionId: string }>();
   const [session, setSession] = useState<ReadingSession | null>(null);
   const [journal, setJournal] = useState("");
@@ -31,6 +32,7 @@ export default function SessionDetail() {
   if (!session) return <Screen><T variant="body" muted>Loading…</T></Screen>;
   const spread = SPREADS[session.spreadId];
   const questions = session.questions ?? spread.positions.map((p) => p.prompt);
+  const thumbnailWidth = Math.min(138, Math.max(116, width * 0.32));
 
   const save = async () => {
     const updated = { ...session, journalText: journal.trim() || undefined };
@@ -56,7 +58,7 @@ export default function SessionDetail() {
           <View key={dc.cardId} style={[styles.card, { backgroundColor: palette.surface, borderColor: palette.border }]}>
             <View style={{ flexDirection: "row", gap: 12, marginBottom: 16 }}>
               <Pressable onPress={() => setZoom(card)} accessibilityRole="button" accessibilityLabel={`Enlarge ${card.title}`}>
-                <CardFace card={card} width={92} height={92 * 1.62} />
+                <CardFace card={card} width={thumbnailWidth} height={thumbnailWidth * 1.62} />
               </Pressable>
               <View style={{ flex: 1, justifyContent: "center", gap: 2 }}>
                 <T variant="label" style={{ color: palette.gold }}>{questions[i]}</T>

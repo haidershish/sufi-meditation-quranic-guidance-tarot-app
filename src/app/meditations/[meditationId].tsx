@@ -6,7 +6,7 @@ import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
 import { Button } from "@/components/Button";
 import { useApp } from "@/context/app";
-import { meditationsById } from "@/content/meditations";
+import { MEDITATION_THRESHOLD_SECS, meditationsById } from "@/content/meditations";
 import { appPath } from "@/platform/paths";
 
 export default function MeditationDetail() {
@@ -22,7 +22,7 @@ export default function MeditationDetail() {
     };
   }, [player]);
 
-  if (!meditation || meditation.status !== "final") {
+  if (!meditation || meditation.durationSecs < MEDITATION_THRESHOLD_SECS) {
     return (
       <Screen>
         <T variant="heading" bold>
@@ -67,6 +67,9 @@ export default function MeditationDetail() {
         </T>
         <T variant="caption" muted>
           From {meditation.source} · {categoryLabel(meditation.category)}
+        </T>
+        <T variant="caption" style={{ color: palette.gold, textTransform: "uppercase", letterSpacing: 1 }}>
+          {meditation.status} recording
         </T>
       </View>
 

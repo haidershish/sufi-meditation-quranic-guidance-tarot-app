@@ -2,90 +2,42 @@ import { Platform, Pressable, StyleSheet, View } from "react-native";
 import { router } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
+import { AppIcon, type IconName } from "@/components/AppIcon";
 import { useApp } from "@/context/app";
 import { appPath } from "@/platform/paths";
 
 export default function Home() {
   const { palette } = useApp();
-
   return (
     <Screen scroll>
       <View style={styles.hero}>
-        <T variant="title" bold style={{ color: palette.accent }}>
-          Sufi Meditation, Quranic Guidance, & Tarot
-        </T>
-        <T variant="body" muted>
-          Three contemplative paths for stillness, discernment, and reflection.
-        </T>
+        <T variant="title" bold style={{ color: palette.accent }}>Sufi Meditation, Quranic Guidance, & Tarot</T>
+        <T variant="body" muted>Three contemplative paths for stillness, discernment, and reflection.</T>
       </View>
-
       <View style={styles.navGrid}>
-        <NavCard
-          icon="◌"
-          accent={palette.teal}
-          label="Meditation"
-          caption="Guided practices for rest and presence"
-          onPress={() => router.push(appPath("/meditations", Platform.OS) as never)}
-        />
-        <NavCard
-          icon="✦"
-          accent={palette.gold}
-          label="Tarot"
-          caption="Reflect with the 78-card contemplative deck"
-          onPress={() => router.push(appPath("/draw", Platform.OS) as never)}
-        />
-        <NavCard
-          icon="▱"
-          accent={palette.terracotta}
-          label="Quranic Guidance"
-          caption="Receive a five-verse passage for reflection"
-          onPress={() => router.push(appPath("/guidance", Platform.OS) as never)}
-        />
+        <NavCard icon="meditation" accent={palette.teal} label="Meditation" caption="Guided practices for rest and presence" onPress={() => router.push(appPath("/meditations", Platform.OS) as never)} />
+        <NavCard icon="tarot" accent={palette.gold} label="Tarot" caption="Reflect with the 78-card contemplative deck" onPress={() => router.push(appPath("/draw", Platform.OS) as never)} />
+        <NavCard icon="guidance" accent={palette.terracotta} label="Quranic Guidance" caption="Receive a five-verse passage for reflection" onPress={() => router.push(appPath("/guidance", Platform.OS) as never)} />
       </View>
-
-      <T variant="caption" muted style={styles.footer}>
-        For reflection and personal discernment—not fortune-telling or a substitute for prayer, scholarship, or professional advice.
-      </T>
+      <T variant="caption" muted style={styles.footer}>For reflection and personal discernment—not fortune-telling or a substitute for prayer, scholarship, or professional advice.</T>
     </Screen>
   );
 }
 
-function NavCard({ icon, accent, label, caption, onPress }: { icon: string; accent: string; label: string; caption: string; onPress: () => void }) {
+function NavCard({ icon, accent, label, caption, onPress }: { icon: IconName; accent: string; label: string; caption: string; onPress: () => void }) {
   const { palette } = useApp();
   return (
-    <Pressable
-      onPress={onPress}
-      style={({ pressed }) => [
-        styles.navCard,
-        { backgroundColor: palette.surface, borderColor: accent, opacity: pressed ? 0.85 : 1 },
-      ]}
-      accessibilityRole="button"
-      accessibilityLabel={label}
-    >
-      <T variant="title" style={{ color: accent, lineHeight: 32 }} accessibilityElementsHidden>
-        {icon}
-      </T>
-      <T variant="heading" bold style={{ color: palette.text }}>
-        {label}
-      </T>
-      <T variant="caption" muted>
-        {caption}
-      </T>
+    <Pressable onPress={onPress} style={({ pressed }) => [styles.navCard, { backgroundColor: palette.surface, borderColor: accent, opacity: pressed ? 0.82 : 1, transform: [{ scale: pressed ? 0.985 : 1 }] }]} accessibilityRole="button" accessibilityLabel={label}>
+      <AppIcon name={icon} size={30} color={accent} />
+      <T variant="heading" bold style={{ color: palette.text }}>{label}</T>
+      <T variant="caption" muted>{caption}</T>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
   hero: { gap: 8, marginTop: 16 },
-  navGrid: {
-    gap: 12,
-    marginTop: 28,
-  },
-  navCard: {
-    borderRadius: 18,
-    borderWidth: 1,
-    padding: 18,
-    gap: 6,
-  },
+  navGrid: { gap: 12, marginTop: 28 },
+  navCard: { borderRadius: 18, borderWidth: 1, padding: 20, gap: 6 },
   footer: { marginTop: 28, textAlign: "center", opacity: 0.8 },
 });

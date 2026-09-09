@@ -1,8 +1,9 @@
 import { useCallback, useState } from "react";
 import { FlatList, Platform, Pressable, StyleSheet, View } from "react-native";
 import { router, useFocusEffect } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { T } from "@/components/T";
+import { AppIcon } from "@/components/AppIcon";
+import { AppShell } from "@/components/Screen";
 import { useApp } from "@/context/app";
 import { storage } from "@/storage/storage";
 import { getCard } from "@/content/deck";
@@ -25,7 +26,7 @@ export default function Journal() {
   );
 
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: palette.background }]} edges={["top", "left", "right"]}>
+    <AppShell scroll={false}>
       {loaded && sessions.length === 0 ? (
         <View style={styles.empty}>
           <T variant="body" muted>
@@ -62,22 +63,20 @@ export default function Journal() {
                   {titles}
                 </T>
                 {item.journalText ? (
-                  <T variant="caption" style={{ color: palette.teal }}>
-                    ✎ journaled
-                  </T>
+                  <View style={styles.journaled}><AppIcon name="journal" size={14} color={palette.teal} /><T variant="caption" style={{ color: palette.teal }}>journaled</T></View>
                 ) : null}
               </Pressable>
             );
           }}
         />
       )}
-    </SafeAreaView>
+    </AppShell>
   );
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1 },
   empty: { flex: 1, alignItems: "center", justifyContent: "center", gap: 8, padding: 24 },
   list: { padding: 20, gap: 12 },
   item: { borderRadius: 16, borderWidth: 1, padding: 16, gap: 4 },
+  journaled: { flexDirection: "row", alignItems: "center", gap: 6, marginTop: 4 },
 });

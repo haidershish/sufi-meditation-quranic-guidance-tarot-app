@@ -4,6 +4,7 @@ import { useApp } from "@/context/app";
 import type { DeckCard } from "@/domain/types";
 import { cardArt } from "@/content/art";
 import { T } from "./T";
+import { AppIcon } from "./AppIcon";
 
 export function CardZoom({
   card,
@@ -25,7 +26,7 @@ export function CardZoom({
     <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
       <View style={[styles.overlay, { backgroundColor: "rgba(5, 8, 20, 0.96)" }]}>
         <Pressable style={styles.close} onPress={onClose} accessibilityRole="button" accessibilityLabel="Close image">
-          <T variant="body" bold color="#F6F2EA">Close ✕</T>
+          <AppIcon name="close" size={22} color="#F6F2EA" />
         </Pressable>
         {source ? (
           <Image

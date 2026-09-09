@@ -1,9 +1,9 @@
 import { useMemo, useState } from "react";
-import { FlatList, Platform, Pressable, StyleSheet, TextInput, View } from "react-native";
+import { FlatList, Platform, Pressable, StyleSheet, TextInput, View, useWindowDimensions } from "react-native";
 import { router } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { T } from "@/components/T";
 import { CardFace } from "@/components/CardFace";
+import { AppShell } from "@/components/Screen";
 import { useApp } from "@/context/app";
 import { allCards, SUITS } from "@/content/deck";
 import { selection } from "@/platform/haptics";
@@ -19,6 +19,7 @@ const FILTERS: { key: Filter; label: string }[] = [
 
 export default function Library() {
   const { palette, prefs } = useApp();
+  const { width } = useWindowDimensions();
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
 
@@ -36,8 +37,13 @@ export default function Library() {
     });
   }, [query, filter]);
 
+  const columns = width >= 1100 ? 6 : width >= 700 ? 4 : 2;
+  const gap = 12;
+  const gridWidth = Math.min(Math.max(0, width - 72), 952);
+  const cardWidth = Math.min(190, Math.max(118, (gridWidth - gap * (columns - 1)) / columns));
+
   return (
-    <SafeAreaView style={[styles.safe, { backgroundColor: palette.background }]} edges={["top", "left", "right"]}>
+    <AppShell scroll={false}>
       <View style={styles.searchWrap}>
         <TextInput
           value={query}
@@ -76,35 +82,35 @@ export default function Library() {
       </View>
 
       <FlatList
+        key={columns}
         data={results}
         keyExtractor={(c) => c.id}
-        numColumns={3}
+        numColumns={columns}
         columnWrapperStyle={styles.row}
         contentContainerStyle={styles.grid}
         renderItem={({ item }) => (
           <Pressable
             onPress={() => router.push(appPath(`/library/${item.id}`, Platform.OS) as never)}
-            style={{ flex: 1, alignItems: "center", gap: 6 }}
+            style={({ pressed }) => [{ flex: 1, alignItems: "center", gap: 6, opacity: pressed ? 0.78 : 1, transform: [{ scale: pressed ? 0.98 : 1 }] }]}
             accessibilityRole="button"
             accessibilityLabel={item.title}
           >
-            <CardFace card={item} width={104} height={168} />
+            <CardFace card={item} width={cardWidth} height={cardWidth * 1.62} />
             <T variant="caption" muted numberOfLines={1}>
               {item.title}
             </T>
           </Pressable>
         )}
       />
-    </SafeAreaView>
+    </AppShell>
   );
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1 },
   searchWrap: { paddingHorizontal: 20, paddingTop: 12, gap: 12 },
   search: { borderRadius: 12, borderWidth: 1, paddingHorizontal: 14, paddingVertical: 10, fontSize: 16 },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   chip: { borderRadius: 20, borderWidth: 1, paddingHorizontal: 12, paddingVertical: 6 },
-  grid: { paddingHorizontal: 20, paddingBottom: 24, paddingTop: 8, gap: 16 },
-  row: { gap: 10, marginBottom: 16 },
+  grid: { paddingHorizontal: 4, paddingBottom: 24, paddingTop: 8, gap: 16 },
+  row: { gap: 12, marginBottom: 16 },
 });

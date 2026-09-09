@@ -3,32 +3,34 @@ import { Platform, Pressable, StyleSheet, View } from "react-native";
 import { router } from "expo-router";
 import { Screen } from "@/components/Screen";
 import { T } from "@/components/T";
+import { AppIcon, type IconName } from "@/components/AppIcon";
 import { useApp } from "@/context/app";
-import { meditations } from "@/content/meditations";
+import { MEDITATION_THRESHOLD_SECS, meditations } from "@/content/meditations";
 import type { MeditationCategory } from "@/content/meditations";
 import { appPath } from "@/platform/paths";
 
 type Topic = "all" | MeditationCategory;
 
-const TOPICS: { key: Topic; label: string; icon: string }[] = [
-  { key: "all", label: "All", icon: "✦" },
-  { key: "nature-and-rest", label: "Rest", icon: "◌" },
-  { key: "boundaries", label: "Boundaries", icon: "◇" },
-  { key: "path-and-timing", label: "Path", icon: "↗" },
-  { key: "study-and-work", label: "Study", icon: "▱" },
-  { key: "belonging", label: "Belonging", icon: "⌂" },
-  { key: "breathing-and-visualization", label: "Breath", icon: "≈" },
-  { key: "health-and-illness", label: "Care", icon: "+" },
-  { key: "family", label: "Family", icon: "⌂" },
+const TOPICS: { key: Topic; label: string; icon: IconName }[] = [
+  { key: "all", label: "All", icon: "spark" },
+  { key: "nature-and-rest", label: "Rest", icon: "meditation" },
+  { key: "boundaries", label: "Boundaries", icon: "tarot" },
+  { key: "path-and-timing", label: "Path", icon: "guidance" },
+  { key: "study-and-work", label: "Study", icon: "library" },
+  { key: "belonging", label: "Belonging", icon: "home" },
+  { key: "breathing-and-visualization", label: "Breath", icon: "meditation" },
+  { key: "health-and-illness", label: "Care", icon: "guidance" },
+  { key: "family", label: "Family", icon: "home" },
+  { key: "unspecified", label: "Other", icon: "spark" },
 ];
-const PUBLIC_MEDITATIONS = meditations.filter((meditation) => meditation.status === "final");
-const AVAILABLE_TOPICS = TOPICS.filter((topic) => topic.key === "all" || PUBLIC_MEDITATIONS.some((meditation) => meditation.category === topic.key));
+const AVAILABLE_MEDITATIONS = meditations.filter((meditation) => meditation.durationSecs >= MEDITATION_THRESHOLD_SECS);
+const AVAILABLE_TOPICS = TOPICS.filter((topic) => topic.key === "all" || AVAILABLE_MEDITATIONS.some((meditation) => meditation.category === topic.key));
 
 export default function Meditations() {
   const { palette } = useApp();
   const [topic, setTopic] = useState<Topic>("all");
   const visibleMeditations = useMemo(
-    () => PUBLIC_MEDITATIONS.filter((meditation) => topic === "all" || meditation.category === topic),
+    () => AVAILABLE_MEDITATIONS.filter((meditation) => topic === "all" || meditation.category === topic),
     [topic],
   );
 
@@ -38,7 +40,7 @@ export default function Meditations() {
         Guided practices from Khushaamdeed for rest, steadiness, belonging, and care.
       </T>
       <T variant="caption" muted style={styles.count}>
-        {visibleMeditations.length} recording{visibleMeditations.length === 1 ? "" : "s"} · All practices longer than 2.5 minutes
+        {visibleMeditations.length} recording{visibleMeditations.length === 1 ? "" : "s"} · Khushaamdeed practices 2.5 min+
       </T>
 
       <View style={styles.topics}>
@@ -53,7 +55,7 @@ export default function Meditations() {
               accessibilityLabel={`${item.label} meditation topic`}
               accessibilityState={{ selected: active }}
             >
-              <T variant="label" style={{ color: active ? palette.accent : palette.textMuted }} accessibilityElementsHidden>{item.icon}</T>
+              <AppIcon name={item.icon} size={16} color={active ? palette.accent : palette.textMuted} />
               <T variant="label" style={{ color: active ? palette.accent : palette.text }}>{item.label}</T>
             </Pressable>
           );
@@ -77,15 +79,16 @@ export default function Meditations() {
               accessibilityLabel={`Open ${meditation.title}`}
             >
               <View style={styles.itemHeader}>
-                <T variant="title" style={{ color: palette.teal, lineHeight: 32 }} accessibilityElementsHidden>
-                  {topicIcon(meditation.category)}
-                </T>
+                <AppIcon name={topicIcon(meditation.category)} size={28} color={palette.teal} />
                 <T variant="heading" bold style={{ color: palette.text, flex: 1 }}>
                   {meditation.title}
                 </T>
               </View>
               <T variant="caption" muted>
                 {categoryLabel(meditation.category)} · {formatTime(meditation.durationSecs)}
+              </T>
+              <T variant="caption" style={{ color: palette.gold, textTransform: "uppercase", letterSpacing: 1 }}>
+                {meditation.status}
               </T>
             </Pressable>
         ))}
@@ -101,8 +104,8 @@ function categoryLabel(category: string): string {
     .join(" ");
 }
 
-function topicIcon(category: MeditationCategory): string {
-  return TOPICS.find((topic) => topic.key === category)?.icon ?? "◌";
+function topicIcon(category: MeditationCategory): IconName {
+  return TOPICS.find((topic) => topic.key === category)?.icon ?? "meditation";
 }
 
 function formatTime(seconds: number): string {

@@ -69,6 +69,7 @@ export const cardArt: Record<string, number> = {
   "ARD_02": require("../../assets/cards/ARD_02.jpg"),
   "ARD_03": require("../../assets/cards/ARD_03.jpg"),
   "ARD_04": require("../../assets/cards/ARD_04.jpg"),
+  "ARD_05": require("../../assets/cards/ARD_05.jpg"),
   "ARD_06": require("../../assets/cards/ARD_06.jpg"),
   "ARD_07": require("../../assets/cards/ARD_07.jpg"),
   "ARD_08": require("../../assets/cards/ARD_08.jpg"),

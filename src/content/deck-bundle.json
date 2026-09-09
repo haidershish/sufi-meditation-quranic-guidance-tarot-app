@@ -5,7 +5,7 @@
     "manifestChecksum": "1432d6d6e39691d7d66c7f0dd35d59585afad72a14ceca4e7fb6c83d867c129f",
     "guidebookChecksum": "be57ef20d995f8a7c1312b12a93c1588bd5e4e97682d00c9d1f891a8e4494eac",
     "qaReportChecksum": "a93aba233348e7f4686ef1a4d5bf08fc7c85380ebeed92e1f3e0661a770a6e7f",
-    "artworkMapChecksum": "088635057b05a102d97ec6f2a1fcb994efa346be4dbf8b94f0b61933ed7c9159",
+    "artworkMapChecksum": "262e97dc0b350bf15eb18b34065a2d4dd15f75a78bf248fa4d63ae30be518792",
     "sourceManifest": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\islamic_contemplative_deck_manifest.json",
     "sourceGuidebookDocx": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\Culturally_Inspired_Contemplative_Tarot_Guidebook_78_Cards.docx",
     "sourceQaReport": "C:\\Users\\User\\Documents\\Islamic_Contemplative_Deck\\Culturally_Inspired_Contemplative_Tarot_Guidebook_QA_Report.md",
@@ -686,7 +686,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "QALAM_04.jpg",
-        "sourceChecksum": "a7bfe99e3f0ed2cdc758050d0313de33f47647aca9f07749a3989f16b28c41f7",
+        "sourceChecksum": "fe4574e28155a2ffef5e22f1f024e662a779f88ebcf55da4c120179eb9db23a5",
         "sourceRel": "assets\\cards\\QALAM_04.jpg"
       }
     },
@@ -711,7 +711,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "QALAM_05.jpg",
-        "sourceChecksum": "c6f4a2d929e37d289bb16f018153ad33d7c4d8ce2abd554056f9262e13812392",
+        "sourceChecksum": "7c6726feaed1e8374962dc653bb72df79bc613945daa7d42c3efdd215d991887",
         "sourceRel": "assets\\cards\\QALAM_05.jpg"
       }
     },
@@ -736,7 +736,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "QALAM_06.jpg",
-        "sourceChecksum": "7a0861335ce4816336c16aa07d7fc84f0e867369d00380641146348dabcb3f1e",
+        "sourceChecksum": "7d1c39c498f2164112539352382e5186d9c95e093f9153bfb9e227f22a0b1338",
         "sourceRel": "assets\\cards\\QALAM_06.jpg"
       }
     },
@@ -761,7 +761,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "QALAM_07.jpg",
-        "sourceChecksum": "30a56be6e48a790f1e539f198fb3741b4001b7acecef3de7d61430ea137e4650",
+        "sourceChecksum": "cb9bbeb15f06c9294a846fe2c4ef339298574532565d693a8bbfe195864ead86",
         "sourceRel": "assets\\cards\\QALAM_07.jpg"
       }
     },
@@ -1061,7 +1061,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "NOOR_05.jpg",
-        "sourceChecksum": "1b917d40bd03c2f6774be0ba3094fc4785e02c52a5d8f2cbe4302b010372c63c",
+        "sourceChecksum": "7d3f5537fb74518cfedb4401dbceee89cbd704e660b689aff0bce941ff76ad73",
         "sourceRel": "assets\\cards\\NOOR_05.jpg"
       }
     },
@@ -1111,7 +1111,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "NOOR_07.jpg",
-        "sourceChecksum": "d6f2494df28bed68e24f918d849a69471368b4af269652070a169dbcd1546409",
+        "sourceChecksum": "97e167e29e75f6def4d4fec8971a51c82bc97bb959924da7252ec52b5626064e",
         "sourceRel": "assets\\cards\\NOOR_07.jpg"
       }
     },
@@ -1136,7 +1136,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "NOOR_08.jpg",
-        "sourceChecksum": "21763e17d4931621f22a04cb8d5e61e0530c6d3fe13dc3909ea3ce3457a32503",
+        "sourceChecksum": "ade0388a6b7ab04d588c21e48cd3d0444af7f66b6a819d14137738f52788a0ba",
         "sourceRel": "assets\\cards\\NOOR_08.jpg"
       }
     },
@@ -1336,7 +1336,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_02.jpg",
-        "sourceChecksum": "024a16be54f0e8e7bcd64855d5ea4df3013e2be577f844a23a68bd614fa31d08",
+        "sourceChecksum": "41846b2b927a253d78e98b2b4cc1e4640888c2b70ecce78d4b4141d9c20b0ba4",
         "sourceRel": "assets\\cards\\MIZAN_02.jpg"
       }
     },
@@ -1361,7 +1361,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_03.jpg",
-        "sourceChecksum": "4a5554960f30cb82443cb9435ef52553f213fe4c443669d47373d23583ff5bef",
+        "sourceChecksum": "93db9223069b4ea2fcddee7e804f3809349da59ba7fa2ab232ca9997988f01a6",
         "sourceRel": "assets\\cards\\MIZAN_03.jpg"
       }
     },
@@ -1386,7 +1386,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_04.jpg",
-        "sourceChecksum": "a60826bf96ba94ee7e1eaf9aab3179e9d7224334d91f809cdb1cab24253f8976",
+        "sourceChecksum": "b3ba45c12cabb6e405319166d25a8d121b618aa0e114254032933233f2fc2d21",
         "sourceRel": "assets\\cards\\MIZAN_04.jpg"
       }
     },
@@ -1411,7 +1411,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_05.jpg",
-        "sourceChecksum": "aaa31ab0e4bd9f53c86dbb88deef62dc2a0f56c25e1c4abbd862b695bd986be9",
+        "sourceChecksum": "52e7824903e790c27ef871d48288dfb0c35b930bbc97fde4b65145fca75f942b",
         "sourceRel": "assets\\cards\\MIZAN_05.jpg"
       }
     },
@@ -1436,7 +1436,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_06.jpg",
-        "sourceChecksum": "598e124e9850666123d93db0aaa599533a11ade32da79e92eb7b71bec3fbcc36",
+        "sourceChecksum": "a9343641c7470837ecafc4a39943afaec1ccc089d207f16b9ed1ebad06d6d93b",
         "sourceRel": "assets\\cards\\MIZAN_06.jpg"
       }
     },
@@ -1461,7 +1461,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_07.jpg",
-        "sourceChecksum": "2e970aaac4655d1845342c6a6d2c759ba492912a32a76cf59728e990cf722ae7",
+        "sourceChecksum": "80814dba9309e22a46067b0f70622ccd0b5cdb276514b57126807444c6118726",
         "sourceRel": "assets\\cards\\MIZAN_07.jpg"
       }
     },
@@ -1486,7 +1486,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_08.jpg",
-        "sourceChecksum": "0b8e302146b0ba7ca3b95a85ede4689434f1500f5e96626e1387e8f9c0bfe878",
+        "sourceChecksum": "c303b5b7c3d7481317d23876e9fdd486cd043667414c1e6e81e68a1207cbcff8",
         "sourceRel": "assets\\cards\\MIZAN_08.jpg"
       }
     },
@@ -1511,7 +1511,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_09.jpg",
-        "sourceChecksum": "716a70390514bf1c7d13e1658d5752dd64d046d852ce958c6d51ca7bbf365d35",
+        "sourceChecksum": "c2d7be58db7a2c0e64974ada92ae1c133956cc2721158dcff422f3fa8503a2d4",
         "sourceRel": "assets\\cards\\MIZAN_09.jpg"
       }
     },
@@ -1536,7 +1536,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "MIZAN_10.jpg",
-        "sourceChecksum": "4a8640386da100060f8539f0082612db396a23370814bad61d05592bbd152eec",
+        "sourceChecksum": "f4c3b5ffef01a53004701211a6595fbf48bb01f8c4e656817c045c8f1f0a01d9",
         "sourceRel": "assets\\cards\\MIZAN_10.jpg"
       }
     },
@@ -1759,9 +1759,10 @@
         "visualMeditation": "Move your attention between the door and the basket. Notice distance, tension, or exchange between them. What relationship within you does that movement bring into focus?"
       },
       "artwork": {
-        "status": "missing",
-        "assetKey": null,
-        "sourceChecksum": null
+        "status": "approved",
+        "assetKey": "ARD_05.jpg",
+        "sourceChecksum": "348dbfcb24268d69da0ed3173e8705ae1c4a02a7eb587472d929f1c0ebebb4f8",
+        "sourceRel": "assets\\cards\\ARD_05.jpg"
       }
     },
     {
@@ -1860,7 +1861,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "ARD_09.jpg",
-        "sourceChecksum": "15a0470395fb6c05578f9108769187a05a92bea151ad217f3685e7cac69e0195",
+        "sourceChecksum": "fc2e0ab6dbb670c5b0e8c71fc3a356f0c8a0f68eda79cbd23a22d48b3610f0a5",
         "sourceRel": "assets\\cards\\ARD_09.jpg"
       }
     },
@@ -1885,7 +1886,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "ARD_10.jpg",
-        "sourceChecksum": "6686aadc82301ccc4b34071a3682b466482683497c73e0c0cca4b7e67e6dff98",
+        "sourceChecksum": "76dedc8fac5920fb677981e78e59e86a1eebe304ca20ce5b5200a5b67154dafb",
         "sourceRel": "assets\\cards\\ARD_10.jpg"
       }
     },
@@ -1960,7 +1961,7 @@
       "artwork": {
         "status": "approved",
         "assetKey": "ARD_GUARDIAN.jpg",
-        "sourceChecksum": "4734b48744903ca0914b29179d118061c9fb05fb5eafda2930515359bc6e6ae7",
+        "sourceChecksum": "73c92cabd39f5c79f59dbdf77d4c75f36732a97146e66f74e29383dca3a46080",
         "sourceRel": "assets\\cards\\ARD_GUARDIAN.jpg"
       }
     },

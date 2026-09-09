@@ -3,6 +3,7 @@ import { Image } from "expo-image";
 import { useApp } from "@/context/app";
 import type { DeckCard } from "@/domain/types";
 import { cardArt } from "@/content/art";
+import { AppIcon } from "./AppIcon";
 
 // Designed placeholder card-back: a quiet geometric motif (eight-point star /
 // echo field) rendered in code — no image needed for missing art.
@@ -22,7 +23,7 @@ export function CardBack({ width = 120, height = 200 }: { width?: number; height
     >
       <View style={[styles.ringOuter, { borderColor: palette.gold }]}>
         <View style={[styles.ringInner, { borderColor: palette.cardBackPattern }]}>
-          <Text style={{ color: palette.gold, fontSize: height * 0.16 }}>✦</Text>
+          <AppIcon name="spark" size={Math.max(24, height * 0.16)} color={palette.gold} />
         </View>
       </View>
     </View>
